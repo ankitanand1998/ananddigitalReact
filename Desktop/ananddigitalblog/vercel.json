@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/singlepost/:filename",
+      "destination": "/singlepost.html?filename=:filename"
+    }
+  ]
+}
