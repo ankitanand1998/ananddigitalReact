@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import { getBlogById, getAllBlogs } from '../services/api';
 import { Blog } from '../types/blog';
 import { Layout } from '../components/Layout';
@@ -9,13 +9,16 @@ import { useFilteredBlogs } from '../hooks/useFilteredBlogs';
 import { BlogCard } from '../components/BlogCard';
 
 export function BlogPage() {
-  const { id } = useParams();
+  const location = useLocation();
+  const pathID = location.pathname.split('/').pop(); // Assuming the ID is at the end of the path
+  console.log("pathID: ", pathID);
+
   const [blog, setBlog] = useState<Blog | null>(null);
   const [blogs, setBlogs] = useState<Blog[]>([]);
   const { selectedCategory, setSelectedCategory, filteredBlogs } = useFilteredBlogs(blogs);
   const [isLoading, setIsLoading] = useState(true); // State to track loading
 
-  // Fetch all blogs and the specific blog
+  // Fetch all blogs and the specific blog using pathID
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -25,12 +28,13 @@ export function BlogPage() {
         const allBlogs = await getAllBlogs();
         setBlogs(allBlogs);
 
-        // Fetch the specific blog by ID
-        if (id) {
-          const blogData = await getBlogById(id);
+        // Fetch the specific blog by pathID
+        if (pathID) {
+          console.log("Fetching blog with pathID:", pathID);
+          const blogData = await getBlogById(pathID);
           setBlog(blogData || null); // Handle cases where blog is not found
         } else {
-          setBlog(null); // Clear blog state if no ID is present
+          setBlog(null); // Clear blog state if no pathID is present
         }
       } catch (error) {
         console.error('Error fetching blogs:', error);
@@ -41,7 +45,7 @@ export function BlogPage() {
     };
 
     fetchData();
-  }, [id]); // Dependency array ensures it refetches on ID change
+  }, [pathID]); // Dependency array ensures it refetches on pathID change
 
   // Clear selected category when blogs change
   useEffect(() => {
