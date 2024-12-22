@@ -20,10 +20,10 @@ export function BlogPage() {
       setIsLoading(true); // Set loading to true before fetching data
       const allBlogs = await getAllBlogs();
       setBlogs(allBlogs);
-      if (id) {
+      
         const blogData = await getBlogById(id); // id is a string
         if (blogData) setBlog(blogData);
-      }
+      
       setIsLoading(false); // Set loading to false after data is fetched
     };
     fetchData();
