@@ -1,13 +1,25 @@
 export interface Blog {
-  id: number;
-  title: string;
-  canonicalUrl:string;
+  id: string;
+  url: string;
+  canonicalUrl: string;
+  ogUrl: string;
+  heading: string;
+  description: string;
+  metaTitle: string;
+  ogTitle: string;
+  metaDescription: string;
+  ogDescription: string;
+  keywords: string;
   category: string;
-  content: string;
-  image: string;
-  author: {
-    name: string;
-    avatar: string;
-  };
-  excerpt: string;
+  bannerImg: string;
+  detailedHeadingSection1: string;
+  paragraph1: string;
+  detailedHeadingSection2: string;
+  paragraph2: string;
+  detailedHeadingSection3: string;
+  paragraph3: string;
+  middleImg: string;
+  author: string;
+  date: string;
+  filename: string;
 }
