@@ -15,21 +15,35 @@ export function BlogPage() {
   const { selectedCategory, setSelectedCategory, filteredBlogs } = useFilteredBlogs(blogs);
   const [isLoading, setIsLoading] = useState(true); // State to track loading
 
+  // Fetch all blogs and the specific blog
   useEffect(() => {
     const fetchData = async () => {
-      setIsLoading(true); // Set loading to true before fetching data
-      const allBlogs = await getAllBlogs();
-      setBlogs(allBlogs);
-      
-        const blogData = await getBlogById(id); // id is a string
-        if (blogData) setBlog(blogData);
-      
-      setIsLoading(false); // Set loading to false after data is fetched
-    };
-    fetchData();
-  }, [id]);
+      try {
+        setIsLoading(true);
+        
+        // Fetch all blogs
+        const allBlogs = await getAllBlogs();
+        setBlogs(allBlogs);
 
-  // Clear previous category blogs when changing categories
+        // Fetch the specific blog by ID
+        if (id) {
+          const blogData = await getBlogById(id);
+          setBlog(blogData || null); // Handle cases where blog is not found
+        } else {
+          setBlog(null); // Clear blog state if no ID is present
+        }
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+        setBlog(null); // Handle fetch errors gracefully
+      } finally {
+        setIsLoading(false); // Ensure loading state is cleared
+      }
+    };
+
+    fetchData();
+  }, [id]); // Dependency array ensures it refetches on ID change
+
+  // Clear selected category when blogs change
   useEffect(() => {
     if (selectedCategory) {
       const filtered = blogs.filter(b => b.category === selectedCategory && b.id !== blog?.id);
@@ -39,15 +53,23 @@ export function BlogPage() {
     }
   }, [selectedCategory, blogs, blog?.id]);
 
+  // Display loading state
   if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
-        <b className="text-xl text-gray-600">Please Wait Blog is loading...</b>
+        <b className="text-xl text-gray-600">Please wait, the blog is loading...</b>
       </div>
     );
   }
 
-  if (!blog) return null;
+  // Display a fallback for when the blog is not found
+  if (!blog) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <b className="text-xl text-gray-600">Blog not found.</b>
+      </div>
+    );
+  }
 
   const relatedBlogs = selectedCategory 
     ? filteredBlogs.filter(b => b.id !== blog.id)
@@ -59,9 +81,9 @@ export function BlogPage() {
         <title>{blog.metaTitle}</title>
         <meta name="description" content={blog.metaDescription} />
         <link rel="canonical" href={blog.canonicalUrl} />
-        <meta name="robots" content="index, follow"/>
-        <meta name="keywords" content={blog.keywords}/>
-        <meta property="og:site_name" content="ananddigitalblog.vercel.app/"/>
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content={blog.keywords} />
+        <meta property="og:site_name" content="ananddigitalblog.vercel.app/" />
         <meta property="og:title" content={blog.ogTitle} />
         <meta property="og:description" content={blog.ogDescription} />
         <meta property="og:image" content={blog.bannerImg} />
@@ -69,21 +91,15 @@ export function BlogPage() {
 
       <Layout selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}>
         <article className="bg-white rounded-xl shadow-md overflow-hidden mb-12">
-        
-          <div className='p-5'>
+          <div className="p-5">
             <h1 className="text-4xl font-bold text-gray-900 mb-6">{blog.heading}</h1>
           </div>
-
-          <div className='p-4 mb-3'>
-            {blog.paragraph1}
-          </div>
-
+          <div className="p-4 mb-3">{blog.paragraph1}</div>
           <img
             src={blog.bannerImg}
             alt={blog.heading}
             className="w-full h-[400px] object-cover"
           />
-          
           <div className="p-8">
             <div className="flex items-center space-x-4 mb-6">
               <div className="flex items-center text-indigo-600">
@@ -91,11 +107,7 @@ export function BlogPage() {
                 <span className="font-medium">{blog.category}</span>
               </div>
             </div>
-
-            <div className="prose max-w-none mb-12">
-              {blog.paragraph2}
-            </div>
-
+            <div className="prose max-w-none mb-12">{blog.paragraph2}</div>
             <div className="border-t pt-6">
               <div className="flex items-center">
                 <img
@@ -109,7 +121,7 @@ export function BlogPage() {
                     <span className="font-medium text-gray-900">Written by</span>
                   </div>
                   <span className="text-lg font-semibold text-indigo-600">
-                    {blog.author}
+                    {blog.author.name}
                   </span>
                 </div>
               </div>
