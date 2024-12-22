@@ -45,7 +45,7 @@ export function BlogPage() {
     };
 
     fetchData();
-  }, [pathID]); // Dependency array ensures it refetches on pathID change
+  }, []); // Dependency array ensures it refetches on pathID change
 
   // Clear selected category when blogs change
   useEffect(() => {
