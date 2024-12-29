@@ -7,7 +7,7 @@ export const AboutPage: React.FC = () => {
     <>
       <SEO 
         title="About Ankit Anand - Digital Marketing Expert & Blogger"
-        description="Learn more about Ankit Anand, a passionate digital marketer and blogger sharing insights about digital marketing, content strategy, and online business."
+        description="Learn more about Ankit Anand, a passionate digital marketer and blogger sharing insights about digital marketing, content strategy, and online business and politics."
         canonicalUrl="https://ananddigitalblog.vercel.app/about"
       />
       <div className="container py-5">
