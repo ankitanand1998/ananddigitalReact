@@ -16,7 +16,7 @@ export function Layout({ children, selectedCategory, setSelectedCategory }: Layo
           <div className="flex justify-center mb-4">
             <BookOpen className="w-12 h-12 text-indigo-600" />
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">AnandDigitalBlog</h1>
+          <b className="text-4xl font-bold text-gray-900 mb-4">AnandDigitalBlog</b>
         </div>
         
         <div className="flex flex-col lg:flex-row gap-8">
