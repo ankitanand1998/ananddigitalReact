@@ -8,12 +8,10 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-<<<<<<< HEAD
     <div className="min-h-screen bg-light">
       <Navbar />
       <div className="pt-5 mt-4">
         {children}
-=======
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
@@ -37,7 +35,6 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             {children}
           </div>
         </div>
->>>>>>> 020202162a4f7cb5497b8bc96e9fe864d4e335c9
       </div>
       <footer className="bg-dark text-light py-4 mt-5">
         <div className="container text-center">
@@ -46,8 +43,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
       </footer>
     </div>
   );
-<<<<<<< HEAD
+
 };
-=======
+
 }
->>>>>>> 020202162a4f7cb5497b8bc96e9fe864d4e335c9
+
