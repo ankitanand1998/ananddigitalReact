@@ -20,7 +20,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="flex justify-center mb-4">
            
             </div>
-            <b className="text-4xl font-bold text-gray-900 mb-4">AnandDigitalBlog</b>
+            <b className="text-4xl font-bold text-gray-900 mb-4">AnandDigitalBlog 1</b>
           </div>
 
           <div className="flex flex-col gap-8">
