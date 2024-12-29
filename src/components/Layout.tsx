@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-light">
       <Navbar />
       <div className="pt-5 mt-4">
         {children}
@@ -18,8 +18,13 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center mb-12">
             <div className="flex justify-center mb-4">
-              
+             
             </div>
+            <b className="text-4xl font-bold text-gray-900 mb-4">AnandDigitalBlog</b>
+          </div>
+
+          <div className="flex flex-col gap-8">
+          
           </div>
         </div>
       </div>
