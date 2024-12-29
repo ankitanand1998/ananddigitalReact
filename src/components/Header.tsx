@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="/">
           <Newspaper className="me-2" />
-          <span>Digital Blog</span>
+          <span>Anand Digital Blog</span>
         </a>
         <button 
           className="navbar-toggler" 
