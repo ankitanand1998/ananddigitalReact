@@ -1,3 +1,17 @@
 {
- 
+  "rewrites": [
+    // API requests should be handled by /api/index.js
+    { "source": "/api/(.*)", "destination": "/api/index.js" },
+    
+    // Static assets should be served from /static/
+    { "source": "/static/(.*)", "destination": "/static/$1" },
+    
+    // SPA routes should be redirected to index.html
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  
+  "errorPages": {
+    // Add a custom 404 page to be served when the route doesn't match any valid URL
+    "404": "/404.html"
+  }
 }
