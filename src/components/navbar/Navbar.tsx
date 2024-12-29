@@ -30,7 +30,7 @@ export const Navbar: React.FC = () => {
           className="navbar-brand d-flex align-items-center gap-2 text-primary"
         >
           <Newspaper className="h-6 w-6" />
-          <span className="font-bold">Digital Blog</span>
+          <span className="font-bold">Anand Digital Blog</span>
         </Link>
 
         <button
