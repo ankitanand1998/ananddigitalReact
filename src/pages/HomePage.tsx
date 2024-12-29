@@ -1,102 +1,68 @@
-import React, { useEffect, useState, useRef, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BlogCard } from '../components/BlogCard';
-import { Layout } from '../components/Layout';
-import { getAllBlogs } from '../services/api';
-import { useFilteredBlogs } from '../hooks/useFilteredBlogs';
-import { Blog } from '../types/blog';
-import { Helmet } from 'react-helmet-async';
+import { HeroSlider } from '../components/hero/HeroSlider';
+import { SEO } from '../components/SEO';
+import { fetchBlogPosts } from '../services/blogService';
+import type { BlogPost } from '../types/Blog';
+import { Loader2 } from 'lucide-react';
+import '../styles/hero.css';
 
-export function HomePage() {
-  const [blogs, setBlogs] = useState<Blog[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [hasMore, setHasMore] = useState(true);
-  const [page, setPage] = useState(1); // Pagination page number
-  const observer = useRef<IntersectionObserver | null>(null);
-
-  const { filteredBlogs, selectedCategory, setSelectedCategory } = useFilteredBlogs(blogs);
-
-  const fetchBlogs = useCallback(async () => {
-    if (!hasMore || isLoading) return;
-
-    setIsLoading(true);
-    const data = await getAllBlogs(page); // Pass page to API to fetch paginated data
-
-    // Avoid adding duplicate blogs
-    setBlogs((prevBlogs) => {
-      const newBlogs = data.filter(
-        (newBlog) => !prevBlogs.some((prevBlog) => prevBlog.id === newBlog.id)
-      );
-      return [...prevBlogs, ...newBlogs];
-    });
-
-    setHasMore(data.length > 0); // Check if there are more blogs to load
-    setIsLoading(false);
-  }, [page, hasMore, isLoading]);
+export const HomePage: React.FC = () => {
+  const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetchBlogs();
-  }, [fetchBlogs]);
+    const loadPosts = async () => {
+      try {
+        const data = await fetchBlogPosts();
+        setPosts(data);
+      } catch (err) {
+        setError('Failed to load blog posts. Please try again later.');
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  const lastBlogRef = useCallback(
-    (node: HTMLElement | null) => {
-      if (isLoading) return;
-      if (observer.current) observer.current.disconnect();
+    loadPosts();
+  }, []);
 
-      observer.current = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting && hasMore) {
-          setPage((prevPage) => prevPage + 1);
-        }
-      });
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-light d-flex align-items-center justify-content-center">
+        <Loader2 className="animate-spin h-8 w-8 text-primary" />
+      </div>
+    );
+  }
 
-      if (node) observer.current.observe(node);
-    },
-    [isLoading, hasMore]
-  );
+  if (error) {
+    return (
+      <div className="min-h-screen bg-light d-flex align-items-center justify-content-center">
+        <div className="alert alert-danger" role="alert">
+          {error}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>
-      <Helmet>
-        <title>
-          {selectedCategory ? `${selectedCategory} Articles` : 'AnandDigitalBlog - Your Source for Latest Insights'}
-        </title>
-        <meta 
-          name="description" 
-          content={selectedCategory 
-            ? `Read the latest ${selectedCategory} articles and insights`
-            : 'Stay informed with AnandDigitalBlog. Explore insights on Politics, Technology, Business, Science, and Environment, delivering the latest in innovation and economy'
-          } 
-        />
-        {filteredBlogs.length > 0 && (
-          <meta 
-            name="description" 
-            content={filteredBlogs[0].metaDescription || 'Discover insightful articles.'} 
-          />
-        )}
-      </Helmet>
-      
-      <Layout selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {filteredBlogs.map((blog, index) => {
-            if (filteredBlogs.length === index + 1) {
-              return <BlogCard ref={lastBlogRef} key={blog.id} blog={blog} />;
-            }
-            return <BlogCard key={blog.id} blog={blog} />;
-          })}
+      <SEO 
+        title="Digital Blog - Latest Articles"
+        description="Explore our collection of insightful articles on politics, technology, and current events."
+        canonicalUrl="https://ananddigitalblog.vercel.app/"
+      />
+      <HeroSlider />
+      <main className="container py-4">
+        <div className="row g-4">
+          <div className="col-12">
+            <h1 className="display-4 mb-4">Latest Blog Posts</h1>
+          </div>
+          {posts.map((post) => (
+            <BlogCard key={post.id} post={post} />
+          ))}
         </div>
-
-
-        {isLoading && (
-          <div className="text-center py-12">
-            <p className="text-gray-600">Please Wait Blog is Loading...</p>
-          </div>
-        )}
-
-        {!isLoading && filteredBlogs.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-gray-600">No articles found in this category.</p>
-          </div>
-        )}
-      </Layout>
+      </main>
     </>
   );
-}
+};

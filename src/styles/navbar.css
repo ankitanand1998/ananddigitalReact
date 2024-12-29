@@ -1,0 +1,66 @@
+/* Navbar Styles */
+.navbar {
+  z-index: 1000;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--bs-primary);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Search Animation */
+.search-container {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.search-container.expanded input {
+  width: 200px;
+  padding: 0.5rem 1rem;
+  opacity: 1;
+}
+
+.search-container input {
+  width: 0;
+  padding: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* Mobile Menu Animation */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    transition: all 0.3s ease;
+  }
+
+  .navbar-collapse.show {
+    animation: slideDown 0.3s ease forwards;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,4 +1,4 @@
-export interface Blog {
+export interface BlogPost {
   id: string;
   url: string;
   canonicalUrl: string;

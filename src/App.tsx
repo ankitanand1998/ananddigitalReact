@@ -1,17 +1,23 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import { Routes, Route } from 'react-router-dom';
+import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
-import { BlogPage } from './pages/BlogPage';
+import { BlogDetailPage } from './pages/BlogDetailPage';
+import { AboutPage } from './pages/AboutPage';
 
 function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/blog/:id" element={<BlogPage />} />
-        </Routes>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/:url" element={<BlogDetailPage />} />
+          </Routes>
+        </Layout>
       </BrowserRouter>
     </HelmetProvider>
   );
