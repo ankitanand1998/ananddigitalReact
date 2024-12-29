@@ -49,7 +49,7 @@ export const HomePage: React.FC = () => {
     <>
       <SEO 
         title="Digital Blog - Latest Articles"
-        description="Explore our collection of insightful articles on politics, technology, and current events."
+        description="Explore our collection of insightful articles on politics, Digital Marketing ,technology and current events."
         canonicalUrl="https://ananddigitalblog.vercel.app/"
       />
       <HeroSlider />
