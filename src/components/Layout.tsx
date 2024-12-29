@@ -14,7 +14,6 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         {children}
       </div>
 
-     
       <footer className="bg-gray-800 text-white py-4 mt-5">
         <div className="container text-center">
           <p className="mb-0">© 2024 Digital Blog. All rights reserved.</p>
