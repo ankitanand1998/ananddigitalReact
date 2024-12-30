@@ -38,7 +38,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">{post.detailedHeadingSection2}</h2>
-          <p className="text-gray-700 leading-relaxed">{post.paragraph2}</p>
+           {post.paragraph2}
         </section>
 
         {post.middleImg && (
