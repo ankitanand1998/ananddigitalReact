@@ -19,8 +19,8 @@ const slides = [
   {
     id: 3,
     image: 'https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1920&h=600&fit=crop',
-    title: 'SEO & Marketing Tips',
-    description: 'Discover the latest trends in digital marketing',
+    title: 'Rank Higher, Reach Further: SEO Tips That Work',
+    description: 'Learn the secrets to achieving top search engine rankings. Our blog provides the insights you need to grow your online presence and drive organic traffic.',
     link: '/about'
   }
 ];
