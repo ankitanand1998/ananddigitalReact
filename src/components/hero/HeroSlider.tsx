@@ -5,15 +5,15 @@ const slides = [
   {
     id: 1,
     image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1920&h=600&fit=crop',
-    title: 'Digital Marketing Insights',
-    description: 'Expert tips and strategies for growing your online presence',
+    title: 'Decoding the Political Landscape: Insights That Matter',
+    description: 'Explore the intricate world of politics with in-depth analysis, expert commentary, and real-time updates. We break down complex issues to keep you informed and empowered',
     link: '/about'
   },
   {
     id: 2,
     image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1920&h=600&fit=crop',
-    title: 'Content Strategy',
-    description: 'Learn how to create content that converts',
+    title: 'The Intersection of Tech and Humanity',
+    description: 'Explore how technology is bridging gaps, creating opportunities, and redefining the human experience. Stay inspired by the possibilities',
     link: '/about'
   },
   {
