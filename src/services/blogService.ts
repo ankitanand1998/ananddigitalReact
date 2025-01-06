@@ -1,4 +1,4 @@
-const API_URL = './data.json';
+const API_URL = 'https://ananddigitaldatabase.vercel.app/data.json';
 
 export const fetchBlogPosts = async () => {
   try {
