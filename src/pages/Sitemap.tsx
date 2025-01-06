@@ -25,8 +25,8 @@ export const Sitemap: React.FC = () => {
     <lastmod>${new Date().toISOString()}</lastmod>
     <priority>0.8</priority>
   </url>
- 
-</urlset>`;
+ </urlset>`;
+    
     const blob = new Blob([xmlData], { type: 'application/xml' });
     const url = URL.createObjectURL(blob);
     window.location.href = url;
