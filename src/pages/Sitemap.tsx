@@ -9,11 +9,23 @@ export const Sitemap: React.FC = () => {
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ananddigitalblog.vercel.app/blog-post-1</loc>
+    <loc>https://ananddigitalblog.vercel.app/manmohan-singh-oasis-of-integrity-in-sea-of-opportunism</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
     <priority>0.8</priority>
   </url>
-  <!-- Add more URLs as needed -->
+
+  <url>
+    <loc>https://ananddigitalblog.vercel.app/oppo-find-x8-series-design-and-features</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <priority>0.8</priority>
+  </url>
+ 
 </urlset>`;
     const blob = new Blob([xmlData], { type: 'application/xml' });
     const url = URL.createObjectURL(blob);
