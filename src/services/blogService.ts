@@ -7,6 +7,7 @@ export const fetchBlogPosts = async () => {
       throw new Error('Failed to fetch blog posts');
     }
     const data = await response.json();
+    console.log("coming data"+data);
     return Array.isArray(data) ? data : [data];
   } catch (error) {
     console.error('Error fetching blog posts:', error);
