@@ -29,6 +29,7 @@ export const Sitemap: React.FC = () => {
     
     const blob = new Blob([xmlData], { type: 'application/xml' });
     const url = URL.createObjectURL(blob);
+     window.location.href = url;
    
   }, []);
 
