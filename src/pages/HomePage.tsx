@@ -66,34 +66,37 @@ export const BlogDetailPage: React.FC = () => {
         ogImage={post.bannerImg}
         type="article"
       />
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ananddigitalblog.vercel.app/"
-  },
-  "headline": "Anand Digital Blog: Breaking News, Top Headlines & Insights Across India",
-  "description": "Get the latest breaking news on politics, business, lifestyle, entertainment, and sports. Stay updated with global news, live coverage on Bollywood, cricket, technology, and more on Anand Digital Blog.",
-  "image": "https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-260nw-1029506242.jpg",  
-  "author": {
-    "@type": "Organization",
-    "name": "Anand Didital Blog",
-    "url": "https://ananddigitalblog.vercel.app/"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Anand Didital Blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=400&fit=crop"
-    }
-  },
-  "datePublished": "2025-01-06",
-  "dateModified": "2025-01-06"
-}
-</script>
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://ananddigitalblog.vercel.app/"
+            },
+            "headline": "Anand Digital Blog: Breaking News, Top Headlines & Insights Across India",
+            "description": "Get the latest breaking news on politics, business, lifestyle, entertainment, and sports. Stay updated with global news, live coverage on Bollywood, cricket, technology, and more on Anand Digital Blog.",
+            "image": "https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-260nw-1029506242.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "Anand Digital Blog",
+              "url": "https://ananddigitalblog.vercel.app/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Anand Digital Blog",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=400&fit=crop"
+              }
+            },
+            "datePublished": "${post.date}",
+            "dateModified": "${post.date}"
+          }
+        `}
+      </script>
+
       <div className="container py-4">
         <button
           onClick={() => navigate('/')}
