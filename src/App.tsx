@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/:url" element={<BlogDetailPage />} />
+            <Route path="/sitemap.xml" element={<Sitemap />} />
           </Routes>
         </Layout>
       </BrowserRouter>
