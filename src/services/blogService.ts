@@ -1,4 +1,4 @@
-const API_URL = 'data.json';
+const API_URL = './data.json';
 
 export const fetchBlogPosts = async () => {
   try {
