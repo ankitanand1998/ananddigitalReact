@@ -91,8 +91,8 @@ export const BlogDetailPage: React.FC = () => {
                 "url": "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=400&fit=crop"
               }
             },
-            "datePublished": "${post.date}",
-            "dateModified": "${post.date}"
+            "datePublished": "2025-01-06",
+            "dateModified": "2025-01-06"
           }
         `}
       </script>
@@ -149,24 +149,4 @@ export const HomePage: React.FC = () => {
     );
   }
 
-  return (
-    <>
-      <SEO 
-        title="Anand Digital Blog: Breaking News, Top Headlines & Insights Across India"
-        description="Get the latest breaking news on politics, business, lifestyle, entertainment and sports. Stay updated with global news, live coverage on Bollywood, cricket, technology, and more on Anand Digital Blog."
-        canonicalUrl="https://ananddigitalblog.vercel.app/"
-      />
-      {/* Static JSON-LD Schema Markup for Home Page */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Anand Digital Blog",
-          "description": "Get the latest breaking news on politics, business, lifestyle, entertainment, and sports. Stay updated with global news, live coverage on Bollywood, cricket, technology, and more on Anand Digital Blog.",
-          "url": "https://ananddigitalblog.vercel.app/",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Anand Digital Blog",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://ananddigitalblog
+  
