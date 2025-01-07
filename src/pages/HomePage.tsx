@@ -82,6 +82,25 @@ export const HomePage: React.FC = () => {
           }
         `}
       </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Anand Digital Blog",
+    "alternateName":"Anand Digital Blog",
+    "url": "https://ananddigitalblog.vercel.app/",
+    "logo": "",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "8340426515",
+      "contactType": "technical support",
+      "contactOption": "HearingImpairedSupported",
+      "areaServed": "IN",
+      "availableLanguage": "en"
+    },
+      }
+</script>
       <HeroSlider />
       <main className="container py-4">
         <div className="row g-4">
