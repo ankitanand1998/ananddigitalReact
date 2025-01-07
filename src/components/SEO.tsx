@@ -22,9 +22,9 @@ export const SEO: React.FC<SEOProps> = ({
   ogImage,
   type = 'website'
 }) => {
-  const siteName = 'Digital Blog';
-  const defaultTitle = 'Digital Blog - Latest News and Updates';
-  const defaultDescription = 'Stay updated with the latest news, articles, and insights on Digital Blog.';
+  const siteName = 'Anand Digital Blog';
+  const defaultTitle = 'Anand Digital Blog:Breaking News,Top Headlines & Insights Across India';
+  const defaultDescription = 'Get the latest breaking news on politics, business, lifestyle, entertainment and sports. Stay updated with global news, live coverage on Bollywood, cricket, technology and more on Anand Digital Blog.';
 
   return (
     <Helmet>
