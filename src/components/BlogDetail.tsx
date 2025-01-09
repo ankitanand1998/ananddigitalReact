@@ -39,7 +39,10 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
 
         <section className="mb-8">
-          <div>{post.paragraph2}</div>
+         <div
+          className="list-disc pl-5" 
+          dangerouslySetInnerHTML={{ __html: sanitizedHTML }}
+        />
         </section>
 
         {post.middleImg && (
