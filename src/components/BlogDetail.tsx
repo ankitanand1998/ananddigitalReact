@@ -44,8 +44,8 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
             <Calendar size={18} />
             <span>{post.date}</span>
           </div>
-          <span className="badge bg-primary">{post.category}</span><br>
-          <span className="badge bg-primary">{post.description}</span>
+          <span className="badge bg-primary">{post.category}</span> <br>
+          <span className="breadcrumb">{post.description}</span>
         </div>
       </header>
 
