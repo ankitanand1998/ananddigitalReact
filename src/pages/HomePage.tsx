@@ -6,6 +6,7 @@ import { fetchBlogPosts } from '../services/blogService';
 import type { BlogPost } from '../types/Blog';
 import { Loader2 } from 'lucide-react';
 import '../styles/hero.css';
+import '../styles/list.css';
 
 export const HomePage: React.FC = () => {
   const [posts, setPosts] = useState<BlogPost[]>([]);
