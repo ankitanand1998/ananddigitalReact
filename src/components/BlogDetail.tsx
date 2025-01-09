@@ -1,12 +1,14 @@
 import React from 'react';
 import { Calendar, User } from 'lucide-react';
 import type { BlogPost } from '../types/Blog';
+import DOMPurify from "dompurify";
 
 interface BlogDetailProps {
   post: BlogPost;
 }
 
 export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
+  const sanitizedHTML = DOMPurify.sanitize(post.paragraph2);
   return (
     <article className="max-w-4xl mx-auto">
       <header className="mb-8">
@@ -37,7 +39,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
 
         <section className="mb-8">
-           <div dangerouslySetInnerHTML={{ __html: post.paragraph2 }}></div>
+           <div dangerouslySetInnerHTML={{ __html: sanitizedHTML }}></div>
         </section>
 
         {post.middleImg && (
