@@ -90,6 +90,12 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
                   {keyword.trim()}
                 </span>
               ))}
+
+              {post.canonicalUrl.map((CanonicalUrl, index) => (
+                <span key={index} className="badge bg-secondary">
+                  {CanonicalUrl}
+                </span>
+              ))}
             </div>
           </div>
         </div>
