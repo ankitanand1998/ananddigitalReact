@@ -80,26 +80,31 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
       </div>
 
-      <footer className="mt-8 pt-8 border-t">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="text-muted">Keywords:</span>
-            <div className="flex flex-wrap gap-2">
-              {post.keywords.split(',').map((keyword, index) => (
-                <span key={index} className="badge bg-secondary">
-                  {keyword.trim()}
-                </span>
-              ))}
+     <footer className="mt-8 pt-8 border-t">
+  <div className="flex items-center justify-between">
+    <div className="flex items-center gap-2">
+      <span className="text-muted">Keywords:</span>
+      <div className="flex flex-wrap gap-2">
+        {post.keywords.split(',').map((keyword, index) => (
+          <span key={index} className="badge bg-secondary">
+            {keyword.trim()}
+          </span>
+        ))}
 
-              {post.canonicalUrl.map((CanonicalUrl, index) => (
-                <span key={index} className="badge bg-secondary">
-                  {CanonicalUrl}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </footer>
+        {Array.isArray(post.canonicalUrl)
+          ? post.canonicalUrl.map((CanonicalUrl, index) => (
+              <span key={index} className="badge bg-secondary">
+                {CanonicalUrl}
+              </span>
+            ))
+          : post.canonicalUrl && (
+              <span className="badge bg-secondary">{post.canonicalUrl}</span>
+            )}
+      </div>
+    </div>
+  </div>
+</footer>
+
     </article>
   );
 };
