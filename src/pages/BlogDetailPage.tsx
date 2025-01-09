@@ -5,6 +5,7 @@ import { SEO } from '../components/SEO';
 import { fetchBlogPosts } from '../services/blogService';
 import type { BlogPost } from '../types/Blog';
 import { Loader2, ArrowLeft } from 'lucide-react';
+import '../styles/list.css';
 
 export const BlogDetailPage: React.FC = () => {
   const { url } = useParams<{ url: string }>();
