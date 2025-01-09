@@ -1,9 +1,8 @@
-ol, ul, menu {
+ol, ul{
     list-style-type: pointer !important; /* Adds default bullet points */
-    padding-left: 20px; /* Adds indentation for the list */
-}
+    
 
-ol li, ul li, menu li {
+ol li, ul li{
     margin-bottom: 10px; /* Adds spacing between items */
     cursor: pointer; /* Changes the cursor to a pointer when hovering over list items */
 }
