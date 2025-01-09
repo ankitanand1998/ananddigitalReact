@@ -34,7 +34,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
   return (
     <article className="max-w-4xl mx-auto">
       <header className="mb-8">
-         <div className="breadcrumb my-3">{post.description}</div>
+         <div className="breadcrumb mb-5">{post.description}</div>
         <h1 className="text-4xl font-bold mb-4">{post.heading}</h1>
         <div className="flex items-center gap-4 text-muted mb-4">
           <div className="flex items-center gap-2">
