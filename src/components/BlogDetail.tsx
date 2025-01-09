@@ -9,6 +9,28 @@ interface BlogDetailProps {
 
 export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
   const sanitizedHTML = DOMPurify.sanitize(post.paragraph2);
+
+  // Function to handle the dynamic rendering of lists or tables
+  const renderDynamicContent = (html: string) => {
+    // Parse the sanitized HTML string
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    
+    // Handle unordered lists
+    const lists = doc.querySelectorAll("ul");
+    lists.forEach(list => {
+      // You can add any custom classes or styles here if needed
+      list.classList.add("custom-list");
+    });
+    
+    // Handle tables (add classes for better styling)
+    const tables = doc.querySelectorAll("table");
+    tables.forEach(table => {
+      table.classList.add("table-auto", "border-collapse", "w-full");
+    });
+
+    return doc.body.innerHTML;
+  };
+
   return (
     <article className="max-w-4xl mx-auto">
       <header className="mb-8">
@@ -39,7 +61,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
 
         <section className="mb-8">
-           <div dangerouslySetInnerHTML={{ __html: post.paragraph2 }}></div>
+           <div dangerouslySetInnerHTML={{ __html: renderDynamicContent(sanitizedHTML) }}></div>
         </section>
 
         {post.middleImg && (
