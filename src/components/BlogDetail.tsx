@@ -94,18 +94,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
     </div>
   </div>
 
-  <div className="mt-4">
-    <span className="text-muted">Also Read:</span>
-    <div className="flex flex-wrap gap-2 mt-2">
-            {post.map((item, index) => (
-              <span key={index} className="badge bg-secondary">
-                <a href={item.canonicalUrl} target="_blank" rel="noopener noreferrer">
-                  {item.heading}
-                </a>
-              </span>
-            ))}
-          </div>
-        </div>
+  
 
       
 </footer>
