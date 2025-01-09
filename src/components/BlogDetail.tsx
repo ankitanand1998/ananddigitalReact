@@ -32,14 +32,14 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         className="w-full h-96 object-cover rounded-lg shadow-lg mb-8"
       />
 
-      <div className="prose max-w-none">
+      <div className="max-w-none">
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">{post.detailedHeadingSection1}</h2>
           <span className="text-gray-700 leading-relaxed">{post.paragraph1}</span>
         </section>
 
         <section className="mb-8">
-           <div dangerouslySetInnerHTML={{ __html: sanitizedHTML }}></div>
+          <div dangerouslySetInnerHTML={{ __html: sanitizedHTML }}></div>
         </section>
 
         {post.middleImg && (
