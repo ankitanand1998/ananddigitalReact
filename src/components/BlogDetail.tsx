@@ -80,7 +80,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
       </div>
 
-     <footer className="mt-8 pt-8 border-t">
+    <footer className="mt-8 pt-8 border-t">
   <div className="flex items-center justify-between">
     <div className="flex items-center gap-2">
       <span className="text-muted">Keywords:</span>
@@ -94,11 +94,17 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         {Array.isArray(post.canonicalUrl)
           ? post.canonicalUrl.map((CanonicalUrl, index) => (
               <span key={index} className="badge bg-secondary">
-                {CanonicalUrl}
+                <a href={CanonicalUrl} target="_blank" rel="noopener noreferrer">
+                  {post.heading}
+                </a>
               </span>
             ))
           : post.canonicalUrl && (
-              <span className="badge bg-secondary">{post.canonicalUrl}</span>
+              <span className="badge bg-secondary">
+                <a href={post.canonicalUrl} target="_blank" rel="noopener noreferrer">
+                  {post.heading}
+                </a>
+              </span>
             )}
       </div>
     </div>
