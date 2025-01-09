@@ -1,5 +1,5 @@
 ol, ul, menu {
-    list-style-type: pointer; /* Adds default bullet points */
+    list-style-type: pointer !important; /* Adds default bullet points */
     padding-left: 20px; /* Adds indentation for the list */
 }
 
