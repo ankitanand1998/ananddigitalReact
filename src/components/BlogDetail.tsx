@@ -15,18 +15,16 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
     // Parse the sanitized HTML string
     const doc = new DOMParser().parseFromString(html, "text/html");
     
-    // Handle unordered lists
+    // Handle unordered lists with mx-4 for spacing
     const lists = doc.querySelectorAll("ul");
     lists.forEach(list => {
-      // You can add any custom classes or styles here if needed
-      list.classList.add("custom-list");
+      list.classList.add("custom-list", "mx-4");  // Added mx-4
     });
     
-    // Handle tables and make them responsive
+    // Handle tables and make them responsive with mx-2 for spacing
     const tables = doc.querySelectorAll("table");
     tables.forEach(table => {
-      table.classList.add("table-auto", "border-collapse", "w-full");
-
+      table.classList.add("table-auto", "border-collapse", "w-full", "mx-2");  // Added mx-2
       // Wrap tables in a div for horizontal scrolling on small screens
       const wrapperDiv = document.createElement("div");
       wrapperDiv.classList.add("overflow-x-auto");
@@ -68,7 +66,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
 
         <section className="mb-8">
-           <div className="px-2" dangerouslySetInnerHTML={{ __html: renderDynamicContent(sanitizedHTML) }}></div>
+           <div  dangerouslySetInnerHTML={{ __html: renderDynamicContent(sanitizedHTML) }}></div>
         </section>
 
         {post.middleImg && (
