@@ -68,7 +68,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
 
         <section className="mb-8">
-           <div className="px-5" dangerouslySetInnerHTML={{ __html: renderDynamicContent(sanitizedHTML) }}></div>
+           <div className="px-1" dangerouslySetInnerHTML={{ __html: renderDynamicContent(sanitizedHTML) }}></div>
         </section>
 
         {post.middleImg && (
