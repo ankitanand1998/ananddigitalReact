@@ -22,10 +22,16 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
       list.classList.add("custom-list");
     });
     
-    // Handle tables (add classes for better styling)
+    // Handle tables and make them responsive
     const tables = doc.querySelectorAll("table");
     tables.forEach(table => {
       table.classList.add("table-auto", "border-collapse", "w-full");
+
+      // Wrap tables in a div for horizontal scrolling on small screens
+      const wrapperDiv = document.createElement("div");
+      wrapperDiv.classList.add("overflow-x-auto");
+      table.parentNode?.insertBefore(wrapperDiv, table);
+      wrapperDiv.appendChild(table);
     });
 
     return doc.body.innerHTML;
@@ -46,7 +52,6 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
             <span>{post.date}</span>
           </div>
           <span className="badge bg-primary">{post.category}</span>
-         
         </div>
       </header>
 
@@ -80,25 +85,20 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
         </section>
       </div>
 
-    <footer className="mt-8 pt-8 border-t">
-  <div className="flex items-center justify-between">
-    <div className="flex items-center gap-2">
-      <span className="text-muted">Keywords:</span>
-      <div className="flex flex-wrap gap-2">
-        {post.keywords.split(',').map((keyword, index) => (
-          <span key={index} className="badge bg-secondary">
-            {keyword.trim()}
-          </span>
-        ))}
-      </div>
-    </div>
-  </div>
-
-  
-
-      
-</footer>
-
+      <footer className="mt-8 pt-8 border-t">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="text-muted">Keywords:</span>
+            <div className="flex flex-wrap gap-2">
+              {post.keywords.split(',').map((keyword, index) => (
+                <span key={index} className="badge bg-secondary">
+                  {keyword.trim()}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </footer>
     </article>
   );
 };
