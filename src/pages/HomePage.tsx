@@ -89,7 +89,9 @@ export const HomePage: React.FC = () => {
       <main className="container py-4">
         <div className="row g-4">
           <div className="col-12">
-            <h1 className="display-4 mb-4">Latest Blog Posts</h1>
+            <h1 className="display-4 mb-4">Your Go-To Hub for Digital Success, Workplace Wins - Go Through Latest Blogs</h1>
+             <p>Welcome to Anand Digital Blog, your ultimate resource for mastering digital success and workplace wins! Explore our latest blogs packed with expert tips on content writing that captivates readers, proven SEO strategies to boost website ranking, and fresh digital marketing insights to keep you ahead of trends. Whether you’re crafting compelling blog posts, optimizing web development for better search engine performance, or chasing higher Google rankings, we’ve got you covered. Stay updated with cutting-edge online marketing news and learn how to grow organic traffic effortlessly. Plus, dive into practical corporate survival hacks—think workplace strategies, productivity boosts, and leadership skills—to thrive in any professional jungle. From keyword research to content creation and technical SEO, our goal is simple: empower you with actionable advice to succeed online and at work. Start browsing now and elevate your digital game!</p>
+             <h2></h2>
           </div>
           {posts.map((post) => (
             <BlogCard key={post.id} post={post} />
