@@ -49,8 +49,8 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Anand Digital Blog:Breaking News,Top Headlines & Insights Across India"
-        description="Get the latest breaking news on politics, business, lifestyle, entertainment and sports.Stay updated with global news, live coverage on Bollywood, cricket, technology and more on Anand Digital Blog."
+        title="Anand Digital Blog | SEO, Content Writing & Web Development Tips"
+        description="know expert tips to grow organic traffic, rank higher on search engines and master SEO, content writing, and web development at Anand Digital Blog. Lead the digital race!"
         canonicalUrl="https://ananddigitalblog.vercel.app/"
       />
       <script type="application/ld+json">
