@@ -6,8 +6,8 @@ export const AboutPage: React.FC = () => {
   return (
     <>
       <SEO 
-        title="About Ankit Anand - Digital Marketing Expert & Blogger"
-        description="Learn more about Ankit Anand, a passionate digital marketer and blogger sharing insights about digital marketing, content strategy, and online business and politics."
+        title="Ankit Anand | Expert SEO Consultant & Web Developer"
+        description="Meet Ankit Anand, a trusted SEO expert and web developer with proven skills in boosting rankings and building high-performance websites. Contact for results!"
         canonicalUrl="https://ananddigitalblog.vercel.app/about"
       />
       <div className="container py-5">
@@ -23,7 +23,7 @@ export const AboutPage: React.FC = () => {
                     style={{ width: '200px', height: '200px', objectFit: 'cover' }}
                   />
                   <h1 className="display-5 fw-bold mb-3">Ankit Anand</h1>
-                  <p className="lead text-muted mb-4">Digital Marketer & Professional Blogger</p>
+                  <p className="lead text-muted mb-4">SEO Expert , Website Developer & Professional Blogger</p>
                   <div className="d-flex justify-content-center gap-3">
                     <a href="https://twitter.com" className="btn btn-outline-primary" aria-label="Twitter">
                       <Twitter size={20} />
@@ -44,7 +44,7 @@ export const AboutPage: React.FC = () => {
                       <h2 className="h5 mb-0">About Me</h2>
                     </div>
                     <p className="text-muted">
-                      I'm a passionate digital marketer and blogger with extensive experience in helping businesses grow their online presence. Through my blog, I share valuable insights about digital marketing strategies, content creation, and online business development.
+                      I'm a passionate SEO Expert , Web Developer and blogger with extensive experience in helping businesses grow their online presence. Through my blog, I share valuable insights about digital marketing strategies, content creation and online business development.
                     </p>
                   </div>
                   <div className="col-md-6">
@@ -53,10 +53,10 @@ export const AboutPage: React.FC = () => {
                       <h2 className="h5 mb-0">Expertise</h2>
                     </div>
                     <ul className="list-unstyled text-muted">
+                      <li className="mb-2">✓ Website Development</li>
                       <li className="mb-2">✓ Content Marketing Strategy</li>
                       <li className="mb-2">✓ SEO Optimization</li>
                       <li className="mb-2">✓ Social Media Marketing</li>
-                      <li className="mb-2">✓ Email Marketing</li>
                       <li>✓ Analytics & Performance Tracking</li>
                     </ul>
                   </div>
@@ -66,7 +66,11 @@ export const AboutPage: React.FC = () => {
                   <h2 className="h4 mb-4">My Mission</h2>
                   <p className="mb-0">
                     My goal is to help individuals and businesses navigate the digital landscape successfully. Through my blog posts and articles, I provide actionable insights and strategies that can be implemented to achieve tangible results in digital marketing.
-                  </p>
+                    </p>
+                   <br>
+                     <span>
+                       <p>Email me at ankitanand1998find@gmail.com to unlock top-notch Digital services and skyrocket your success!</p>
+                     </span>
                 </div>
               </div>
             </div>
