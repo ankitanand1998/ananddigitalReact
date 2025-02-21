@@ -66,11 +66,12 @@ export const AboutPage: React.FC = () => {
                   <h2 className="h4 mb-4">My Mission</h2>
                   <p className="mb-0">
                     My goal is to help individuals and businesses navigate the digital landscape successfully. Through my blog posts and articles, I provide actionable insights and strategies that can be implemented to achieve tangible results in digital marketing.
+                    Email me at <b>ankitanand1998find@gmail.com</b> to unlock top-notch Digital services and skyrocket your success!
                     </p>
-                   <br>
-                     <span>
-                       <p>Email me at ankitanand1998find@gmail.com to unlock top-notch Digital services and skyrocket your success!</p>
-                     </span>
+                   
+                    
+                      
+                     
                 </div>
               </div>
             </div>
