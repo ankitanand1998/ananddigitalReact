@@ -6,6 +6,9 @@ import { fetchBlogPosts } from '../services/blogService';
 import type { BlogPost } from '../types/Blog';
 import { Loader2 } from 'lucide-react';
 import '../styles/hero.css';
+import '../styles/Uni.css';
+
+
 
 
 export const HomePage: React.FC = () => {
