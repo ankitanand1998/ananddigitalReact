@@ -28,7 +28,7 @@ export const AboutPage: React.FC = () => {
                     <a href="https://twitter.com" className="btn btn-outline-primary" aria-label="Twitter">
                       <Twitter size={20} />
                     </a>
-                    <a href="https://linkedin.com" className="btn btn-outline-primary" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/ankit-anand-ankit-mishra-0073b2144/" className="btn btn-outline-primary" aria-label="LinkedIn">
                       <Linkedin size={20} />
                     </a>
                     <a href="https://ananddigitalblog.vercel.app" className="btn btn-outline-primary" aria-label="Website">
