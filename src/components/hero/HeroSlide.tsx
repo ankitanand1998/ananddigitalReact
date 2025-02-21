@@ -37,7 +37,7 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({
                   to={link}
                   className="btn btn-primary btn-lg"
                 >
-                  Read More
+                  Know About Me
                 </Link>
               </div>
             </div>
