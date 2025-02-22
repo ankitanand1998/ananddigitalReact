@@ -12,8 +12,7 @@ p, ul, li{
   margin-bottom: 16px !important;      /* Adds spacing between paragraphs */
   padding: 2px 0 !important;          /* Adds slight padding for spacing */
   max-width: 800px !important;         /* Prevents overly wide paragraphs */
-  word-spacing: 0.5px !important;        /* Adjust spacing between words */
-  letter-spacing: 0.5px !important;    /* Adjust letter spacing for clarity */
+ 
 }
 
 .custom-link:hover {
