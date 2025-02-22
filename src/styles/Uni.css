@@ -4,6 +4,10 @@
   cursor: pointer;
 }
 
+p{
+  font-size: 18px !imporant;
+}
+
 .custom-link:hover {
   color: #0056b3;
 }
