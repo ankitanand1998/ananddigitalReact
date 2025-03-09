@@ -76,7 +76,7 @@ export const BlogDetailPage: React.FC = () => {
               "@id": "${post.url}"
             },
              "articleSection": "${post.category}",
-             "keywords": "$[post.keywords]",
+             "keywords": post.keywords.split(", "),
               "inLanguage": "en",
             "headline": "${post.metaTitle}",
             "description": "${post.metaDescription}",
