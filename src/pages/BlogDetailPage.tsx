@@ -54,6 +54,7 @@ export const BlogDetailPage: React.FC = () => {
   }
 
 const formattedKeywords = post.keywords ? post.keywords.split(",").map(keyword => keyword.trim()) : [];
+  
   return (
     <>
       <SEO 
@@ -66,42 +67,39 @@ const formattedKeywords = post.keywords ? post.keywords.split(",").map(keyword =
         ogImage={post.bannerImg}
         type="article"
       />
-      {/* Dynamic JSON-LD Schema Markup */}
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "${post.url}"
-            },
-             "articleSection": "${post.category}",
-             "keywords": formattedKeywords,
-              "inLanguage": "en",
-            "headline": "${post.metaTitle}",
-            "description": "${post.metaDescription}",
-            "image": "${post.bannerImg}",
-            "author": {
-              "@type": "Person",
-              "name": "Anand Digital",
-              "url": "https://ananddigitalblog.vercel.app/about"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "Anand Digital Blog",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://ananddigitalblog.vercel.app"
-              }
-            },
-            "datePublished": "${post.date}",
-            "dateModified": "${post.date}",
-          }
-        `}
+      
+     <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": post.url
+          },
+          "articleSection": post.category,
+          "keywords": formattedKeywords,
+          "inLanguage": "en",
+          "headline": post.metaTitle,
+          "description": post.metaDescription,
+          "image": post.bannerImg,
+          "author": {
+            "@type": "Person",
+            "name": "Anand Digital",
+            "url": "https://ananddigitalblog.vercel.app/about"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Anand Digital Blog",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://ananddigitalblog.vercel.app"
+            }
+          },
+          "datePublished": post.date,
+          "dateModified": post.date
+        })}
       </script>
-
-      <div className="container py-4">
+   <div className="container py-4">
         <button
           onClick={() => navigate('/')}
           className="btn btn-link text-decoration-none mb-4 d-flex align-items-center gap-2"
