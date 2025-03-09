@@ -53,6 +53,7 @@ export const BlogDetailPage: React.FC = () => {
     );
   }
 
+const formattedKeywords = post.keywords ? post.keywords.split(",").map(keyword => keyword.trim()) : [];
   return (
     <>
       <SEO 
@@ -76,7 +77,7 @@ export const BlogDetailPage: React.FC = () => {
               "@id": "${post.url}"
             },
              "articleSection": "${post.category}",
-             "keywords": post.keywords.split(", "),
+             "keywords": formattedKeywords,
               "inLanguage": "en",
             "headline": "${post.metaTitle}",
             "description": "${post.metaDescription}",
