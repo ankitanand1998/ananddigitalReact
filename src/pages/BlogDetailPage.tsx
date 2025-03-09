@@ -97,7 +97,7 @@ const formattedKeywords = post.keywords ? post.keywords.split(",").map(keyword =
   "datePublished": "{{post.date}}",
   "dateModified": "{{post.date}}"
 }
-</script>
+  </script>
    
    
    <div className="container py-4">
