@@ -66,7 +66,7 @@ export const BlogDetailPage: React.FC = () => {
         ogImage={post.bannerImg}
         type="article"
       />
-
+<script type="application/ld+json">
   {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -95,7 +95,7 @@ export const BlogDetailPage: React.FC = () => {
   "datePublished": "${post.date}",
   "dateModified": "${post.date}"
 }
-
+</script>
 <div className="container py-4">
         <button
           onClick={() => navigate('/')}
