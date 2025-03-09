@@ -75,24 +75,27 @@ export const BlogDetailPage: React.FC = () => {
               "@type": "WebPage",
               "@id": "${post.url}"
             },
+             "articleSection": "${post.category}",
+             "keywords": "$[post.keywords]",
+              "inLanguage": "en",
             "headline": "${post.metaTitle}",
             "description": "${post.metaDescription}",
             "image": "${post.bannerImg}",
             "author": {
-              "@type": "Organization",
-              "name": "Anand Digital Blog",
-              "url": "https://ananddigitalblog.vercel.app/"
+              "@type": "Person",
+              "name": "Anand Digital",
+              "url": "https://ananddigitalblog.vercel.app/about"
             },
             "publisher": {
               "@type": "Organization",
               "name": "Anand Digital Blog",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=400&fit=crop"
+                "url": "https://ananddigitalblog.vercel.app"
               }
             },
             "datePublished": "${post.date}",
-            "dateModified": "${post.date}"
+            "dateModified": "${post.date}",
           }
         `}
       </script>
