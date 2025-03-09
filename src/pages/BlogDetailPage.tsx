@@ -93,8 +93,8 @@ export const BlogDetailPage: React.FC = () => {
         "url": "https://ananddigitalblog.vercel.app"
       }
     },
-    "datePublished": "${post.date}",
-    "dateModified": "${post.date}"
+    "datePublished": "${post.date}"
+   
   }
 </script>
 
