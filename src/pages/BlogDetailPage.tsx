@@ -53,8 +53,6 @@ export const BlogDetailPage: React.FC = () => {
       </div>
     );
   }
-
-const formattedKeywords = post.keywords ? post.keywords.split(",").map(keyword => keyword.trim()) : [];
   
   return (
     <>
