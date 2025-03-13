@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="/">Home</a>
+              <a className="nav-link active" href="/"><b>Home</b></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/categories">Categories</a>
