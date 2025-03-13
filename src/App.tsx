@@ -6,7 +6,7 @@ import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { AboutPage } from './pages/AboutPage';
-import {Sitemap} from './pages/sitemap';
+import {Sitemap} from './pages/Sitemap';
 
 function App() {
   return (
