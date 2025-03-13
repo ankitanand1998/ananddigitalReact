@@ -6,6 +6,7 @@ import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { AboutPage } from './pages/AboutPage';
+import { Sitemap } from "./pages/Sitemap";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/:url" element={<BlogDetailPage />} />
+            <Route path="/sitemap" element={<Sitemap />} />
            
           </Routes>
         </Layout>
