@@ -30,7 +30,7 @@ export const Sitemap: React.FC = () => {
     <div className="container mt-4">
       <h1>Sitemap</h1>
       <p>This is a structured list of all pages on our website.</p>
-      
+
       <ul style={{ listStyle: "none", padding: 0 }}>
         {urls.map((url, index) => (
           <li key={index}>
@@ -42,14 +42,20 @@ export const Sitemap: React.FC = () => {
       </ul>
 
       {/* Hidden XML Content for SEO */}
-      <textarea
-        readOnly
-        value={sitemapXml}
-        style={{ width: "100%", height: "200px", marginTop: "20px" }}
-      />
+      <pre
+        style={{
+          whiteSpace: "pre-wrap",
+          wordWrap: "break-word",
+          background: "#f4f4f4",
+          padding: "10px",
+          marginTop: "20px",
+          overflowX: "auto",
+        }}
+      >
+        {sitemapXml}
+      </pre>
     </div>
   );
 };
-
 
 
