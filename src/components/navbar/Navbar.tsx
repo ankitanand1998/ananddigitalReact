@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
           className="navbar-brand d-flex align-items-center gap-2 text-primary"
         >
           <Newspaper className="h-6 w-6" />
-          <span className="font-bold">Anand Digital Blog</span>
+          <span className="font-bold">Anand Digital</span>
         </Link>
 
         {/* Mobile Menu Toggle Button */}
@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/categories">Categories</NavLink>
+              <NavLink to="/services">Services</NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/about">About</NavLink>
