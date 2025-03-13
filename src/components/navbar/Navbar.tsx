@@ -55,6 +55,12 @@ export const Navbar: React.FC = () => {
             <li className="nav-item">
               <NavLink to="/about">About</NavLink>
             </li>
+
+            <li className="nav-item">
+              <NavLink to="/sitemap">Sitemap</NavLink>
+            </li>
+
+            
           </ul>
 
           {/* Search and Theme Toggle */}
