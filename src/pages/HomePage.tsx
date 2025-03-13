@@ -52,8 +52,8 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Anand Digital Blog | SEO, Content Writing & Web Development Tips"
-        description="know expert tips to grow organic traffic, rank higher on search engines and master SEO, content writing, and web development at Anand Digital Blog. Lead the digital race!"
+        title="Anand Digital Blog | SEO, Digital Marketing & Web Development Proven Tips"
+        description="know expert tips to grow organic traffic, rank higher on search engines and master SEO, content writing, Digital Marketing and web development at Anand Digital Blog. Lead the digital race!"
         canonicalUrl="https://ananddigitalblog.vercel.app/"
       />
       <script type="application/ld+json">
