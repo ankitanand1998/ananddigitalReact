@@ -9,6 +9,7 @@ export const Sitemap: React.FC = () => {
     { path: "/how-to-save-yourself-from-workplace-politics", priority: 0.8 },
     { path: "/football-match-punjab-fc-vs-northeast-united", priority: 0.8 },
     { path: "/manmohan-singh-oasis-of-integrity-in-sea-of-opportunism", priority: 0.8 },
+    { path: "/human-metapneumovirus-hmpv-impact-in-india", priority: 0.8 },
   ];
 
   // Generate Sitemap XML
