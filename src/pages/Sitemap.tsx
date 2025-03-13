@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sitemap: React.FC = () => {
+export const Sitemap: React.FC = () => {
   const urls = [
     { path: "/", priority: 1.0 },
     { path: "/oppo-find-x8-series-design-and-features", priority: 0.8 },
@@ -51,5 +51,5 @@ const Sitemap: React.FC = () => {
   );
 };
 
-export default Sitemap;
+
 
