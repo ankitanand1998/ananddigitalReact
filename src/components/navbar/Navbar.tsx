@@ -21,7 +21,9 @@ export const Navbar: React.FC = () => {
   return (
     <nav
       className={`navbar navbar-expand-lg fixed-top transition-all duration-300 ${
-        isScrolled ? "shadow-sm bg-white/90 backdrop-blur-sm" : "white"
+        isScrolled || isMobileMenuOpen
+          ? "shadow-sm bg-white/90 backdrop-blur-sm"
+          : "bg-transparent"
       }`}
     >
       <div className="container">
@@ -38,12 +40,12 @@ export const Navbar: React.FC = () => {
           className="navbar-toggler border-0 p-2"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-10 w-10" />}
+          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
 
         {/* Navigation Links */}
         <div className={`navbar-collapse ${isMobileMenuOpen ? "d-block" : "d-none d-lg-flex"}`}>
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 list-unstyled">
             <li className="nav-item">
               <NavLink to="/">Home</NavLink>
             </li>
