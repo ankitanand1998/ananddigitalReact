@@ -47,7 +47,7 @@ export const Navbar: React.FC = () => {
         <div
           className={`collapse navbar-collapse ${isMobileMenuOpen ? 'show' : ''}`}
         >
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-black">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink to="/">Home</NavLink>
             </li>
