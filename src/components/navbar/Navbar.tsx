@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
 
         {/* Navigation Links */}
         <div className={`navbar-collapse ${isMobileMenuOpen ? "d-block" : "d-none d-lg-flex"}`}>
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 list-unstyled">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 list-unstyled text-center">
             <li className="nav-item">
               <NavLink to="/">Home</NavLink>
             </li>
