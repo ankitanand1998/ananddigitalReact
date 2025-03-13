@@ -21,7 +21,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav
       className={`navbar navbar-expand-lg fixed-top transition-all duration-300 ${
-        isScrolled ? 'shadow-sm bg-white/90 backdrop-blur-sm' : 'bg-white'
+        isScrolled ? 'shadow-sm bg-white/90 backdrop-blur-sm' : 'bg-black'
       }`}
     >
       <div className="container">
