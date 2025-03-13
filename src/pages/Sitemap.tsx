@@ -11,7 +11,7 @@ const Sitemap: React.FC = () => {
     { path: "/manmohan-singh-oasis-of-integrity-in-sea-of-opportunism", priority: 0.8 },
   ];
 
-  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+  const SitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${urls
     .map(
