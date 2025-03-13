@@ -49,15 +49,17 @@ export const Navbar: React.FC = () => {
             <li className="nav-item">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to="/services">Services</NavLink>
-            </li>
+           
             <li className="nav-item">
               <NavLink to="/about">About</NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink to="/sitemap.xml">Sitemap</NavLink>
+            </li>
+
+             <li className="nav-item">
+              <NavLink to="/">Services</NavLink>
             </li>
 
             
