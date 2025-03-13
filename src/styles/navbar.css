@@ -7,6 +7,11 @@
   font-weight: 500;
 }
 
+.navbar-nav {
+  list-style: none !important;
+  padding-left: 0; /* Ensure no extra padding */
+}
+
 .nav-link::after {
   content: '';
   position: absolute;
