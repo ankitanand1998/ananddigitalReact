@@ -14,7 +14,6 @@ export const BlogDetailPage: React.FC = () => {
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  
 
   useEffect(() => {
     const loadPost = async () => {
@@ -53,7 +52,7 @@ export const BlogDetailPage: React.FC = () => {
       </div>
     );
   }
-  
+
   return (
     <>
       <SEO 
@@ -66,37 +65,40 @@ export const BlogDetailPage: React.FC = () => {
         ogImage={post.bannerImg}
         type="article"
       />
-<script type="application/ld+json">
-  {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "${post.url}"
-  },
-  "articleSection": "${post.category}",
-  "inLanguage": "en",
-  "headline": "${post.metaTitle}",
-  "description": "${post.metaDescription}",
-  "image": "${post.bannerImg}",
-  "author": {
-    "@type": "Person",
-    "name": "Anand Digital",
-    "url": "https://ananddigitalblog.vercel.app/about"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Anand Digital Blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ananddigitalblog.vercel.app/logo.png"
-    }
-  },
-  "datePublished": "${post.date}",
-  "dateModified": "${post.date}"
-}
-</script>
-<div className="container py-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": post.canonicalUrl || `https://ananddigitalblog.vercel.app/${post.url}`
+            },
+            "articleSection": post.category,
+            "inLanguage": "en",
+            "headline": post.metaTitle,
+            "description": post.metaDescription,
+            "image": post.bannerImg,
+            "author": {
+              "@type": "Person",
+              "name": "Anand Digital",
+              "url": "https://ananddigitalblog.vercel.app/about"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Anand Digital Blog",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://ananddigitalblog.vercel.app/logo.png"
+              }
+            },
+            "datePublished": post.date,
+            "dateModified": post.date
+          })
+        }}
+      />
+      <div className="container py-4">
         <button
           onClick={() => navigate('/')}
           className="btn btn-link text-decoration-none mb-4 d-flex align-items-center gap-2"
