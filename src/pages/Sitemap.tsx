@@ -13,7 +13,8 @@ export const Sitemap: React.FC = () => {
 
   // Generate Sitemap XML
   const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+">
   ${urls
     .map(
       (url) => `
@@ -27,34 +28,13 @@ export const Sitemap: React.FC = () => {
 </urlset>`;
 
   return (
+    <>
     <div className="container mt-4">
       <h1>Sitemap</h1>
-      <p>This is a structured list of all pages on our website.</p>
-
-      <ul style={{ listStyle: "none", padding: 0 }}>
-        {urls.map((url, index) => (
-          <li key={index}>
-            <a href={url.path} style={{ textDecoration: "none", color: "blue" }}>
-              {url.path}
-            </a>
-          </li>
-        ))}
-      </ul>
-
-      {/* Hidden XML Content for SEO */}
-      <pre
-        style={{
-          whiteSpace: "pre-wrap",
-          wordWrap: "break-word",
-          background: "#f4f4f4",
-          padding: "10px",
-          marginTop: "20px",
-          overflowX: "auto",
-        }}
-      >
+      <p>This is a structured list of all pages on our website.</p> 
         {sitemapXml}
-      </pre>
     </div>
+    </>
   );
 };
 
