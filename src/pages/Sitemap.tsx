@@ -11,6 +11,7 @@ export async function getServerSideProps({ res }) {
     { url: "/football-match-punjab-fc-vs-northeast-united", changefreq: "weekly", priority: 0.8 },
     { url: "/manmohan-singh-oasis-of-integrity-in-sea-of-opportunism", changefreq: "weekly", priority: 0.8 },
   ];
+  
 
   const stream = new SitemapStream({ hostname: "https://ananddigitalblog.vercel.app" });
   links.forEach((link) => stream.write(link));
