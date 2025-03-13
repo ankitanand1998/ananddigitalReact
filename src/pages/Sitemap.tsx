@@ -1,57 +1,30 @@
-import React, { useEffect } from 'react';
-export const Sitemap: React.FC = () => {
-  useEffect(() => {
-  const xmlData = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ananddigitalblog.vercel.app/</loc>
-   <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>1.0</priority>
-  </url>
- 
+import { SitemapStream, streamToPromise } from "sitemap";
+import { Readable } from "stream";
 
-  <url>
-    <loc>https://ananddigitalblog.vercel.app/oppo-find-x8-series-design-and-features</loc>
-    <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>0.8</priority>
-  </url>
+export async function getServerSideProps({ res }) {
+  const links = [
+    { url: "/", changefreq: "daily", priority: 1.0 },
+    { url: "/oppo-find-x8-series-design-and-features", changefreq: "weekly", priority: 0.8 },
+    { url: "/how-to-start-your-personal-blog", changefreq: "weekly", priority: 0.8 },
+    { url: "/top-job-red-flags-before-accepting-offer", changefreq: "weekly", priority: 0.8 },
+    { url: "/how-to-save-yourself-from-workplace-politics", changefreq: "weekly", priority: 0.8 },
+    { url: "/football-match-punjab-fc-vs-northeast-united", changefreq: "weekly", priority: 0.8 },
+    { url: "/manmohan-singh-oasis-of-integrity-in-sea-of-opportunism", changefreq: "weekly", priority: 0.8 },
+  ];
 
-  <url>
-    <loc>https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog</loc>
-    <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>0.8</priority>
-  </url>
+  const stream = new SitemapStream({ hostname: "https://ananddigitalblog.vercel.app" });
+  links.forEach((link) => stream.write(link));
+  stream.end();
 
- <url>
-    <loc>https://ananddigitalblog.vercel.app/top-job-red-flags-before-accepting-offer</loc>
-    <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-<url>
-    <loc>https://ananddigitalblog.vercel.app/how-to-save-yourself-from-workplace-politics</loc>
-    <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>0.8</priority>
-  </url>
+  const sitemap = await streamToPromise(Readable.from(stream)).then((data) => data.toString());
 
-  <url>
-    <loc>https://ananddigitalblog.vercel.app/football-match-punjab-fc-vs-northeast-united</loc>
-    <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>0.8</priority>
-  </url>
+  res.setHeader("Content-Type", "application/xml");
+  res.write(sitemap);
+  res.end();
 
-   <url>
-    <loc>https://ananddigitalblog.vercel.app/manmohan-singh-oasis-of-integrity-in-sea-of-opportunism</loc>
-   <lastmod>2025-03-09T08:31:01.920Z</lastmod>
-    <priority>0.8</priority>
-  </url>
-</urlset>`;
-    
-    const blob = new Blob([xmlData], { type: 'application/xml' });
-    const url = URL.createObjectURL(blob);
-     window.location.href = url;
-   
-  }, []);
+  return { props: {} };
+}
 
+export default function Sitemap() {
   return null;
-};
+}
