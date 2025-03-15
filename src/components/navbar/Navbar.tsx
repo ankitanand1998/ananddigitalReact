@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
           className="navbar-brand d-flex align-items-center gap-2 text-primary"
         >
           <Newspaper className="h-6 w-6" />
-          <span className="font-bold">Anand Digital</span>
+          <span className="font-bold">Anand Digital Blog</span>
         </Link>
 
         {/* Mobile Menu Toggle Button */}
@@ -49,10 +49,40 @@ export const Navbar: React.FC = () => {
             <li className="nav-item">
               <NavLink to="/">Home</NavLink>
             </li>
-           
-            <li className="nav-item">
-              <NavLink to="/about">About</NavLink>
+
+             <li className="nav-item">
+              <NavLink to="/about">About US</NavLink>
             </li>
+
+             <li className="nav-item">
+              <NavLink to="/">Latest</NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink to="/">SEO</NavLink>
+            </li>
+            
+            <li className="nav-item">
+              <NavLink to="/">Content Marketing</NavLink>
+            </li>
+
+             <li className="nav-item">
+              <NavLink to="/">Digital Marketing</NavLink>
+            </li>
+
+             <li className="nav-item">
+              <NavLink to="/">Website Development</NavLink>
+            </li>
+
+             <li className="nav-item">
+              <NavLink to="/">Advertise With Us</NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink to="/">Our Digital Services</NavLink>
+            </li>
+           
+           
 
             <li className="nav-item">
               <NavLink to="/sitemap.xml">Sitemap</NavLink>
