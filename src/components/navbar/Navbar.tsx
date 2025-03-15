@@ -78,6 +78,17 @@ export const Navbar: React.FC = () => {
                 </div>
               )}
             </li>
+             <li className="nav-item">
+              <NavLink to="/content">Home</NavLink>
+            </li>
+
+             <li className="nav-item">
+              <NavLink to="/content">About</NavLink>
+            </li>
+             <li className="nav-item">
+              <NavLink to="/content">Latest</NavLink>
+            </li>
+            
             <li className="nav-item">
               <NavLink to="/content">Content</NavLink>
             </li>
