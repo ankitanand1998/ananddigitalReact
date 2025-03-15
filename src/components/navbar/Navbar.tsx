@@ -59,7 +59,7 @@ export const Navbar: React.FC = () => {
               {isSeoPopupOpen && (
                 <div className="position-fixed top-15 start-0 w-100 vh-90 bg-white shadow-lg p-4  d-flex flex-column flex-lg-row z-index-1000">
                   {/* Left Side Menu */}
-                  <div className="w-50 p-4">
+                  <div className="w-50 w-sm-auto p-1">
                     <h4>SEO Categories</h4>
                     <ul className="list-unstyled">
                       <li><NavLink to="/seo-onpage">On-Page SEO</NavLink></li>
