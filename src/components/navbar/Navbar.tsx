@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink to="/">Digital Services</NavLink>
+              <NavLink to="/">Services</NavLink>
             </li>
 
              <li className="nav-item">
