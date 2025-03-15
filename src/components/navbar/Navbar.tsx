@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
             >
               <NavLink to="#">SEO</NavLink>
               {isSeoPopupOpen && (
-                <div className="position-fixed top-0 start-0 w-100 vh-90 bg-white shadow-lg p-4 d-flex flex-column flex-lg-row z-index-1000">
+                <div className="position-fixed top-20 start-0 w-100 vh-90 bg-white shadow-lg p-4 d-flex flex-column flex-lg-row z-index-1000">
                   {/* Left Side Menu */}
                   <div className="w-50 p-4">
                     <h4>SEO Categories</h4>
@@ -78,35 +78,7 @@ export const Navbar: React.FC = () => {
                 </div>
               )}
             </li>
-             <li className="nav-item">
-              <NavLink to="/content">Home</NavLink>
-            </li>
-
-             <li className="nav-item">
-              <NavLink to="/content">About</NavLink>
-            </li>
-             <li className="nav-item">
-              <NavLink to="/content">Latest</NavLink>
-            </li>
             
-            <li className="nav-item">
-              <NavLink to="/content">Content</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/digital">Digital</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/web">Web</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/advertise">Advertise</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/services">Services</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/guides">Guides</NavLink>
-            </li>
           </ul>
 
           {/* Search and Theme Toggle */}
