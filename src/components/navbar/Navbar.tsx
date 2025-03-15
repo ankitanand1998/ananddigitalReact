@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
             </li>
 
              <li className="nav-item">
-              <NavLink to="/about">About US</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
 
              <li className="nav-item">
