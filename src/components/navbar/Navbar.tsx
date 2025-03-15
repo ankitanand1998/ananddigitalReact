@@ -88,9 +88,7 @@ export const Navbar: React.FC = () => {
               <NavLink to="/sitemap.xml">Sitemap</NavLink>
             </li>
 
-             <li className="nav-item">
-              <NavLink to="/">Services</NavLink>
-            </li>
+             
 
             
           </ul>
