@@ -70,7 +70,7 @@ export const Navbar: React.FC = () => {
                   </div>
 
                   {/* Right Side Banner */}
-                  <div className="w-50 p-4 text-center bg-light">
+                  <div className="w-50 p-1 w-sm-100 text-center bg-light">
                     <h3>Improve Your SEO</h3>
                     <p>Discover the latest SEO techniques to rank higher in search engines.</p>
                     <img src="/assets/seo-banner.jpg" alt="SEO Banner" className="img-fluid rounded" />
