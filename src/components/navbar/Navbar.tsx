@@ -57,9 +57,9 @@ export const Navbar: React.FC = () => {
             >
               <NavLink to="#">SEO</NavLink>
               {isSeoPopupOpen && (
-                <div className="position-fixed top-15 start-0 w-100 vh-90 bg-white shadow-lg p-4  d-flex flex-column flex-lg-row z-index-1000">
+                <div className="position-fixed top-15 start-0 w-100 vh-90 bg-white shadow-lg p-4 d-flex flex-column flex-lg-row z-index-1000 overflow-auto">
                   {/* Left Side Menu */}
-                  <div className="w-50 w-sm-100 p-1">
+                  <div className="w-100 w-lg-50 p-3">
                     <h4>SEO Categories</h4>
                     <ul className="list-unstyled">
                       <li><NavLink to="/seo-onpage">On-Page SEO</NavLink></li>
@@ -70,7 +70,7 @@ export const Navbar: React.FC = () => {
                   </div>
 
                   {/* Right Side Banner */}
-                  <div className="w-50 p-1 w-sm-100 text-center bg-light">
+                  <div className="w-100 w-lg-50 p-3 text-center bg-light">
                     <h3>Improve Your SEO</h3>
                     <p>Discover the latest SEO techniques to rank higher in search engines.</p>
                     <img src="/assets/seo-banner.jpg" alt="SEO Banner" className="img-fluid rounded" />
