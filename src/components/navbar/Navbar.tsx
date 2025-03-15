@@ -63,23 +63,23 @@ export const Navbar: React.FC = () => {
             </li>
             
             <li className="nav-item">
-              <NavLink to="/">Content Marketing</NavLink>
+              <NavLink to="/">Content</NavLink>
             </li>
 
              <li className="nav-item">
-              <NavLink to="/">Digital Marketing</NavLink>
+              <NavLink to="/">Digital</NavLink>
             </li>
 
              <li className="nav-item">
-              <NavLink to="/">Website Development</NavLink>
+              <NavLink to="/">Web</NavLink>
             </li>
 
              <li className="nav-item">
-              <NavLink to="/">Advertise With Us</NavLink>
+              <NavLink to="/">Advertise</NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink to="/">Our Digital Services</NavLink>
+              <NavLink to="/">Digital Services</NavLink>
             </li>
            
            
