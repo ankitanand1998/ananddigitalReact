@@ -65,7 +65,7 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post }) => {
           <span className="text-gray-700 leading-relaxed">{post.paragraph1}</span>
         </section>
 
-        <section className="mb-8">
+        <section className="mb-8 blogbody">
            <div className="mx-2"  dangerouslySetInnerHTML={{ __html: renderDynamicContent(sanitizedHTML) }}></div>
         </section>
 
