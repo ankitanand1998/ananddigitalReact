@@ -1,8 +1,8 @@
-.blogbody a{
-    color: darkblue !important;  /* Default link color */
-    text-decoration:underline !important; 
-     cursor: pointer!important;
-    font-weight:bold!important;
+.blogbody a {
+    color: darkblue;  /* Default link color */
+    text-decoration: underline; 
+    cursor: pointer;
+    font-weight: bold;
 }
 
 
