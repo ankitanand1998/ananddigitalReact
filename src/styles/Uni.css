@@ -2,6 +2,7 @@ a{
     color: darkblue !important;  /* Default link color */
     text-decoration:underline !important; 
      cursor: pointer!important;
+    font-weight:bold!important;
 }
 
 
