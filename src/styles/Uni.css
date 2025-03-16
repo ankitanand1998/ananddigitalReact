@@ -1,7 +1,7 @@
 a{
-    color: darkblue;  /* Default link color */
-    text-decoration:underline; 
-     cursor: pointer;
+    color: darkblue !important;  /* Default link color */
+    text-decoration:underline !important; 
+     cursor: pointer!important;
 }
 
 
