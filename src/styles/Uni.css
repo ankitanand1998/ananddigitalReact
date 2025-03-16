@@ -1,12 +1,10 @@
-a {
-    color: blue;  /* Default link color */
-    text-decoration: underline; /* Removes underline */
+a{
+    color: darkblue;  /* Default link color */
+    text-decoration:underline; 
+     cursor: pointer;
 }
 
-a:hover {
-    color: darkblue; /* Changes color when hovered */
-    text-decoration: none; /* Underline on hover */
-}
+
 
 .custom-link {
   color: #007bff;
