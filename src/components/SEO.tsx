@@ -23,7 +23,7 @@ export const SEO: React.FC<SEOProps> = ({
   type = 'website'
 }) => {
   const siteName = 'Anand Digital Blog';
-  const defaultTitle = 'Anand Digital Blog | SEO, Content Writing & Web Development Tips';
+  const defaultTitle = 'Anand Digital Blog | SEO, Content Writing & Digital Marketing Tips';
   const defaultDescription = 'know expert tips to grow organic traffic, rank higher on search engines and master SEO, content writing, and web development at Anand Digital Blog. Lead the digital race!';
 
   return (
