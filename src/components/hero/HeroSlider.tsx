@@ -1,6 +1,7 @@
 import React from 'react';
 import { HeroSlide } from './HeroSlide';
 
+
 const slides = [
   {
     id: 1,
