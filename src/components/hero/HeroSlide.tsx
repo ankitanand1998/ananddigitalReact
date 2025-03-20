@@ -32,7 +32,7 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({
             <div className="row">
               <div className="col-lg-8">
                 <h2 className="display-4 fw-bold mb-3">{title}</h2>
-                <p className="lead mb-4"  style={{ color: 'white' }}>{description}</p>
+                <p className="lead mb-4 custom-description">{description}</p>
                 <Link 
                   to={link}
                   className="btn btn-primary btn-lg"
