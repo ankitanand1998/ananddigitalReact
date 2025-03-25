@@ -52,8 +52,8 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Anand Digital Blog | SEO, Digital Marketing & Web Development Proven Tips"
-        description="know expert tips to grow organic traffic, rank higher on search engines and master SEO, content writing, Digital Marketing and web development at Anand Digital Blog. Lead the digital race!"
+        title="Best Digital Marketing Blogs & Services | Anand Digital Blog"
+        description="Master digital marketing with proven strategies, expert insights & powerful trends to grow your brand & boost sales."
         canonicalUrl="https://ananddigitalblog.vercel.app/"
       />
       <script type="application/ld+json">
@@ -65,8 +65,8 @@ export const HomePage: React.FC = () => {
               "@type": "WebPage",
               "@id": "https://ananddigitalblog.vercel.app/"
             },
-            "headline": "Anand Digital Blog | SEO, Content Writing & Web Development Tips",
-            "description": "know expert tips to grow organic traffic, rank higher on search engines and master SEO, content writing, and web development at Anand Digital Blog. Lead the digital race!.",
+            "headline": "Best Digital Marketing Blogs & Services | Anand Digital Blog",
+            "description": "Master digital marketing with proven strategies, expert insights & powerful trends to grow your brand & boost sales.",
             "image": "https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-260nw-1029506242.jpg",
             "author": {
               "@type": "Organization",
@@ -92,9 +92,18 @@ export const HomePage: React.FC = () => {
       <main className="container py-4">
         <div className="row g-4">
           <div className="col-12">
-            <h1 className="display-3 mb-4">Your Go-To Hub for Digital Success, Workplace Wins - Check Out Our Latest Blogs</h1>
-             <p className="mx-3">Welcome to Anand Digital Blog, your ultimate resource for mastering digital success and workplace wins! Explore our latest blogs packed with <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">expert tips on content writing and blogging</a> that captivates readers, proven SEO strategies to boost website ranking, and fresh digital marketing insights to keep you ahead of trends. Whether you’re crafting compelling blog posts, optimizing web development for better search engine performance, or chasing higher Google rankings, we’ve got you covered. Stay updated with cutting-edge online marketing news and learn how to grow organic traffic effortlessly. Plus, dive into practical <a href="https://ananddigitalblog.vercel.app/how-to-save-yourself-from-workplace-politics" rel="dofollow" className="custom-link">corporate survival hacks</a>—think workplace strategies, productivity boosts, and leadership skills—to thrive in any professional jungle. From keyword research to content creation and technical SEO, our goal is simple: empower you with actionable advice to succeed online and at work. Start browsing now and elevate your digital game!</p>
-             
+            <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
+             <p className="mx-3"> Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.<br>
+Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.
+At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions. Our professional solutions include:<br>
+
+<b>✅ SEO Services – Keyword research, on-page & off-page SEO, and technical optimization</b>.<br>
+<b>✅ Digital Marketing – Targeted strategies to boost brand visibility and online reach.</b><br>
+<b>✅ Email Marketing – High-converting email campaigns to nurture and engage customers.</b><br>
+<b>✅ Data & Analytics – Actionable insights to improve website performance and marketing ROI.</b><br>
+<b>✅ Website Development – SEO-friendly websites that enhance user experience and ranking.</b><br>
+Stay updated with cutting-edge SEO and digital marketing strategies that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively.
+Start exploring now and let us help you skyrocket your SEO success! </p>
           </div>
           {posts.map((post) => (
             <BlogCard key={post.id} post={post} />
