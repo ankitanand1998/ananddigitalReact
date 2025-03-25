@@ -7,10 +7,6 @@ import type { BlogPost } from '../types/Blog';
 import { Loader2 } from 'lucide-react';
 import '../styles/hero.css';
 
-
-
-
-
 export const HomePage: React.FC = () => {
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
