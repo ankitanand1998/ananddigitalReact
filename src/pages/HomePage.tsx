@@ -97,17 +97,13 @@ export const HomePage: React.FC = () => {
  <li>SEO Services –Keyword research, on-page & off-page SEO, and technical optimization.</li>
   <li>Digital Marketing – Targeted strategies to boost brand visibility and online reach. </li>
  <li> Email Marketing – High-converting email campaigns to nurture and engage customers. </li>
- <li>Data & Analytics –Actionable insights to improve website performance and marketing ROI  Website</li> <li>Development – SEO-friendly websites that enhance user experience and ranking.</li>
+ <li>Data & Analytics –Actionable insights to improve website performance and marketing ROI  Website</li> 
+ <li>Development – SEO-friendly websites that enhance user experience and ranking.</li>
 </ul>
-
-  Stay updated with cutting-edge SEO and digital marketing strategies< that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
-
-  Start exploring now and let us help you skyrocket your SEO success!
-
-            </p>
-         
-
-          </div>
+ Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
+ Start exploring now and let us help you skyrocket your SEO success!
+</p>
+ </div>
           {posts.map((post) => (
             <BlogCard key={post.id} post={post} />
           ))}
