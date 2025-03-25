@@ -90,7 +90,16 @@ export const HomePage: React.FC = () => {
           <div className="col-12">
             <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
             <p className="mx-3">
- 
+                At <b>Anand Digital Blog</b>, we don’t just share knowledge—we offer expert services to help businesses <b>dominate search rankings and drive conversions</b>. Our professional solutions include:<br><br>
+
+  <b>✅ SEO Services –</b> Keyword research, on-page & off-page SEO, and technical optimization.<br>
+  <b>✅ Digital Marketing –</b> Targeted strategies to boost brand visibility and online reach.<br>
+  <b>✅ Email Marketing –</b> High-converting email campaigns to nurture and engage customers.<br>
+  <b>✅ Data & Analytics –</b> Actionable insights to improve website performance and marketing ROI.<br>
+  <b>✅ Website Development –</b> SEO-friendly websites that enhance user experience and ranking.<br><br>
+
+  Stay updated with <b>cutting-edge SEO and digital marketing strategies</b> that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to <b>grow your online presence effectively</b>.<br><br>
+
             </p>
 
           </div>
