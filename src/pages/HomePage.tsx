@@ -90,7 +90,7 @@ export const HomePage: React.FC = () => {
           <div className="col-12">
             <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
           
-            <p>Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
+            <p className="px-3">Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
  Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.
  At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions. Our professional solutions include:
 <ul>
