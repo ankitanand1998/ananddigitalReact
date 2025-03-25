@@ -93,15 +93,15 @@ export const HomePage: React.FC = () => {
             <p className="px-3">Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
  Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.
  At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions.</p> 
- <h2>Our Best Services include:</h2>
-<ul>
+ <h2 className="px-3">Our Best Services include:</h2>
+<ul className="px-3">
  <li>SEO Services –Keyword research, on-page & off-page SEO, and technical optimization.</li>
   <li>Digital Marketing – Targeted strategies to boost brand visibility and online reach. </li>
  <li> Email Marketing – High-converting email campaigns to nurture and engage customers. </li>
  <li>Data & Analytics –Actionable insights to improve website performance and marketing ROI  Website</li> 
  <li>Development – SEO-friendly websites that enhance user experience and ranking.</li>
 </ul>
-<p>Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
+<p className="px-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
  Start exploring now and let us help you skyrocket your SEO success!</p> 
 
  </div>
