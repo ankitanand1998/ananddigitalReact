@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
               <NavLink to="/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/">Latest</NavLink>
+              <NavLink to="/category/Content">Latest</NavLink>
             </li>
             <li
               className="nav-item position-relative"
@@ -62,10 +62,10 @@ export const Navbar: React.FC = () => {
                   <div className="w-100 w-lg-50 p-3">
                     <h4>SEO Categories</h4>
                     <ul className="list-unstyled">
-                      <li><NavLink to="/seo-onpage">On-Page SEO</NavLink></li>
-                      <li><NavLink to="/seo-offpage">Off-Page SEO</NavLink></li>
-                      <li><NavLink to="/seo-technical">Technical SEO</NavLink></li>
-                      <li><NavLink to="/seo-tools">SEO Tools</NavLink></li>
+                      <li><NavLink to="/category/Onpage SEO">On-Page SEO</NavLink></li>
+                      <li><NavLink to="/category/Offpage SEO">Off-Page SEO</NavLink></li>
+                      <li><NavLink to="/category/Technical SEO">Technical SEO</NavLink></li>
+                      <li><NavLink to="/category/SEO Tools">SEO Tools</NavLink></li>
                     </ul>
                   </div>
 
@@ -79,22 +79,22 @@ export const Navbar: React.FC = () => {
               )}
             </li> */}
             <li className="nav-item">
-              <NavLink to="/content">Content</NavLink>
+              <NavLink to="/category/Content">Content</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/digital">Digital</NavLink>
+              <NavLink to="/category/Digital">Digital</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/web">Web</NavLink>
+              <NavLink to="/category/Web">Web</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/advertise">Advertise</NavLink>
+              <NavLink to="/category/Advertise">Advertise</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/services">Services</NavLink>
+              <NavLink to="/category/Services">Services</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/guides">Guides</NavLink>
+              <NavLink to="/category/Guides">Guides</NavLink>
             </li>
           </ul>
 
