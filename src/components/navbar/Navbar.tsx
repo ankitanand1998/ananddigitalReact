@@ -73,7 +73,7 @@ export const Navbar: React.FC = () => {
                   <div className="w-100 w-lg-50 p-3 text-center bg-light">
                     <h3>Improve Your SEO</h3>
                     <p>Discover the latest SEO techniques to rank higher in search engines.</p>
-                    <img src="/assets/seo-banner.jpg" alt="SEO Banner" className="img-fluid rounded" />
+                    <img src="https://img.freepik.com/free-vector/seo-concept-illustration_24908-61531.jpg?t=st=1742970432~exp=1742974032~hmac=734fa646a613552f0f95e72865eb47f906aad9ab7ca4e4fad975b9dbe57886ad&w=1060" alt="best SEO Services Agency" className="img-fluid rounded" />
                   </div>
                 </div>
               )}
