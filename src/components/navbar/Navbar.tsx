@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
               <NavLink to="/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/category/Content">Latest</NavLink>
+              <NavLink to="/category/Latest">Latest</NavLink>
             </li>
             <li
               className="nav-item position-relative"
