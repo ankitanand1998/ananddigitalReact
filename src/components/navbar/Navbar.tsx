@@ -8,7 +8,7 @@ import { ThemeToggle } from "./ThemeToggle";
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  // const [isSeoPopupOpen, setIsSeoPopupOpen] = useState(false);
+  const [isSeoPopupOpen, setIsSeoPopupOpen] = useState(false); // Fixed: Re-added this state
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
               onMouseLeave={() => setIsSeoPopupOpen(false)}
             >
               <NavLink to="#">SEO</NavLink>
-{/*               {isSeoPopupOpen && (
+              {isSeoPopupOpen && (
                 <div className={`w-100 vh-90 bg-white shadow-lg p-4 d-flex flex-column flex-lg-row z-index-1000 overflow-auto ${isMobileMenuOpen ? 'position-static' : 'position-fixed top-15 start-0'}`}>
                   {/* Left Side Menu */}
                   <div className="w-100 w-lg-50 p-3">
@@ -77,9 +77,6 @@ export const Navbar: React.FC = () => {
                   </div>
                 </div>
               )}
-            </li> */}
-            <li className="nav-item">
-              <NavLink to="/category/Content">Content</NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/category/Digital">Digital</NavLink>
