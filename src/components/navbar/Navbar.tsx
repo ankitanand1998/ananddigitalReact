@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
                 <div className={`w-100 vh-90 bg-white shadow-lg p-4 d-flex flex-column flex-lg-row z-index-1000 overflow-auto ${isMobileMenuOpen ? 'position-static' : 'position-fixed top-15 start-0'}`}>
                   {/* Left Side Menu */}
                   <div className="w-100 w-lg-50 p-3">
-                    <h4>SEO Categories</h4>
+                    <h3>SEO Categories</h3>
                     <ul className="list-unstyled">
                       <li><NavLink to="/category/Onpage SEO">On-Page SEO</NavLink></li>
                       <li><NavLink to="/category/Offpage SEO">Off-Page SEO</NavLink></li>
@@ -72,7 +72,7 @@ export const Navbar: React.FC = () => {
                   {/* Right Side Banner */}
                   <div className="w-100 w-lg-50 p-3 text-center bg-light">
                     <h3>Improve Your SEO</h3>
-                    <p>Discover the latest SEO techniques to rank higher in search engines.</p>
+                    <p>Boost Your Online Presence with Top-Notch SEO Services! .</p>
                    <img src="https://img.freepik.com/free-vector/seo-concept-illustration_24908-61531.jpg?t=st=1742970432~exp=1742974032~hmac=734fa646a613552f0f95e72865eb47f906aad9ab7ca4e4fad975b9dbe57886ad" 
      alt="best SEO Services Agency" 
      className="img-fluid rounded" 
