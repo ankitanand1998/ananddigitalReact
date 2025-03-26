@@ -76,7 +76,7 @@ export const Navbar: React.FC = () => {
                    <img src="https://img.freepik.com/free-vector/seo-concept-illustration_24908-61531.jpg?t=st=1742970432~exp=1742974032~hmac=734fa646a613552f0f95e72865eb47f906aad9ab7ca4e4fad975b9dbe57886ad" 
      alt="best SEO Services Agency" 
      className="img-fluid rounded" 
-     style={{ height: "300px", width: "500px" }} />
+     style={{ height: "200px", width: "400px" }} />
 
                    
                   </div>
