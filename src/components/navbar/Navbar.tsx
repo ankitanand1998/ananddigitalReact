@@ -71,8 +71,8 @@ export const Navbar: React.FC = () => {
 
                   {/* Right Side Banner */}
                   <div className="w-100 w-lg-50 p-3 text-center bg-light">
-                    <h3>Improve Your SEO</h3>
-                    <p>Boost Your Online Presence with Top-Notch SEO Services! .</p>
+                    <h3>Boost Your Online Presence with Top-Notch SEO Services!</h3>
+                    <p>Maximize your visibility and drive more traffic with our expert SEO services. Get higher rankings, more leads, and better results today!</p>
                    <img src="https://img.freepik.com/free-vector/seo-concept-illustration_24908-61531.jpg?t=st=1742970432~exp=1742974032~hmac=734fa646a613552f0f95e72865eb47f906aad9ab7ca4e4fad975b9dbe57886ad" 
      alt="best SEO Services Agency" 
      className="img-fluid rounded" 
