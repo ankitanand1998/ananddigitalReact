@@ -8,7 +8,7 @@ import { HomePage } from './pages/HomePage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { AboutPage } from './pages/AboutPage';
 import { Sitemap } from "./pages/Sitemap";
-import CategoryPage from "./pages/CategoryPage";
+import {CategoryPage} from "./pages/CategoryPage";
 
 
 function App() {
