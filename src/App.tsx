@@ -3,10 +3,12 @@ import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { Navbar } from "./components/navbar/Navbar";
 import { HomePage } from './pages/HomePage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { AboutPage } from './pages/AboutPage';
 import { Sitemap } from "./pages/Sitemap";
+import CategoryPage from "./pages/CategoryPage";
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/:url" element={<BlogDetailPage />} />
             <Route path="/sitemap.xml" element={<Sitemap />} />
+            <Route path="/category/:categoryName" element={<CategoryPage />} />
            
           </Routes>
         </Layout>
