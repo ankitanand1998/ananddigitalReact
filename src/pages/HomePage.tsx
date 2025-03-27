@@ -94,13 +94,13 @@ export const HomePage: React.FC = () => {
 
 
       <HeroSlider />
-      <main className="container-fluid py-4">
+      <main className="container py-4">
         <div className="row g-4">
           <div className="col-12">
             <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
           
            
-    <div className="container-fluid mt-5">
+    <div className="container mt-5">
       <div className="row justify-content-left">
        
         <div className="col-md-10 d-inline">
