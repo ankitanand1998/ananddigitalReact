@@ -45,6 +45,15 @@ export const HomePage: React.FC = () => {
     );
   }
 
+  const services = [
+    { icon: "fas fa-search", text: "SEO Services – Keyword research, on-page & off-page SEO, and technical optimization.", borderColor: "#007bff" },
+    { icon: "fas fa-bullhorn", text: "Digital Marketing – Targeted strategies to boost brand visibility and online reach.", borderColor: "#28a745" },
+    { icon: "fas fa-envelope", text: "Email Marketing – High-converting email campaigns to nurture and engage customers.", borderColor: "#ff5733" },
+    { icon: "fas fa-chart-line", text: "Data & Analytics – Actionable insights to improve website performance and marketing ROI.", borderColor: "#9b59b6" },
+    { icon: "fas fa-code", text: "Website Development – SEO-friendly websites that enhance user experience and ranking.", borderColor: "#17a2b8" },
+  ];
+
+
   return (
     <>
       <SEO 
@@ -94,17 +103,27 @@ export const HomePage: React.FC = () => {
  Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.
  At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions.</p> 
  <h2 className="px-3">Our Best Services include:</h2>
-<ul className="px-3">
- <li>SEO Services –Keyword research, on-page & off-page SEO, and technical optimization.</li>
-  <li>Digital Marketing – Targeted strategies to boost brand visibility and online reach. </li>
- <li> Email Marketing – High-converting email campaigns to nurture and engage customers. </li>
- <li>Data & Analytics –Actionable insights to improve website performance and marketing ROI  Website</li> 
- <li>Development – SEO-friendly websites that enhance user experience and ranking.</li>
-</ul>
+      <div className="container mt-5">
+      <div className="row justify-content-center">
+        <div className="col-md-6">
+          <div className="services-card">
+            <h4 className="text-center mb-4">Our Services</h4>
+            {services.map((service, index) => (
+              <div key={index} className="service-item" style={{ borderLeftColor: service.borderColor }}>
+                <i className={service.icon}></i> {service.text}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
 <p className="px-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
  Start exploring now and let us help you skyrocket your SEO success!</p> 
 <h2 className="px-3">Check Out Our Latest Blogs</h2>
  </div>
+          
           {posts.map((post) => (
             <BlogCard key={post.id} post={post} />
           ))}
