@@ -94,17 +94,7 @@ export const HomePage: React.FC = () => {
  Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" classNameName="custom-link">writing engaging content</a> that attracts both readers and search engines.
  At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions.</p> 
   
-        <div className="our_services">
-            <div className="services-card">
-                <h4 className="text-center mb-4">Our Services</h4>
-                <div className="service-item"><i className="fas fa-search"></i>SEO Services – Keyword research, on-page & off-page SEO, and technical optimization.</div>
-                <div className="service-item"><i className="fas fa-bullhorn"></i>Digital Marketing – Targeted strategies to boost brand visibility and online reach.</div>
-                <div className="service-item"><i className="fas fa-envelope"></i>Email Marketing – High-converting email campaigns to nurture and engage customers.</div>
-                <div className="service-item"><i className="fas fa-chart-line"></i>Data & Analytics – Actionable insights to improve website performance and marketing ROI.</div>
-                <div className="service-item"><i className="fas fa-code"></i>Website Development – SEO-friendly websites that enhance user experience and ranking.</div>
-            </div>
-        </div>
-    
+      
 
 <p classNameName="px-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
  Start exploring now and let us help you skyrocket your SEO success!</p> 
