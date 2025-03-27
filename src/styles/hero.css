@@ -44,7 +44,7 @@
 }
 
 
-.our_services.services-card {
+.our_services .services-card {
             position: relative;
             background: #fff;
             border-radius: 12px;
@@ -53,12 +53,12 @@
             padding: 25px;
             transition: transform 0.3s ease-in-out;
         }
-        .services-card:hover {
+      .our_services .services-card:hover {
             transform: translateY(-5px);
         }
         
         /* Gradient Border for Main Card */
-        .services-card::before {
+       .our_services .services-card::before {
             content: "";
             position: absolute;
             top: -3px;
@@ -69,7 +69,7 @@
             z-index: -1;
             border-radius: 15px;
         }
-        .services-card::after {
+       .our_services .services-card::after {
             content: "";
             position: absolute;
             top: 0;
@@ -83,7 +83,7 @@
         }
 
         /* Individual Service Items */
-        .service-item {
+       .our_services .service-item {
             display: flex;
             align-items: center;
             padding: 12px;
@@ -96,21 +96,21 @@
         }
 
         /* Alternating Border Colors */
-        .service-item:nth-child(1) { border-color: #007bff; } /* Blue */
-        .service-item:nth-child(2) { border-color: #28a745; } /* Green */
-        .service-item:nth-child(3) { border-color: #ff5733; } /* Orange */
-        .service-item:nth-child(4) { border-color: #9b59b6; } /* Purple */
-        .service-item:nth-child(5) { border-color: #17a2b8; } /* Teal */
+       .our_services .service-item:nth-child(1) { border-color: #007bff; } /* Blue */
+       .our_services .service-item:nth-child(2) { border-color: #28a745; } /* Green */
+       .our_services .service-item:nth-child(3) { border-color: #ff5733; } /* Orange */
+       .our_services .service-item:nth-child(4) { border-color: #9b59b6; } /* Purple */
+      .our_services .service-item:nth-child(5) { border-color: #17a2b8; } /* Teal */
 
         /* Icon Styling */
-        .service-item i {
+       .our_services .service-item i {
             font-size: 22px;
             margin-right: 15px;
             color: inherit;
         }
 
         /* Hover Effect */
-        .service-item:hover {
+       .our_services .service-item:hover {
             transform: scale(1.03);
             background-color: rgba(0, 0, 0, 0.05);
         }
