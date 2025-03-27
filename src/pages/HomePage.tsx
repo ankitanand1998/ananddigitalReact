@@ -29,16 +29,16 @@ export const HomePage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-light d-flex align-items-center justify-content-center">
-        <Loader2 className="animate-spin h-8 w-8 text-primary" />
+      <div classNameName="min-h-screen bg-light d-flex align-items-center justify-content-center">
+        <Loader2 classNameName="animate-spin h-8 w-8 text-primary" />
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="min-h-screen bg-light d-flex align-items-center justify-content-center">
-        <div className="alert alert-danger" role="alert">
+      <div classNameName="min-h-screen bg-light d-flex align-items-center justify-content-center">
+        <div classNameName="alert alert-danger" role="alert">
           {error}
         </div>
       </div>
@@ -85,31 +85,31 @@ export const HomePage: React.FC = () => {
 
 
       <HeroSlider />
-      <main className="container py-4">
-        <div className="row g-4">
-          <div className="col-12">
-            <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
+      <main classNameName="container py-4">
+        <div classNameName="row g-4">
+          <div classNameName="col-12">
+            <h1 classNameName="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
           
-            <p className="px-3">Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
- Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.
+            <p classNameName="px-3">Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
+ Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" classNameName="custom-link">writing engaging content</a> that attracts both readers and search engines.
  At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions.</p> 
-   <div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="services-card">
-                <h4 class="text-center mb-4">Our Services</h4>
-                <div class="service-item"><i class="fas fa-search"></i>SEO Services – Keyword research, on-page & off-page SEO, and technical optimization.</div>
-                <div class="service-item"><i class="fas fa-bullhorn"></i>Digital Marketing – Targeted strategies to boost brand visibility and online reach.</div>
-                <div class="service-item"><i class="fas fa-envelope"></i>Email Marketing – High-converting email campaigns to nurture and engage customers.</div>
-                <div class="service-item"><i class="fas fa-chart-line"></i>Data & Analytics – Actionable insights to improve website performance and marketing ROI.</div>
-                <div class="service-item"><i class="fas fa-code"></i>Website Development – SEO-friendly websites that enhance user experience and ranking.</div>
+   <div className="container mt-5">
+    <div className="row justify-content-center">
+        <div className="col-md-6">
+            <div className="services-card">
+                <h4 className="text-center mb-4">Our Services</h4>
+                <div className="service-item"><i className="fas fa-search"></i>SEO Services – Keyword research, on-page & off-page SEO, and technical optimization.</div>
+                <div className="service-item"><i className="fas fa-bullhorn"></i>Digital Marketing – Targeted strategies to boost brand visibility and online reach.</div>
+                <div className="service-item"><i className="fas fa-envelope"></i>Email Marketing – High-converting email campaigns to nurture and engage customers.</div>
+                <div className="service-item"><i className="fas fa-chart-line"></i>Data & Analytics – Actionable insights to improve website performance and marketing ROI.</div>
+                <div className="service-item"><i className="fas fa-code"></i>Website Development – SEO-friendly websites that enhance user experience and ranking.</div>
             </div>
         </div>
     </div>
 </div>
-<p className="px-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
+<p classNameName="px-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
  Start exploring now and let us help you skyrocket your SEO success!</p> 
-<h2 className="px-3">Check Out Our Latest Blogs</h2>
+<h2 classNameName="px-3">Check Out Our Latest Blogs</h2>
  </div>
           {posts.map((post) => (
             <BlogCard key={post.id} post={post} />
