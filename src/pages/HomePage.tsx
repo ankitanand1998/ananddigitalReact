@@ -114,11 +114,14 @@ export const HomePage: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-      <p className="px-3 mt-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
+
+  <p className="px-3 mt-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
  Start exploring now and let us help you skyrocket your SEO success!</p> 
 <h2 className="px-3">Check Out Our Latest Blogs</h2>
+          
+        </div>
+      </div>
+   
     </div>
  </div>
           
