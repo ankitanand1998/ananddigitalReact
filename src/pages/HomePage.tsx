@@ -101,7 +101,7 @@ export const HomePage: React.FC = () => {
           
            
     <div className="container mt-5">
-      <div className="row justify-content-center">
+      <div className="row justify-content-left">
        
         <div className="col-md-10">
            <p className="px-3">Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
