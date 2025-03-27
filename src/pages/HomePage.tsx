@@ -53,7 +53,6 @@ export const HomePage: React.FC = () => {
     { icon: "fas fa-code", text: "Website Development – SEO-friendly websites that enhance user experience and ranking.", borderColor: "#17a2b8" },
   ];
 
-
   return (
     <>
       <SEO 
@@ -92,44 +91,26 @@ export const HomePage: React.FC = () => {
         `}
       </script>
 
-
       <HeroSlider />
       <main className="container py-4">
-        <div className="row g-4">
-          <div className="col-12">
-            <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
-          
-           
-    <div className="container mt-5">
-      <div className="row justify-content-center">
-       
-        <div className="col-md-6">
-           <p className="px-3">Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.
- Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.
- At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions.</p> 
-          <div className="services-card">
-            <h4 className="text-center mb-4">Our Best Services</h4>
-            {services.map((service, index) => (
-              <div key={index} className="service-item" style={{ borderLeftColor: service.borderColor }}>
-                <i className={service.icon}></i> {service.text}
-              </div>
-            ))}
+        <h1 className="display-3 mb-4">Boost Your SEO Success – Drive More Traffic with Our Expert Services!</h1>
+        <p>Welcome to Anand Digital Blog, your go-to resource for SEO, digital marketing, and website optimization. Whether you're looking to rank higher on Google, grow organic traffic, or enhance your online presence, we provide expert insights and professional services to help you succeed.</p>
+        <p>Explore our in-depth blogs packed with proven SEO strategies, content marketing techniques, and website development tips to keep you ahead of the competition. Learn how to create high-impact blogs with our step-by-step guide on <a href="https://ananddigitalblog.vercel.app/how-to-start-your-personal-blog" className="custom-link">writing engaging content</a> that attracts both readers and search engines.</p>
+        <p>At Anand Digital Blog, we don’t just share knowledge—we offer expert services to help businesses dominate search rankings and drive conversions.</p>
+        
+        <h4 className="text-center mb-4">Our Best Services</h4>
+        {services.map((service, index) => (
+          <div key={index} className="service-item" style={{ borderLeftColor: service.borderColor }}>
+            <i className={service.icon}></i> {service.text}
           </div>
+        ))}
 
-  <p className="px-3 mt-3">Stay updated with cutting-edge SEO and digital marketing strategies  that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively
- Start exploring now and let us help you skyrocket your SEO success!</p> 
-<h2 className="px-3">Check Out Our Latest Blogs</h2>
-          
-        </div>
-      </div>
-   
-    </div>
- </div>
-          
-          {posts.map((post) => (
-            <BlogCard key={post.id} post={post} />
-          ))}
-        </div>
+        <p>Stay updated with cutting-edge SEO and digital marketing strategies that help businesses achieve online success. Whether you're a blogger, entrepreneur, or business owner, our blogs and services provide everything you need to grow your online presence effectively.</p>
+        <h2>Check Out Our Latest Blogs</h2>
+        
+        {posts.map((post) => (
+          <BlogCard key={post.id} post={post} />
+        ))}
       </main>
     </>
   );
