@@ -6,6 +6,6 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "routes": [
-    { "src": "/sitemap.xml", "dest": "/public/sitemap.xml" }
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" }
  ]
 }
