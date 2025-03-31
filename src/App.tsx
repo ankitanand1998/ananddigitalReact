@@ -8,6 +8,7 @@ import { HomePage } from './pages/HomePage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { AboutPage } from './pages/AboutPage';
 import { Sitemap } from "./pages/Sitemap";
+import { RobotsTxt } from "./pages/RobotsTxt";
 import {CategoryPage} from "./pages/CategoryPage";
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/:url" element={<BlogDetailPage />} />
             <Route path="/sitemap.xml" element={<Sitemap />} />
+            <Route path="/robots.txt" element={<RobotsTxt />} />
             <Route path="/category/:categoryName" element={<CategoryPage />} />
            
           </Routes>
