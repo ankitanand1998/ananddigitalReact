@@ -12,6 +12,7 @@ import { RobotsTxt } from "./pages/RobotsTxt";
 import {CategoryPage} from "./pages/CategoryPage";
 
 
+
 function App() {
   return (
     <HelmetProvider>
