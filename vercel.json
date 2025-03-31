@@ -4,5 +4,8 @@
     { "source": "/api/(.*)", "destination": "/api/index.js" },
     { "source": "/static/(.*)", "destination": "/static/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  ],
+  "routes": [
+    { "src": "/sitemap.xml", "dest": "/public/sitemap.xml" }
+ ]
 }
