@@ -1,5 +1,4 @@
 import React from "react";
-
 export const RobotsTxt: React.FC = () => {
   const disallowPaths = ["/admin/", "/login/", "/register/", "/search"];
   const allowedPaths = [
