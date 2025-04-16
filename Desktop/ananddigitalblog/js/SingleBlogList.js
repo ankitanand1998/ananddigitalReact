@@ -21,7 +21,8 @@ async function fetchBlogData() {
         <div class="blog-content-wrapper">
           <button class="blog-topic text-tiny">${item.category}</button>
           <h3>
-            <a href="#" class="h3" onclick="redirectToSinglePost('${item.filename}')">${item.heading}</a>
+           
+          <a href="'singlepost.html?filename=${item.filename}'" class="h3" onclick="redirectToSinglePost('${item.filename}')">${item.heading}</a>
           </h3>
           <p class="blog-text">${item.description}</p>
           <div class="wrapper-flex">
@@ -54,6 +55,8 @@ async function fetchBlogData() {
 // Function to redirect to singlepost.html with filename as part of the URL
 function redirectToSinglePost(filename) {
   // Redirect to singlepost.html with the filename as a query parameter
+
+  
   window.location.href = `singlepost.html?filename=${encodeURIComponent(filename)}`;
 }
 // Call the function to fetch and display blog data

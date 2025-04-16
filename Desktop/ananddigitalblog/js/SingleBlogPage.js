@@ -1,3 +1,5 @@
+
+
 // Function to get URL parameters
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -57,5 +59,5 @@ async function fetchSpecificBlogPost() {
     }
 }
 
-// Call the function to fetch and log the blog data
+// Call the function to fetch and display the blog data
 fetchSpecificBlogPost();
