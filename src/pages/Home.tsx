@@ -34,7 +34,7 @@ const Home = () => {
   const heroSlides = [
 
     {
-      title: 'Get found. Get featured. Get results—with Anand Digital PR’s proven digital and media strategies',
+      title: 'Get found. Get featured. Get results',
       description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
 
       image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1920&h=600&fit=crop",
@@ -48,17 +48,12 @@ const Home = () => {
     },
 
     {
-      title: 'Your one-stop solution for growth: SEO, Social Media, PPC, Content, and Public Relations',
+      title: 'All-in-one growth: SEO, Social Media, PPC, Content & PR',
       description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
     },
 
-    {
-      title: 'We don’t just market—we build reputations, drive engagement, and deliver measurable results',
-      description: "Elevate your brand's presence with our innovative PR strategies",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
-    },
-
+   
     {
       title: "Data-Driven Campaigns",
       description: "Maximize your impact with our analytics-backed approach",
@@ -69,6 +64,12 @@ const Home = () => {
       description: "Connect with influential media partners worldwide",
       image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2940&auto=format&fit=crop",
     },
+
+    {
+      title: 'We don’t just market—We build reputations, boost engagement, and deliver results.',
+      description: "Elevate your brand's presence with our innovative PR strategies",
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+    }
   ];
 
   const services = [
@@ -233,17 +234,10 @@ const Home = () => {
           >
             <h2 className="text-4xl font-bold mb-6">About Us</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We are a leading digital Marketing and PR agency specializing in creating impactful strategies
-              that elevate brands and drive meaningful connections with target audiences.
-              we redefine your brand success in the digital realm. As a dynamic digital and PR agency, we specialize in <strong>SEO</strong>, <strong>digital marketing</strong>, <strong>website optimization</strong>, and <strong>public relations</strong>, crafting bespoke strategies that elevate businesses to new heights. Whether you’re a budding startup or a seasoned brand, our mission is to amplify your online presence, conquer search rankings, and turn visitors into devoted customers.<br />
-              Our <strong>SEO expertise</strong> is your ticket to Google’s spotlight. We dive into meticulous keyword analysis, fine-tune on-page elements, and strengthen technical foundations to skyrocket organic traffic. By securing authoritative backlinks and optimizing site performance, we ensure your brand stands out, drawing in the right audience with precision and boosting your credibility in a crowded digital space.<br />
-              In <strong>digital marketing</strong>, we create campaigns that spark connection. Our strategies blend compelling content creation, vibrant social media engagement, and laser-focused pay-per-click (PPC) advertising. Every move is backed by data, designed to captivate your audience and deliver exceptional ROI. We weave narratives that echo your brand’s essence, transforming casual browsers into loyal advocates who champion your vision.<br />
-              As a <strong>PR powerhouse</strong>, we sculpt your brand’s story to resonate far and wide. From landing high-profile media features to navigating crisis communications, we build trust and authority. Our team leverages press releases, influencer partnerships, and thought leadership pieces to position you as an industry trailblazer, ensuring your message cuts through the noise and reaches the right ears at the right time.<br />
-              Our <strong>website optimization</strong> services turn your digital platform into a performance juggernaut. We prioritize intuitive user experiences, mobile responsiveness, and conversion rate optimization (CRO) to keep visitors hooked. Whether it’s a modern redesign, faster load times, or streamlined navigation, we engineer websites that not only impress but also drive tangible results, making every click count toward your goals.<br />
-
+            We are a leading Digital Marketing & PR agency specializing in SEO, website optimization, and impactful strategies that elevate brands. Our data-driven campaigns combine content, social media, and PPC to boost engagement and ROI. We craft compelling PR narratives that build trust and authority across media platforms. From SEO to web performance, we turn clicks into loyal customers and drive real growth.
             </p>
             <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
-              Learn More <ArrowRight size={20} />
+              Know More <ArrowRight size={20} />
             </button>
           </motion.div>
         </div>
