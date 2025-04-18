@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -47,6 +48,34 @@ const Contact = () => {
 
   return (
     <div className="pt-16">
+      <Helmet>
+  <title>Contact Us | Talk to Our Digital Marketing & PR Experts | Anand Digital PR</title>
+  <meta 
+    name="description" 
+    content="Ready to elevate your brand? Get in touch with Anand Digital PR for expert digital marketing and public relations services. We're here to grow your brand, online presence, and reputation." 
+  />
+  <link rel="canonical" href="https://www.ananddigitalpr.com/contact" />
+  <meta name="robots" content="index, follow" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Contact Us | Talk to Our Digital Marketing & PR Experts" />
+  <meta 
+    property="og:description" 
+    content="Reach out to Anand Digital PR – your trusted partner for SEO, PR, and digital growth. Let’s discuss how we can take your brand to the next level." 
+  />
+  <meta property="og:url" content="https://www.ananddigitalpr.com/contact" />
+  <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact Anand Digital PR | Let’s Build Your Brand Together" />
+  <meta 
+    name="twitter:description" 
+    content="Contact Anand Digital PR to explore tailored PR and digital marketing solutions for your business. We’re just a message away!" 
+  />
+  <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
+</Helmet>
+
       {/* Hero Section */}
       <section className="relative h-[40vh] bg-gradient-to-r from-indigo-600 to-purple-600">
         <motion.div
