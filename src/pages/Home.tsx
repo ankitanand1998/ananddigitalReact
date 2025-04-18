@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Helmet } from 'react-helmet';
 import {
   ArrowRight,
   CheckCircle2,
@@ -168,6 +169,30 @@ const Home = () => {
 
   return (
     <div className="overflow-hidden">
+     <Helmet>
+        {/* Title and Description */}
+        <title>Best Digital Marketing and PR Agency in Delhi | Anand Digital PR</title>
+        <meta name="description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
+        <meta name="keywords" content="Digital Marketing Agency in Delhi, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ananddigitalpr.com" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.ananddigitalpr.com" />
+        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi" />
+        <meta property="og:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
+        <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.ananddigitalpr.com" />
+        <meta name="twitter:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi" />
+        <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
+        <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
+      </Helmet>
+
+
       {/* Hero Section */}
       <section className="relative h-screen">
         <Swiper
