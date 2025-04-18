@@ -295,41 +295,57 @@ const Home = () => {
 
       {/* Work Approach */}
       <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Approach</h2>
-            <p className="text-xl text-gray-600">How we deliver exceptional results</p>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold mb-6">Our Approach</h2>
+      <p className="text-xl text-gray-600">How we deliver exceptional results</p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {[
+        {
+          title: 'Research',
+          points: ['Data Analysis', 'Insights Gathering'],
+        },
+        {
+          title: 'Strategy',
+          points: ['Goal Setting', 'Channel Planning'],
+        },
+        {
+          title: 'Execute',
+          points: ['Campaign Launch', 'Creative Delivery'],
+        },
+        {
+          title: 'Measure',
+          points: ['Performance Tracking', 'Continuous Improvement'],
+        },
+      ].map((step, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ delay: index * 0.2 }}
+          className="flex items-start gap-4"
+        >
+          <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xl font-bold">
+            {index + 1}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {['Research', 'Strategy', 'Execute', 'Measure'].map((step, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className="flex items-center gap-4"
-              >
-                <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center text-xl font-bold">
-                  {index + 1}
+          <div>
+            <h3 className="text-xl font-semibold">{step.title}</h3>
+            <div className="mt-2 space-y-2">
+              {step.points.map((point, i) => (
+                <div key={i} className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-green-500" />
+                  <span className="text-gray-600">{point}</span>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold">{step}</h3>
-                  <div className="mt-2 space-y-2">
-                    <div className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-500" />
-                      <span className="text-gray-600">Data Analysis</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-500" />
-                      <span className="text-gray-600">Implementation</span>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Testimonials */}
       <section className="py-24 bg-gray-50">
