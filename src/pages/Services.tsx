@@ -2,13 +2,20 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import {
-  Users,
-  TrendingUp,
   MessageSquare,
   Globe,
+  Users,
+  Rocket,
   Shield,
+  Monitor,
+  TrendingUp,
+  Mail,
+  Code,
+  ShieldCheck,
+  PenTool,
   BarChart,
   Share2,
+  ClipboardList,
   Target,
 } from 'lucide-react';
 
@@ -19,47 +26,89 @@ const Services = () => {
   });
 
   const services = [
-    {
-      icon: <Users className="w-12 h-12" />,
-      title: 'Media Relations',
-      description: 'Build and maintain relationships with key media outlets and journalists.',
-    },
-    {
-      icon: <TrendingUp className="w-12 h-12" />,
-      title: 'Digital Strategy',
-      description: 'Data-driven strategies to enhance your online presence and reach.',
-    },
-    {
-      icon: <MessageSquare className="w-12 h-12" />,
-      title: 'Crisis Management',
-      description: 'Expert handling of sensitive situations and reputation management.',
-    },
-    {
-      icon: <Globe className="w-12 h-12" />,
-      title: 'Global Outreach',
-      description: 'Connect with audiences worldwide through strategic communications.',
-    },
-    {
-      icon: <Shield className="w-12 h-12" />,
-      title: 'Brand Protection',
-      description: 'Safeguard your brand reputation in the digital landscape.',
-    },
-    {
-      icon: <BarChart className="w-12 h-12" />,
-      title: 'Analytics & Reporting',
-      description: 'Comprehensive analysis and insights for data-driven decisions.',
-    },
-    {
-      icon: <Share2 className="w-12 h-12" />,
-      title: 'Social Media PR',
-      description: 'Strategic social media management for brand enhancement.',
-    },
-    {
-      icon: <Target className="w-12 h-12" />,
-      title: 'Campaign Planning',
-      description: 'Targeted campaigns that deliver measurable results.',
-    },
-  ];
+      // Public Relations
+      {
+        icon: <Users className="w-12 h-12" />,
+        title: 'Media Relations',
+        description: 'Build and maintain relationships with key media outlets and journalists.',
+      },
+     
+      {
+        icon: <MessageSquare className="w-12 h-12" />,
+        title: 'Crisis Management',
+        description: 'Expert handling of sensitive situations and reputation management.',
+      },
+      {
+        icon: <Globe className="w-12 h-12" />,
+        title: 'Global Outreach',
+        description: 'Connect with audiences worldwide through strategic communications.',
+      },
+      {
+        icon: <Shield className="w-12 h-12" />,
+        title: 'Brand Protection',
+        description: 'Safeguard your brand reputation in the digital landscape.',
+      },
+     
+      {
+        icon: <Share2 className="w-12 h-12" />,
+        title: 'Social Media PR',
+        description: 'Strategic social media management for brand enhancement.',
+      },
+      {
+        icon: <Target className="w-12 h-12" />,
+        title: 'Campaign Planning',
+        description: 'Targeted campaigns that deliver measurable results.',
+      },
+  
+      // Digital Marketing
+      {
+        icon: <Rocket className="w-12 h-12 text-indigo-600" />,
+        title: "Digital Strategy",
+        description: "Comprehensive digital strategies to enhance your online presence",
+      },
+      {
+        icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
+        title: "SEO Optimization",
+        description: "Improve your search rankings with smart SEO techniques",
+      },
+      {
+        icon: <Mail className="w-12 h-12 text-indigo-600" />,
+        title: "Email Marketing",
+        description: "Engage your audience with well-crafted email campaigns",
+      },
+      {
+        icon: <BarChart className="w-12 h-12 text-indigo-600" />,
+        title: "Analytics & Reporting",
+        description: "Track and analyze data to optimize campaign performance",
+      },
+  
+      // Website Development
+      {
+        icon: <Monitor className="w-12 h-12 text-indigo-600" />,
+        title: "Responsive Web Design",
+        description: "Beautiful and functional websites for all devices",
+      },
+      {
+        icon: <Code className="w-12 h-12 text-indigo-600" />,
+        title: "Frontend Development",
+        description: "Interactive, fast-loading, and SEO-friendly interfaces",
+      },
+      {
+        icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
+        title: "Security & Hosting",
+        description: "Robust and secure hosting solutions for your website",
+      },
+      {
+        icon: <PenTool className="w-12 h-12 text-indigo-600" />,
+        title: "UI/UX Design",
+        description: "Create stunning, user-friendly designs tailored to your brand",
+      },
+      {
+        icon: <ClipboardList className="w-12 h-12 text-indigo-600" />,
+        title: "Website Maintenance",
+        description: "Ongoing support and updates to keep your site running smoothly",
+      },
+    ];
 
   return (
     <div className="pt-16">
