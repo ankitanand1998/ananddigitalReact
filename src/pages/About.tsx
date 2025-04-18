@@ -29,7 +29,7 @@ const About = () => {
       name: 'Vikram Mahto',
       role: 'Co-Founder',
       image: 'https://scontent.fdel5-3.fna.fbcdn.net/v/t39.30808-6/474912556_2288722418172041_8204393816926142506_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gq2I1XvHf2UQ7kNvwEKn5Pn&_nc_oc=AdnoCg6WKvs3L7aR5cY4ZXiI0ARsapNHrt21p8Xf-VEw9P3I9Di1h-hiv4wjSbPuWfo&_nc_zt=23&_nc_ht=scontent.fdel5-3.fna&_nc_gid=UtmcmAKIesItIgTJYAsQjg&oh=00_AfEOmxnFVWV4BddNN7Mv2W-lG_eI6k5yDePWdef6Lw6Dqg&oe=6808036D',
-      bio: 'Software Developer With 5',
+      bio: 'Software Developer With 5 years of experience',
     },
     {
       name: 'Emma Roberts',
