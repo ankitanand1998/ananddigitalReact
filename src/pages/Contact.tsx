@@ -26,17 +26,17 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      details: 'contact@ananddigital.com',
+      details: 'ankitanand1998find@gmail.com',
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      details: '+1 (555) 123-4567',
+      details: '+91 8340426515',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Address',
-      details: '123 Digital Avenue, Tech City, 12345',
+      details: 'Noida Setctor 62 , Noida , India',
     },
     {
       icon: <Clock className="w-6 h-6" />,
