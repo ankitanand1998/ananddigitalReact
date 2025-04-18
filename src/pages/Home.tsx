@@ -53,7 +53,7 @@ const Home = () => {
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
     },
 
-   
+
     {
       title: "Data-Driven Campaigns",
       description: "Maximize your impact with our analytics-backed approach",
@@ -234,7 +234,7 @@ const Home = () => {
           >
             <h2 className="text-4xl font-bold mb-6">About Us</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We are a leading Digital Marketing & PR agency specializing in SEO, website optimization, and impactful strategies that elevate brands. Our data-driven campaigns combine content, social media, and PPC to boost engagement and ROI. We craft compelling PR narratives that build trust and authority across media platforms. From SEO to web performance, we turn clicks into loyal customers and drive real growth.
+              We are a leading Digital Marketing & PR agency specializing in SEO, website optimization, and impactful strategies that elevate brands. Our data-driven campaigns combine content, social media, and PPC to boost engagement and ROI. We craft compelling PR narratives that build trust and authority across media platforms. From SEO to web performance, we turn clicks into loyal customers and drive real growth.
             </p>
             <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
               Know More <ArrowRight size={20} />
@@ -248,7 +248,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Our Services</h2>
-            <p className="text-xl text-gray-600">Comprehensive PR solutions for your success</p>
+            <p className="text-xl text-gray-600">Comprehensive PR & Digital solutions for your success</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
@@ -363,20 +363,10 @@ const Home = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>Media Relations</li>
-                <li>Digital Strategy</li>
-                <li>Crisis Management</li>
-                <li>Content Marketing</li>
-                <li>Press Release Distribution</li>
-                <li>Influencer Outreach</li>
-                <li>SEO Optimization</li>
-                <li>Email Marketing</li>
-                <li>Analytics & Reporting</li>
-                <li>Responsive Web Design</li>
-                <li>Frontend Development</li>
-                <li>Security & Hosting</li>
-                <li>UI/UX Design</li>
-                <li>Website Maintenance</li>
+                <li>Public Relations </li>
+                <li>Digital Marketing</li>
+                <li>SEO & Analytics</li>
+                <li>Website Design & Development</li>
 
               </ul>
             </div>
