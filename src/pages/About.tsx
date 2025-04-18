@@ -34,7 +34,7 @@ const About = () => {
     {
       name: 'Emma Roberts',
       role: 'Marketing Director',
-      image: 'https://static.vecteezy.com/system/resources/previews/005/131/823/non_2x/beautiful-confident-woman-portrait-in-studio-free-photo.jpg',
+      image: 'https://static.vecteezy.com/system/resources/thumbnails/038/962/461/small_2x/ai-generated-caucasian-successful-confident-young-businesswoman-ceo-boss-bank-employee-worker-manager-with-arms-crossed-in-formal-wear-isolated-in-white-background-photo.jpg',
       bio: 'Award-winning PR professional',
     },
   ];
