@@ -2,7 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { ArrowRight, CheckCircle2, Users, Rocket, Trophy } from 'lucide-react';
+import {
+  ArrowRight,
+  CheckCircle2,
+  Users,
+  Rocket,
+  Trophy,
+  Monitor,
+  TrendingUp,
+  Mail,
+  Code,
+  ShieldCheck,
+  PenTool,
+  BarChart,
+  Network,
+  ClipboardList,
+  Megaphone,
+} from 'lucide-react';
+
 import { useInView } from 'react-intersection-observer';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -15,11 +32,33 @@ const Home = () => {
   });
 
   const heroSlides = [
+
+    {
+      title: 'Get found. Get featured. Get results—with Anand Digital PR’s proven digital and media strategies',
+      description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
+
+      image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1920&h=600&fit=crop",
+    },
+
+
     {
       title: "Strategic Digital PR Solutions",
       description: "Elevate your brand's presence with our innovative PR strategies",
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
     },
+
+    {
+      title: 'Your one-stop solution for growth: SEO, Social Media, PPC, Content, and Public Relations',
+      description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+    },
+
+    {
+      title: 'We don’t just market—we build reputations, drive engagement, and deliver measurable results',
+      description: "Elevate your brand's presence with our innovative PR strategies",
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+    },
+
     {
       title: "Data-Driven Campaigns",
       description: "Maximize your impact with our analytics-backed approach",
@@ -33,20 +72,75 @@ const Home = () => {
   ];
 
   const services = [
+    // Public Relations
     {
       icon: <Users className="w-12 h-12 text-indigo-600" />,
       title: "Media Relations",
       description: "Build strong relationships with key media outlets and journalists",
     },
     {
+      icon: <Trophy className="w-12 h-12 text-indigo-600" />,
+      title: "Crisis Management",
+      description: "Expert handling of sensitive situations and reputation management",
+    },
+    {
+      icon: <Megaphone className="w-12 h-12 text-indigo-600" />,
+      title: "Press Release Distribution",
+      description: "Get your story out with impactful and timely press releases",
+    },
+    {
+      icon: <Network className="w-12 h-12 text-indigo-600" />,
+      title: "Influencer Outreach",
+      description: "Connect with influencers to expand your brand's reach",
+    },
+
+    // Digital Marketing
+    {
       icon: <Rocket className="w-12 h-12 text-indigo-600" />,
       title: "Digital Strategy",
       description: "Comprehensive digital strategies to enhance your online presence",
     },
     {
-      icon: <Trophy className="w-12 h-12 text-indigo-600" />,
-      title: "Crisis Management",
-      description: "Expert handling of sensitive situations and reputation management",
+      icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
+      title: "SEO Optimization",
+      description: "Improve your search rankings with smart SEO techniques",
+    },
+    {
+      icon: <Mail className="w-12 h-12 text-indigo-600" />,
+      title: "Email Marketing",
+      description: "Engage your audience with well-crafted email campaigns",
+    },
+    {
+      icon: <BarChart className="w-12 h-12 text-indigo-600" />,
+      title: "Analytics & Reporting",
+      description: "Track and analyze data to optimize campaign performance",
+    },
+
+    // Website Development
+    {
+      icon: <Monitor className="w-12 h-12 text-indigo-600" />,
+      title: "Responsive Web Design",
+      description: "Beautiful and functional websites for all devices",
+    },
+    {
+      icon: <Code className="w-12 h-12 text-indigo-600" />,
+      title: "Frontend Development",
+      description: "Interactive, fast-loading, and SEO-friendly interfaces",
+    },
+    {
+      icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
+      title: "Security & Hosting",
+      description: "Robust and secure hosting solutions for your website",
+    },
+    {
+      icon: <PenTool className="w-12 h-12 text-indigo-600" />,
+      title: "UI/UX Design",
+      description: "Create stunning, user-friendly designs tailored to your brand",
+    },
+    {
+      icon: <ClipboardList className="w-12 h-12 text-indigo-600" />,
+      title: "Website Maintenance",
+      description: "Ongoing support and updates to keep your site running smoothly",
     },
   ];
 
@@ -54,7 +148,7 @@ const Home = () => {
     {
       name: "Sarah Johnson",
       role: "CEO, TechStart",
-      content: "Working with AnandDigital transformed our brand's visibility in the market.",
+      content: "Working with Anand Digital PR transformed our brand's visibility in the market.",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2940&auto=format&fit=crop",
     },
     {
@@ -139,8 +233,14 @@ const Home = () => {
           >
             <h2 className="text-4xl font-bold mb-6">About Us</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We are a leading digital PR agency specializing in creating impactful strategies
+              We are a leading digital Marketing and PR agency specializing in creating impactful strategies
               that elevate brands and drive meaningful connections with target audiences.
+              we redefine your brand success in the digital realm. As a dynamic digital and PR agency, we specialize in <strong>SEO</strong>, <strong>digital marketing</strong>, <strong>website optimization</strong>, and <strong>public relations</strong>, crafting bespoke strategies that elevate businesses to new heights. Whether you’re a budding startup or a seasoned brand, our mission is to amplify your online presence, conquer search rankings, and turn visitors into devoted customers.<br />
+              Our <strong>SEO expertise</strong> is your ticket to Google’s spotlight. We dive into meticulous keyword analysis, fine-tune on-page elements, and strengthen technical foundations to skyrocket organic traffic. By securing authoritative backlinks and optimizing site performance, we ensure your brand stands out, drawing in the right audience with precision and boosting your credibility in a crowded digital space.<br />
+              In <strong>digital marketing</strong>, we create campaigns that spark connection. Our strategies blend compelling content creation, vibrant social media engagement, and laser-focused pay-per-click (PPC) advertising. Every move is backed by data, designed to captivate your audience and deliver exceptional ROI. We weave narratives that echo your brand’s essence, transforming casual browsers into loyal advocates who champion your vision.<br />
+              As a <strong>PR powerhouse</strong>, we sculpt your brand’s story to resonate far and wide. From landing high-profile media features to navigating crisis communications, we build trust and authority. Our team leverages press releases, influencer partnerships, and thought leadership pieces to position you as an industry trailblazer, ensuring your message cuts through the noise and reaches the right ears at the right time.<br />
+              Our <strong>website optimization</strong> services turn your digital platform into a performance juggernaut. We prioritize intuitive user experiences, mobile responsiveness, and conversion rate optimization (CRO) to keep visitors hooked. Whether it’s a modern redesign, faster load times, or streamlined navigation, we engineer websites that not only impress but also drive tangible results, making every click count toward your goals.<br />
+
             </p>
             <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
               Learn More <ArrowRight size={20} />
@@ -261,7 +361,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div>
-              <h3 className="text-2xl font-bold mb-6">AnandDigital</h3>
+              <h3 className="text-2xl font-bold mb-6">Anand Digital PR</h3>
               <p className="text-gray-400">
                 Your trusted partner for innovative digital PR solutions.
               </p>
@@ -273,6 +373,17 @@ const Home = () => {
                 <li>Digital Strategy</li>
                 <li>Crisis Management</li>
                 <li>Content Marketing</li>
+                <li>Press Release Distribution</li>
+                <li>Influencer Outreach</li>
+                <li>SEO Optimization</li>
+                <li>Email Marketing</li>
+                <li>Analytics & Reporting</li>
+                <li>Responsive Web Design</li>
+                <li>Frontend Development</li>
+                <li>Security & Hosting</li>
+                <li>UI/UX Design</li>
+                <li>Website Maintenance</li>
+
               </ul>
             </div>
             <div>
@@ -295,7 +406,7 @@ const Home = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 AnandDigital. All rights reserved.</p>
+            <p>&copy; 2025 Anand Digital PR. All rights reserved.</p>
           </div>
         </div>
       </footer>
