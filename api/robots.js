@@ -1,5 +1,10 @@
 export default function handler(req, res) {
   const allowedPaths = [
+    "https://www.ananddigitalpr.com/",
+    "https://www.ananddigitalpr.com/about",
+    "https://www.ananddigitalpr.com/services",
+    "https://www.ananddigitalpr.com/blog",
+     "https://www.ananddigitalpr.com/contact",
     "/blog/oppo-find-x8-series-design-and-features",
     "/blog/how-to-start-your-personal-blog",
     "/blog/top-job-red-flags-before-accepting-offer",
