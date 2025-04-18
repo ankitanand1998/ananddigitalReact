@@ -20,10 +20,10 @@ const About = () => {
 
   const team = [
     {
-      name: 'Sarah Anderson',
-      role: 'CEO & Founder',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2940&auto=format&fit=crop',
-      bio: 'Digital PR veteran with 15+ years of experience',
+      name: 'Ankit Anand',
+      role: 'Co-Founder',
+      image: 'https://scontent.fdel5-3.fna.fbcdn.net/v/t39.30808-6/461502543_2277995139225610_5857932059119235261_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=bKoZFocn_uIQ7kNvwG_O0IN&_nc_oc=AdkDu_DT9TreqVKBmJuwzgJLGSx5wQL1y5p5sZmddQ-j1cEjwW-lhEhA1DAaOKCYwTA&_nc_zt=23&_nc_ht=scontent.fdel5-3.fna&_nc_gid=vOB1Yq4ooeUN3CaB4JCP1g&oh=00_AfEulrDVV516-9zpEHvH--w16qreTRcEoDCkMZ9en19bxA&oe=68080466',
+      bio: 'Digital PR veteran with 4+ years of experience',
     },
     {
       name: 'Michael Zhang',
