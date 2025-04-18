@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, Users, Globe, TrendingUp } from 'lucide-react';
+import { Helmet } from 'react-helmet';
+
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -38,7 +40,30 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-16">
+   <div className="pt-16">
+    {/* Meta Tags */}
+    <Helmet>
+        <title>Anand Digital PR | About Us, Our Story, Digital Marketing Agency in Noida</title>
+        <meta name="description" content="Know the story behind Anand Digital PR, a leading digital marketing and PR agency in Noida. We blend innovation, strategy, and storytelling to build powerful brands and lasting success." />
+        <link rel="canonical" href="https://www.ananddigitalpr.com/about" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="About Us | Anand Digital PR" />
+        <meta
+          property="og:description"
+          content="Know more about Anand Digital PR's mission, story, and the passionate team driving innovative digital marketing and PR strategies."
+        />
+        <meta property="og:url" content="https://www.ananddigitalpr.com/about" />
+        <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us | Anand Digital PR" />
+        <meta
+          name="twitter:description"
+          content="Know more about Anand Digital PR's mission, story, and the passionate team driving innovative digital marketing and PR strategies."
+        />
+        <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
+      </Helmet>
+
+
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-r from-indigo-600 to-purple-600">
         <motion.div
