@@ -29,7 +29,7 @@ export default function handler(req, res) {
   ];
 
 const content = `User-agent: *
-User-agent: *
+
 Disallow: https://www.ananddigitalpr.com/oppo-find-x8-series-design-and-features
 Disallow: https://www.ananddigitalpr.com/how-to-start-your-personal-blog
 Disallow: https://www.ananddigitalpr.com/top-job-red-flags-before-accepting-offer
