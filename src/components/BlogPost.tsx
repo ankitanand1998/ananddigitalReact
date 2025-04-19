@@ -23,24 +23,28 @@ const BlogPost = () => {
           const parser = new DOMParser();
           const doc = parser.parseFromString(foundBlog.paragraph2, 'text/html');
 
-          // Add Tailwind classes to tables
+          // Make tables responsive
           const tables = doc.querySelectorAll('table');
           tables.forEach((table) => {
             table.classList.add(
               'min-w-full',
-              'overflow-x-auto',
-              'block',
-              'rounded-lg',
-              'border',
-              'border-gray-200',
               'text-left',
               'text-sm',
               'text-gray-700',
-              'dark:text-gray-300'
+              'border',
+              'border-gray-200',
+              'rounded-lg',
+              'divide-y',
+              'divide-gray-200'
             );
+
+            const wrapper = doc.createElement('div');
+            wrapper.className = 'overflow-x-auto mb-6';
+            table.parentNode?.insertBefore(wrapper, table);
+            wrapper.appendChild(table);
           });
 
-          // Add Tailwind classes to lists
+          // Style lists
           const lists = doc.querySelectorAll('ul, ol');
           lists.forEach((list) => {
             list.classList.add('list-disc', 'pl-6', 'mb-4');
@@ -48,7 +52,6 @@ const BlogPost = () => {
 
           setFormattedContent(doc.body.innerHTML);
         }
-
       } catch (error) {
         console.error('Error fetching blog:', error);
       } finally {
