@@ -9,6 +9,7 @@ const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const [blog, setBlog] = useState<Blog | null>(null);
   const [loading, setLoading] = useState(true);
+  const [formattedContent, setFormattedContent] = useState<string>('');
 
   useEffect(() => {
     const fetchBlog = async () => {
@@ -17,6 +18,37 @@ const BlogPost = () => {
         const data = await response.json();
         const foundBlog = data.find((b: Blog) => b.url === slug);
         setBlog(foundBlog);
+
+        if (foundBlog && foundBlog.paragraph2) {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(foundBlog.paragraph2, 'text/html');
+
+          // Add Tailwind classes to tables
+          const tables = doc.querySelectorAll('table');
+          tables.forEach((table) => {
+            table.classList.add(
+              'min-w-full',
+              'overflow-x-auto',
+              'block',
+              'rounded-lg',
+              'border',
+              'border-gray-200',
+              'text-left',
+              'text-sm',
+              'text-gray-700',
+              'dark:text-gray-300'
+            );
+          });
+
+          // Add Tailwind classes to lists
+          const lists = doc.querySelectorAll('ul, ol');
+          lists.forEach((list) => {
+            list.classList.add('list-disc', 'pl-6', 'mb-4');
+          });
+
+          setFormattedContent(doc.body.innerHTML);
+        }
+
       } catch (error) {
         console.error('Error fetching blog:', error);
       } finally {
@@ -54,7 +86,7 @@ const BlogPost = () => {
         <meta property="og:url" content={blog.ogUrl} />
         <link rel="canonical" href={blog.canonicalUrl} />
       </Helmet>
-      
+
       <motion.article
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -81,7 +113,7 @@ const BlogPost = () => {
         />
 
         <div className="prose prose-lg max-w-none">
-          <div dangerouslySetInnerHTML={{ __html: blog.paragraph2 }} />
+          <div dangerouslySetInnerHTML={{ __html: formattedContent }} />
         </div>
       </motion.article>
     </>
