@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { Helmet } from 'react-helmet';
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -217,6 +218,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      {/* Footer */}
+ <Footer />
     </div>
   );
 };
