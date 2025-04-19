@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Helmet } from 'react-helmet';
+import Footer from "../components/Footer";
 import {
   MessageSquare,
   Globe,
@@ -211,6 +212,8 @@ const Services = () => {
           </div>
         </div>
       </section>
+       {/* Footer */}
+ <Footer />
     </div>
   );
 };

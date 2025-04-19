@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, Users, Globe, TrendingUp } from 'lucide-react';
 import { Helmet } from 'react-helmet';
+import Footer from "../components/Footer";
+
 
 
 const About = () => {
@@ -158,6 +160,8 @@ const About = () => {
           </div>
         </div>
       </section>
+       {/* Footer */}
+ <Footer />
     </div>
   );
 };
