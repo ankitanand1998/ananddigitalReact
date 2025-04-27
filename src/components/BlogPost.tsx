@@ -97,7 +97,7 @@ const BlogPost = () => {
       >
         <header className="mb-8">
           <h1 className="text-4xl font-bold mb-4">{blog.heading}</h1>
-          <p className="mt-1">{blog.paragraph1}</p>
+          <p className="mt-1 text-4xl  mb-4">{blog.paragraph1}</p>
           <div className="flex items-center gap-4 text-gray-500">
             <span className="flex items-center gap-2">
               <User size={18} />
