@@ -104,7 +104,7 @@ const BlogPost = () => {
             </span>
             <span className="flex items-center gap-2">
               <Calendar size={18} />
-              {new Date(blog.date).toLocaleDateString()}
+              {blog.date}
             </span>
           </div>
         </header>
