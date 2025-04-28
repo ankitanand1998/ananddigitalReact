@@ -253,7 +253,10 @@ const Home = () => {
         transition={{ delay: 0.6 }}
         className="bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors"
       >
+         <a href="/contact" className="flex items-center gap-2">
         Get Started <ArrowRight size={20} />
+          </a>
+        
       </motion.button>
                   </div>
                 </div>
