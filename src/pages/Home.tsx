@@ -271,7 +271,7 @@ const Home = () => {
             className="text-center mb-16"
           >
             
-            <h2 className="text-4xl font-bold mb-6">Anand Digital PR - Best Digital Marketing and PR Agency in Noida</h2>
+            <h1 className="text-4xl font-bold mb-6">Anand Digital PR - Best Digital Marketing and PR Agency in Noida</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We are a leading Digital Marketing & PR agency in Noida, Delhi specializing in SEO, website optimization, and impactful strategies that elevate brands. Our data-driven campaigns combine content, social media, and PPC to boost engagement and ROI. We craft compelling PR narratives that build trust and authority across media platforms. From SEO to web performance, we turn clicks into loyal customers and drive real growth.
             </p>
