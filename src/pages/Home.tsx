@@ -279,8 +279,10 @@ const Home = () => {
               Anand Digital PR is a leading Digital Marketing & PR agency in Noida, Delhi specializing in SEO, Digital Marketing, website optimization and impactful PR Strategies that elevate brands. Our data-driven campaigns combine content, social media, and PPC to boost engagement and ROI. We craft compelling PR narratives that build trust and authority across media platforms. From SEO to web performance, we turn clicks into loyal customers and drive real growth.
             </p>
             <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
-              Know More <ArrowRight size={20} />
-            </button>
+  <a href="/about" className="flex items-center gap-2">
+    Know More <ArrowRight size={20} />
+  </a>
+</button>
           </motion.div>
         </div>
       </section>
