@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Helmet } from 'react-helmet';
 import Footer from "../components/Footer";
-import WhyChoose from "../components/Footer";
+import WhyChoose from "../components/WhyChoose";
 
 import {
   ArrowRight,
