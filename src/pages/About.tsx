@@ -75,9 +75,9 @@ const About = () => {
           className="absolute inset-0 flex items-center justify-center text-white text-center px-4"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Story</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Story - Best Digital Marketing and PR Agency in Noida | India</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Transforming brands through innovative digital PR strategies since 2020
+             Since 2020, we have been transforming brands with innovative digital marketing and PR strategies. By combining cutting-edge technology with authentic storytelling, we build strong brand reputations and drive measurable growth.
             </p>
           </div>
         </motion.div>
