@@ -45,11 +45,11 @@ const About = () => {
    <div className="pt-16">
     {/* Meta Tags */}
     <Helmet>
-        <title>Anand Digital PR | About Us, Our Story, Digital Marketing Agency in Noida</title>
-        <meta name="description" content="Know the story behind Anand Digital PR, a leading digital marketing and PR agency in Noida. We blend innovation, strategy, and storytelling to build powerful brands and lasting success." />
+        <title>Anand Digital PR | Digital PR Agency in India | Best Public Relations Services in Delhi</title>
+        <meta name="description" content="Know the story behind Anand Digital PR, a leading digital marketing and PR agency in Noida,Delhi. We blend innovation, strategy, and storytelling to build powerful brands and lasting success." />
         <link rel="canonical" href="https://www.ananddigitalpr.com/about" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="About Us | Anand Digital PR" />
+        <meta property="og:title" content="Anand Digital PR | Digital PR Agency in India | Best Public Relations Services in Delhi" />
         <meta
           property="og:description"
           content="Know more about Anand Digital PR's mission, story, and the passionate team driving innovative digital marketing and PR strategies."
@@ -105,7 +105,7 @@ const About = () => {
             >
               <h2 className="text-4xl font-bold mb-6">Our Mission</h2>
               <p className="text-xl text-gray-600 mb-8">
-              our mission is rooted in the power of strategic communication to transform businesses. We believe that by uniting digital marketing and public relations, we can help brands tell their stories effectively and forge meaningful connections with their audiences. In an era where digital presence and reputation go hand in hand, we step in to ensure your product’s value shines through. Our unique approach bridges the gap between reach and resonance, setting the foundation for lasting brand success. <br/> <br/>
+             At Anand Digital PR, Our mission is rooted in the power of strategic communication to transform businesses. We believe that by uniting digital marketing and public relations, we can help brands tell their stories effectively and forge meaningful connections with their audiences. In an era where digital presence and reputation go hand in hand, we step in to ensure your product’s value shines through. Our unique approach bridges the gap between reach and resonance, setting the foundation for lasting brand success. <br/> <br/>
               We stand out in the market by blending two powerhouse disciplines: digital marketing and PR. While others may focus on one or the other, we see their combined potential as the key to impactful results. Digital marketing opens doors to vast audiences through tools like social media, SEO, and online ads, while PR builds trust and credibility with strategic storytelling and media relations. This integrated method fills an industry gap, delivering campaigns that don’t just get seen but leave a lasting impression. <br/> <br/>
               Our passion lies in turning products into brands. A product meets a need, but a brand captures hearts and minds, standing tall in a competitive world. We make this happen by crafting narratives that spotlight what makes your offering special. Our digital strategies ensure your story reaches the right people, while our PR efforts amplify it through trusted channels like media coverage and influencer partnerships. Together, this dual approach builds recognition, loyalty, and a powerful market presence.<br/> <br/>
 
