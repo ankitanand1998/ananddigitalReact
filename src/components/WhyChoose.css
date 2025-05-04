@@ -5,10 +5,10 @@
   text-align: center;
 }
 
-.why-choose-section h1 {
+.why-choose-section h2 {
   font-size: 2.8rem;
   margin-bottom: 20px;
-  color: #111;
+ 
 }
 
 .reasons {
@@ -40,11 +40,10 @@
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #222;
+
 }
 
 .reason-desc {
   font-size: 1rem;
-  color: #666;
   line-height: 1.6;
 }
