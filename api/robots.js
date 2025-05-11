@@ -26,6 +26,7 @@ export default function handler(req, res) {
     "create-content-marketing-strategy-2025",
     "how-to-write-seo-friendly-content-2025",
     "optimize-website-for-mobile-2025"
+    "why-digital-pr-is-best-for-digital-success"
   ];
 
   const disallowedPaths = blogSlugs.map(slug => `/${slug}`);
