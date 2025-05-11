@@ -33,6 +33,7 @@ export default function handler(req, res) {
 { path: "/blog/how-to-write-seo-friendly-content-2025", priority: 0.8 },
 { path: "/blog/optimize-website-for-mobile-2025", priority: 0.8 },
 { path: "/blog/why-digital-pr-is-best-for-digital-success", priority: 0.8 },
+
     
 
   ];
