@@ -133,7 +133,171 @@ const Services = () => {
               content="Looking for expert PR and digital marketing services in Delhi NCR & Noida,India ? Anand Digital PR offers SEO, brand strategy, content marketing, media coverage, and reputation management tailored for growth"
             />
             <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
-          </Helmet>
+
+            <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Digital Marketing and PR Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Anand Digital PR",
+        "url": "https://www.ananddigitalpr.com",
+        "logo": "https://www.ananddigitalpr.com/logo.png"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Marketing & PR Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Media Relations",
+              "description": "Build and maintain relationships with key media outlets and journalists."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Crisis Management",
+              "description": "Expert handling of sensitive situations and reputation management."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Global Outreach",
+              "description": "Connect with audiences worldwide through strategic communications."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand Protection",
+              "description": "Safeguard your brand reputation in the digital landscape."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social Media PR",
+              "description": "Strategic social media management for brand enhancement."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Campaign Planning",
+              "description": "Targeted campaigns that deliver measurable results."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Strategy",
+              "description": "Comprehensive digital strategies to enhance your online presence."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO Optimization",
+              "description": "Improve your search rankings with smart SEO techniques."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Email Marketing",
+              "description": "Engage your audience with well-crafted email campaigns."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Analytics & Reporting",
+              "description": "Track and analyze data to optimize campaign performance."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Responsive Web Design",
+              "description": "Beautiful and functional websites for all devices."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Frontend Development",
+              "description": "Interactive, fast-loading, and SEO-friendly interfaces."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Security & Hosting",
+              "description": "Robust and secure hosting solutions for your website."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UI/UX Design",
+              "description": "Create stunning, user-friendly designs tailored to your brand."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website Maintenance",
+              "description": "Ongoing support and updates to keep your site running smoothly."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Content Marketing",
+              "description": "Develop high-quality, engaging content strategies to drive traffic and build brand authority."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "PPC Advertising",
+              "description": "Targeted ad campaigns on platforms like Google Ads and Meta Ads to drive instant leads and ROI."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Influencer Marketing",
+              "description": "Collaborate with industry influencers to amplify your brand’s reach and credibility."
+            }
+          }
+        ]
+      }
+    }
+  </script>
+</Helmet>
 
 {/* Hero Section */}
       <section className="relative h-[60vh]">
