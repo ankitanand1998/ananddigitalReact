@@ -64,37 +64,40 @@ const About = () => {
         />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
-  <script type="application/ld+json">
-  {JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Anand Digital PR",
-    "url": "https://www.ananddigitalpr.com/",
-    "logo": "https://www.ananddigitalpr.com/logo.png",
-    "description": "Anand Digital PR is a top-tier digital marketing and PR agency in India, known for its innovative strategies in SEO, media outreach, and brand storytelling.",
-    "sameAs": [
-      "https://www.facebook.com/ananddigitalpr",
-      "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
-      "https://www.instagram.com/ananddigitalpr"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "+91-8340426515",
-        "contactType": "Customer Service",
-        "email": "sales.ananddigitalpr@gmail.com",
-        "url": "https://www.ananddigitalpr.com/contact"
-      }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Delhi",
-      "addressRegion": "Delhi",
-      "addressCountry": "IN"
-    },
-    "areaServed": "IN"
-  })}
-</script>
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Anand Digital PR",
+      "url": "https://www.ananddigitalpr.com/",
+      "logo": "https://www.ananddigitalpr.com/logo.png",
+      "description": "Anand Digital PR is a top-tier digital marketing and PR agency in India, known for its innovative strategies in SEO, media outreach, and brand storytelling.",
+      "sameAs": [
+        "https://www.facebook.com/ananddigitalpr",
+        "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
+        "https://www.instagram.com/ananddigitalpr"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-8340426515",
+          "contactType": "Customer Service",
+          "email": "sales.ananddigitalpr@gmail.com",
+          "url": "https://www.ananddigitalpr.com/contact"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "addressCountry": "IN"
+      },
+      "areaServed": "IN"
+    })
+  }}
+/>
 
      
        </Helmet>
