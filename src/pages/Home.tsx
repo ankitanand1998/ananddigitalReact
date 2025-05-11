@@ -251,6 +251,7 @@ const Home = () => {
     "query-input": "required name=search_term_string"
   }
 }
+    
 </script>
 
 
