@@ -13,7 +13,69 @@ const About = () => {
     threshold: 0.1,
   });
 
-  const stats = [
+  
+
+  const stats = [const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Anand Digital PR",
+    "url": "https://www.ananddigitalpr.com/about",
+    "description": "Know the story behind Anand Digital PR, a leading digital marketing and PR agency in Noida and Delhi. We blend innovation, strategy, and storytelling to build powerful brands and lasting success.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ananddigitalpr.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.ananddigitalpr.com/about"
+        }
+      ]
+    },
+    "mainEntity": {
+      "@type": "WebPage",
+      "name": "About Anand Digital PR",
+      "url": "https://www.ananddigitalpr.com/about",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Anand Digital PR",
+        "url": "https://www.ananddigitalpr.com/",
+        "logo": "https://www.ananddigitalpr.com/logo.png",
+        "description": "Anand Digital PR is a top-tier digital marketing and PR agency in India, known for its innovative strategies in SEO, media outreach, and brand storytelling.",
+        "sameAs": [
+          "https://www.facebook.com/ananddigitalpr",
+          "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
+          "https://www.instagram.com/ananddigitalpr"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+91-8340426515",
+            "contactType": "Customer Service",
+            "email": "sales.ananddigitalpr@gmail.com",
+            "url": "https://www.ananddigitalpr.com/contact"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        }
+      }
+    }
+
+      
     { icon: <Users />, value: '500+', label: 'Clients Worldwide' },
     { icon: <Award />, value: '150+', label: 'Awards Won' },
     { icon: <Globe />, value: '30+', label: 'Countries Served' },
@@ -64,6 +126,9 @@ const About = () => {
         />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
+       <script type="application/ld+json">
+        {JSON.stringify(jsonLd)}
+      </script>
  
      
        </Helmet>
