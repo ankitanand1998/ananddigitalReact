@@ -135,6 +135,8 @@ const Services = () => {
             <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
             <script type="application/ld+json">
+          {`
+
     {
       "@context": "https://schema.org",
       "@type": "Service",
@@ -296,6 +298,7 @@ const Services = () => {
         ]
       }
     }
+   `}
   </script>
 </Helmet>
 
