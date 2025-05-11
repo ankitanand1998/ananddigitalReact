@@ -211,7 +211,7 @@ const Home = () => {
   "name": "Anand Digital PR",
   "url": "https://www.ananddigitalpr.com/",
   "logo": "https://www.ananddigitalpr.com/logo.png",
-  "description": "Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth.",
+  "description": "Boost your brand with Anand Digital PR –Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth.",
   "sameAs": [
     "https://www.facebook.com/ananddigitalpr",
     "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
