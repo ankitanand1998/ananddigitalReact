@@ -204,8 +204,8 @@ const Home = () => {
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
-  <script type="application/ld+json">
-{
+<script type="application/ld+json">
+       {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Anand Digital PR",
@@ -239,11 +239,6 @@ const Home = () => {
     }
   },
   "keywords": "Digital Marketing Agency in Delhi, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida",
-  "sameAs": [
-    "https://www.facebook.com/ananddigitalpr",
-    "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
-    "https://www.instagram.com/ananddigitalpr"
-  ],
   "image": "https://www.ananddigitalpr.com/og-image.jpg",
   "potentialAction": {
     "@type": "SearchAction",
@@ -251,8 +246,8 @@ const Home = () => {
     "query-input": "required name=search_term_string"
   }
 }
-    
 </script>
+
 
 
      </Helmet>
