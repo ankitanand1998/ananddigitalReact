@@ -25,7 +25,7 @@ export default function handler(req, res) {
     "impact-of-5g-on-digital-marketing-2025",
     "create-content-marketing-strategy-2025",
     "how-to-write-seo-friendly-content-2025",
-    "optimize-website-for-mobile-2025"
+    "optimize-website-for-mobile-2025",
     "why-digital-pr-is-best-for-digital-success"
   ];
 
