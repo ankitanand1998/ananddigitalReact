@@ -63,8 +63,7 @@ const About = () => {
           content="Know more about Anand Digital PR's mission, story, and the passionate team driving innovative digital marketing and PR strategies."
         />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
-      <Helmet>
-  <script type="application/ld+json">
+      <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "AboutPage",
@@ -118,10 +117,8 @@ const About = () => {
       }
     })}
   </script>
-</Helmet>
-
-   
-      </Helmet>
+     
+       </Helmet>
 
 
       {/* Hero Section */}
