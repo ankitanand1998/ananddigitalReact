@@ -202,8 +202,46 @@ const Home = () => {
         <meta name="twitter:url" content="https://www.ananddigitalpr.com" />
         <meta name="twitter:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi" />
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
-        <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
-      </Helmet>
+        <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
+
+       <script type="application/ld+json">
+     {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Anand Digital PR",
+    "url": "https://www.ananddigitalpr.com/",
+    "logo": "https://www.ananddigitalpr.com/logo.png",
+    "description": "Anand Digital PR provides expert digital marketing and public relations services to boost online presence and reputation for businesses.",
+    "sameAs": [
+      "https://www.facebook.com/ananddigitalpr",
+       "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
+      "https://www.instagram.com/ananddigitalpr"
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+91-8340426515",
+      "contactType": "Customer Service",
+      "email": "sales.ananddigitalpr@gmail.com",
+      "url": "https://www.ananddigitalpr.com/contact"
+    }],
+    "areaServed": "IN",
+    "availableLanguage": "English",
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Digital Marketing and PR Services",
+        "description": "Comprehensive digital PR solutions including SEO, PPC, media outreach, online reputation management, and content strategy.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Anand Digital PR"
+        }
+      }
+    }
+  }
+  </script>
+
+     </Helmet>
 
 
       {/* Hero Section */}
