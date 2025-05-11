@@ -204,49 +204,6 @@ const Home = () => {
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
-<script type="application/ld+json">
-       {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Anand Digital PR",
-  "url": "https://www.ananddigitalpr.com/",
-  "logo": "https://www.ananddigitalpr.com/logo.png",
-  "description": "Boost your brand with Anand Digital PR –Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth.",
-  "sameAs": [
-    "https://www.facebook.com/ananddigitalpr",
-    "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
-    "https://www.instagram.com/ananddigitalpr"
-  ],
-  "contactPoint": [{
-    "@type": "ContactPoint",
-    "telephone": "+91-8340426515",
-    "contactType": "Customer Service",
-    "email": "sales.ananddigitalpr@gmail.com",
-    "url": "https://www.ananddigitalpr.com/contact"
-  }],
-  "areaServed": "IN",
-  "availableLanguage": "English",
-  "makesOffer": {
-    "@type": "Offer",
-    "itemOffered": {
-      "@type": "Service",
-      "name": "Digital Marketing and PR Services",
-      "description": "Comprehensive digital PR solutions including SEO, PPC, media outreach, online reputation management, and content strategy.",
-      "provider": {
-        "@type": "Organization",
-        "name": "Anand Digital PR"
-      }
-    }
-  },
-  "keywords": "Digital Marketing Agency in Delhi, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida",
-  "image": "https://www.ananddigitalpr.com/og-image.jpg",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.ananddigitalpr.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
 
 
 
