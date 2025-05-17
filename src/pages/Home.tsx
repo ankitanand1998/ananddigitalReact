@@ -184,7 +184,7 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Best Digital Marketing and PR Agency in Noida, Delhi | Anand Digital PR</title>
+        <title>Best Public Relations and Digital Marketing Agency in Noida | Anand Digital PR</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Agency in Delhi, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
         <meta name="robots" content="index, follow" />
@@ -321,7 +321,8 @@ const Home = () => {
             
             <h1 className="text-4xl font-bold mb-6">Anand Digital PR - Best Digital Marketing and PR Agency in Noida</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Anand Digital PR is a leading Digital Marketing & PR agency in Noida, Delhi specializing in SEO, Digital Marketing, website optimization and impactful PR Strategies that elevate brands. Our data-driven campaigns combine content, social media, and PPC to boost engagement and ROI. We craft compelling PR narratives that build trust and authority across media platforms. From SEO to web performance, we turn clicks into loyal customers and drive real growth.
+            Anand Digital PR stands out as a top Digital Marketing & PR firm in Noida Delhi. We focus on SEO digital marketing, website enhancement, and PR tactics that boost brands. As a complete digital PR agency, we combine data-backed campaigns with imaginative narratives to increase visibility and user interaction. Our know-how covers content social platforms, and PPC making sure each campaign yields quantifiable returns. We provide custom digital PR solutions that help create trust and clout across crucial media channels. By mixing ads and PR, we transform clicks into devoted customers and bring about real business expansion.
+
             </p>
           <a href="/about">
   <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
