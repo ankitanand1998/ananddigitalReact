@@ -219,6 +219,9 @@ const About = () => {
                   <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
                   <p className="text-indigo-600 mb-4">{member.role}</p>
                   <p className="text-gray-600">{member.bio}</p>
+                  <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">
+  <Globe size={24} className="text-gray-700 hover:text-blue-600" />
+</a>
                 </div>
               </motion.div>
             ))}
