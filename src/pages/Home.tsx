@@ -477,23 +477,23 @@ The top PR agency always strives to convert the consumers into loyal customers b
 
 Stories and strategies are created accompanied by best solutions. By prioritizing client’s requirements the Best PR Agency always preserves and promotes their reputation and goodwill in market. They work to achieve holistic approach concerning all the queries of the client/ organisation/ company as a good PR agency believes in building trust and establishing brand identity by providing leads for the client’s business.</p>
 
-        <h3 className="text-4xl font-bold mb-6">I own a recently initiated start-up unit in India? Should I invest in hiring a PR Agency?</h3>
+        <h3 className="text-4xl font-bold mb-6  mt-3">I own a recently initiated start-up unit in India? Should I invest in hiring a PR Agency?</h3>
         <p className="text-xl text-gray-600">The start-up businesses need the help of specialists to make their presence noticed in the crowded marketplace. Branding, lead generation and customer relationship are the top concerns for the relatively new businesses. The experienced and reputed PR agency customize strategies for your overall performance boost in all the verticals, including new product placement in a particular marketplace.</p>
 
-        <h3 className="text-4xl font-bold mb-6">Is Hiring a PR Agency a Smart Move to Grow My Business Profits?</h3>
+        <h3 className="text-4xl font-bold mb-6  mt-3">Is Hiring a PR Agency a Smart Move to Grow My Business Profits?</h3>
         
       <p className="text-xl text-gray-600">Yes, if you involve a PR agency, you can try new ideas and target your marketing better and this could save money on older advertising forms. So PR agency finds the most affordable and up-to-date ways your business can advertise, build its brand and make sales which helps your business become more successful and profitable.</p>
         
-        <h3 className="text-4xl font-bold mb-6">What does it cost to work with a Public Relations Agency?</h3>
+        <h3 className="text-4xl font-bold mb-6  mt-3">What does it cost to work with a Public Relations Agency?</h3>
         <p className="text-xl text-gray-600">The cost to hire a PR agency is not fixed. Since custom services are the main offering, the PR agency price scales can be very different. The final cost of the PR agency depends on the set of services you have agreed to receive.</p>
 
-        <h3 className="text-4xl font-bold mb-6">What does a PR Agency do in digital marketing?</h3>
+        <h3 className="text-4xl font-bold mb-6 mt-3">What does a PR Agency do in digital marketing?</h3>
         <p className="text-xl text-gray-600">PR agencies also provide services in digital marketing, Called Digital PR Agency, for SEO, SMM, SMO, ORM, CMS, CRM and other areas, because digital marketing helps a company build and expand its customer base, create a strong brand reputation, improve placement in search results, produce leads and increase profits.</p>
         
-        <h3 className="text-4xl font-bold mb-6"> How does SEO PR benefit a brand?</h3>
+        <h3 className="text-4xl font-bold mb-6  mt-3"> How does SEO PR benefit a brand?</h3>
         <p className="text-xl text-gray-600">SEO PR helps people become aware of the brand, draws more visitors to the website, boosts social media activity and boosts search engine results for the brand. Getting backlinks from major websites helps a brand appear higher on Google which leads to high ROI. It also plays a role in building a positive online reputation by making sure brand names appear positively.</p>
 
-        <h3 className="text-4xl font-bold mb-6">How is digital marketing different from traditional marketing?</h3>
+        <h3 className="text-4xl font-bold mb-6  mt-3">How is digital marketing different from traditional marketing?</h3>
         
            <p className="text-xl text-gray-600">digital marketing utilizes the internet to advertise in targeted ways using instant data, but traditional marketing relies on print, TV or radio which offer less interaction and aren’t easy to measure. Because of its targeting of specific audiences and immediate feedback, digital marketing is easier to adjust and cheaper.</p>
          </div>
