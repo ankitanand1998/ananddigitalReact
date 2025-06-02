@@ -184,23 +184,23 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Best Digital Marketing and PR Agency in Noida | Anand Digital PR</title>
-        <meta name="description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
-        <meta name="keywords" content="Digital Marketing Agency in Delhi, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
+        <title>Best Digital Marketing and PR Agency in Noida, India | Anand Digital PR</title>
+        <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
+        <meta name="keywords" content="Digital Marketing Agency in Delhi, India, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.ananddigitalpr.com" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ananddigitalpr.com" />
-        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi" />
-        <meta property="og:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
+        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi, India" />
+        <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.ananddigitalpr.com" />
-        <meta name="twitter:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi" />
+        <meta name="twitter:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi, India" />
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
@@ -212,7 +212,7 @@ const Home = () => {
         "name": "Anand Digital PR",
         "url": "https://www.ananddigitalpr.com/",
         "logo": "https://www.ananddigitalpr.com/logo.png",
-        "description": "Boost your brand with Anand Digital PR –Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth.",
+        "description": "Boost your brand with Anand Digital PR –India's top digital marketing and Digital PR agency for SEO, content, media coverage, and online growth.",
         "sameAs": [
           "https://www.facebook.com/ananddigitalpr",
           "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
@@ -232,14 +232,14 @@ const Home = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Digital Marketing and PR Services",
-            "description": "Comprehensive digital PR solutions including SEO, PPC, media outreach, online reputation management, and content strategy.",
+            "description": "India's Best Comprehensive digital PR solutions including SEO, PPC, media outreach, online reputation management, and content strategy.",
             "provider": {
               "@type": "Organization",
               "name": "Anand Digital PR"
             }
           }
         },
-        "keywords": "Digital Marketing Agency in Delhi, PR Agency in Delhi"
+        "keywords": "Digital Marketing Agency in Delhi, India, PR Agency in Noida"
       }
     `}
   </script>
@@ -319,9 +319,9 @@ const Home = () => {
             className="text-center mb-16"
           >
             
-            <h1 className="text-4xl font-bold mb-6">Anand Digital PR - Best Digital Marketing and PR Agency in Noida</h1>
+            <h1 className="text-4xl font-bold mb-6">Anand Digital PR - Best Digital Marketing and PR Agency in Noida, India</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Anand Digital PR stands out as a top Digital Marketing & PR firm in Noida, Delhi. We focus on SEO, digital marketing, website enhancement, and PR tactics that boost brands. <br/> As a complete digital PR agency, we combine data-backed campaigns with imaginative narratives to increase visibility and user interaction. <br/> Our know-how covers content, social platforms, and PPC, making sure each campaign yields quantifiable returns. We provide custom digital PR services that help create trust and clout across crucial media channels. By mixing advertising and PR, we transform clicks into devoted customers and bring about real business expansion.
+          Anand Digital PR stands out as a top Digital Marketing & PR firm in Noida, Delhi, India. We focus on SEO, digital marketing, website enhancement, and PR tactics that boost brands. <br/> As a complete digital PR agency, we combine data-backed campaigns with imaginative narratives to increase visibility and user interaction. <br/> Our know-how covers content, social platforms, and PPC, making sure each campaign yields quantifiable returns. We provide custom digital PR services that help create trust and clout across crucial media channels. By mixing advertising and PR, we transform clicks into devoted customers and bring about real business expansion.
             </p>
           <a href="/about">
   <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
@@ -421,7 +421,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Client Testimonials</h2>
-            <p className="text-xl text-gray-600">What our clients say about us</p>
+            <p className="text-xl text-gray-600">What our clients say about Anand Digital PR</p>
           </div>
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
