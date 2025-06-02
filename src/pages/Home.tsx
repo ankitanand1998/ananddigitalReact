@@ -458,8 +458,8 @@ const Home = () => {
             ))}
           </Swiper>
             <section>
-        <h2>FAQs - PR Agency in India(Noida)</h2>
-        <h3>Why we are one of the Best PR Agency in Noida(India)?</h3>
+        <h2 className="text-4xl font-bold mb-6">FAQs - PR Agency in India(Noida)</h2>
+        <h3 className="text-4xl font-bold mb-6">Why we are one of the Best PR Agency in Noida(India)?</h3>
         <p>At Anand Digital PR, what truly sets us apart is our collective expertise of over 5 years in delivering impactful Digital Marketing and Digital PR strategies. Unlike traditional agencies, we integrate both PR and digital marketing to build holistic, data-driven campaigns that deliver measurable results.
 
 Our services are backed by a strong portfolio of case studies and success stories across various industries. This proven track record reinforces our position as the Best PR and Digital Marketing Agency in Delhi and Noida.
@@ -467,30 +467,30 @@ Our services are backed by a strong portfolio of case studies and success storie
 Moreover, the trust and appreciation we receive from our clients across India further validate our reputation as one of the top PR agencies in the country.
 </p>
         
-    <h3>How can PR Agency help your business?</h3> 
+    <h3 className="text-4xl font-bold mb-6">How can PR Agency help your business?</h3> 
         <p>The PR Agency always aligns with the vision of the company. This resonates with the purpose of the business which brings about a unified effect. The PR agency helps create visibility of the company which enhances the recall value amongst the consumers.
 
 The top PR agency always strives to convert the consumers into loyal customers by effectively communicating the message of the company. They have a very diverse enterprise to achieve where they perform the task of a bridge between the client/ company and the ignorant target public. They keep the audience group constantly updated with the activities of the client.
 
 Stories and strategies are created accompanied by best solutions. By prioritizing client’s requirements the Best PR Agency always preserves and promotes their reputation and goodwill in market. They work to achieve holistic approach concerning all the queries of the client/ organisation/ company as a good PR agency believes in building trust and establishing brand identity by providing leads for the client’s business.</p>
 
-        <h3>I own a recently initiated start-up unit in India? Should I invest in hiring a PR Agency?</h3>
+        <h3 className="text-4xl font-bold mb-6">I own a recently initiated start-up unit in India? Should I invest in hiring a PR Agency?</h3>
         <p>The start-up businesses need the help of specialists to make their presence noticed in the crowded marketplace. Branding, lead generation and customer relationship are the top concerns for the relatively new businesses. The experienced and reputed PR agency customize strategies for your overall performance boost in all the verticals, including new product placement in a particular marketplace.</p>
 
-        <h3>Is Hiring a PR Agency a Smart Move to Grow My Business Profits?</h3>
+        <h3 className="text-4xl font-bold mb-6">Is Hiring a PR Agency a Smart Move to Grow My Business Profits?</h3>
         
       <p>Yes, if you involve a PR agency, you can try new ideas and target your marketing better and this could save money on older advertising forms. So PR agency finds the most affordable and up-to-date ways your business can advertise, build its brand and make sales which helps your business become more successful and profitable.</p>
         
-        <h3>What does it cost to work with a Public Relations Agency?</h3>
+        <h3 className="text-4xl font-bold mb-6">What does it cost to work with a Public Relations Agency?</h3>
         <p>The cost to hire a PR agency is not fixed. Since custom services are the main offering, the PR agency price scales can be very different. The final cost of the PR agency depends on the set of services you have agreed to receive.</p>
 
-        <h3>What does a PR Agency do in digital marketing?</h3>
+        <h3 className="text-4xl font-bold mb-6">What does a PR Agency do in digital marketing?</h3>
         <p>PR agencies also provide services in digital marketing, Called Digital PR Agency, for SEO, SMM, SMO, ORM, CMS, CRM and other areas, because digital marketing helps a company build and expand its customer base, create a strong brand reputation, improve placement in search results, produce leads and increase profits.</p>
         
-        <h3> How does SEO PR benefit a brand?</h3>
+        <h3 className="text-4xl font-bold mb-6"> How does SEO PR benefit a brand?</h3>
         <p>SEO PR helps people become aware of the brand, draws more visitors to the website, boosts social media activity and boosts search engine results for the brand. Getting backlinks from major websites helps a brand appear higher on Google which leads to high ROI. It also plays a role in building a positive online reputation by making sure brand names appear positively.</p>
 
-        <h3>How is digital marketing different from traditional marketing?</h3>
+        <h3 className="text-4xl font-bold mb-6">How is digital marketing different from traditional marketing?</h3>
         <p>digital marketing utilizes the internet to advertise in targeted ways using instant data, but traditional marketing relies on print, TV or radio which offer less interaction and aren’t easy to measure. Because of its targeting of specific audiences and immediate feedback, digital marketing is easier to adjust and cheaper.</p>
       </section>
         </div>
