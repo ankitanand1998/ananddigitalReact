@@ -470,7 +470,7 @@ Our services are backed by a strong portfolio of case studies and success storie
 Moreover, the trust and appreciation we receive from our clients across India further validate our reputation as one of the top PR agencies in the country.
 </p>
         
-    <h3 className="text-4xl font-bold mb-6">How can PR Agency help your business?</h3> 
+    <h3 className="text-4xl font-bold mb-6 mt-3">How can PR Agency help your business?</h3> 
         <p className="text-xl text-gray-600">The PR Agency always aligns with the vision of the company. This resonates with the purpose of the business which brings about a unified effect. The PR agency helps create visibility of the company which enhances the recall value amongst the consumers.
 
 The top PR agency always strives to convert the consumers into loyal customers by effectively communicating the message of the company. They have a very diverse enterprise to achieve where they perform the task of a bridge between the client/ company and the ignorant target public. They keep the audience group constantly updated with the activities of the client.
