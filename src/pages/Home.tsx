@@ -457,13 +457,7 @@ const Home = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <Footer />
-
-      <section>
+            <section>
         <h2>FAQs - PR Agency in India(Noida)</h2>
         <h3>Why we are one of the Best PR Agency in Noida(India)?</h3>
         <p>At Anand Digital PR, what truly sets us apart is our collective expertise of over 5 years in delivering impactful Digital Marketing and Digital PR strategies. Unlike traditional agencies, we integrate both PR and digital marketing to build holistic, data-driven campaigns that deliver measurable results.
@@ -499,6 +493,13 @@ Stories and strategies are created accompanied by best solutions. By prioritizin
         <h3>How is digital marketing different from traditional marketing?</h3>
         <p>digital marketing utilizes the internet to advertise in targeted ways using instant data, but traditional marketing relies on print, TV or radio which offer less interaction and aren’t easy to measure. Because of its targeting of specific audiences and immediate feedback, digital marketing is easier to adjust and cheaper.</p>
       </section>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <Footer />
+
+    
       
     </div>
   );
