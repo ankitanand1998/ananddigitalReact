@@ -8,6 +8,8 @@ import WhyChoose from "../components/WhyChoose";
 import  About from "./About"
 import  Contact from "./Contact"
 import ClientReviews1 from '../Images/Client-Reviews-Erica-Koomsom.png';
+import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
+import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
 
 import {
   ArrowRight,
@@ -172,12 +174,14 @@ const Home = () => {
       role: "Marketing Director, InnovateCo",
       content: "Their strategic approach to digital PR helped us achieve unprecedented growth.",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop",
+      ClientImage1: ClientReviews2,
     },
     {
       name: "Emma Williams",
       role: "Founder, EcoSolutions",
       content: "The team's dedication and expertise made all the difference in our campaign success.",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2940&auto=format&fit=crop",
+      ClientImage1: ClientReviews3,
     },
   ];
 
