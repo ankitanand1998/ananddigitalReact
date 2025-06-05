@@ -172,14 +172,14 @@ const Home = () => {
     {
       name: "Nishant Kumar",
       role: "Actor",
-      content: "Anand Digital PR has been a trusted partner in growing my brand. Their strategic approach, creativity, and consistent results set them apart. If you’re serious about building a strong digital presence, they’re the agency you can rely on.",
+      content: "Anand Digital PR has been a trusted partner in growing my brand. Their strategic approach, creativity, and consistent results set them apart.",
       image: "https://scontent.fdel32-1.fna.fbcdn.net/v/t39.30808-6/468868835_427241780454303_1693747361653646564_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=QNGxE-8kLp8Q7kNvwFHxUzf&_nc_oc=AdnLfioF-vPjs9N_CsAKwYol-YG33fLPvjAKW_i1ita3aqiG6nFqt4juUy1YubjSM6c&_nc_zt=23&_nc_ht=scontent.fdel32-1.fna&_nc_gid=BSV-psxEZwfd-T71vbXweQ&oh=00_AfM1ItcE-8MAjm8qhh2_WZgQDNPOI3XP3x6iaHJiRHZ82w&oe=6847AB40",
       ClientImage1: ClientReviews2,
     },
     {
       name: "Sk Saifuddin",
       role: "",
-      content: "Had a great experience with Anand Digital PR! Super professional, creative, and really helped boost my brand. They handled everything from branding to social media and PR smoothly. Communication was easy, and they truly cared about my goals. Highly recommend them!",
+      content: "Had a great experience with Anand Digital PR! Super professional, creative, and really helped boost my brand. They handled everything from branding to social media and PR smoothly.",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQGiKceXw6nv0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1689503426516?e=1754524800&v=beta&t=jV4w_g0cC-uXOpTock62oyRb8LiW1Z1Rp7pdMvSVRdE",
       ClientImage1: ClientReviews3,
     },
