@@ -162,9 +162,9 @@ const Home = () => {
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "CEO, TechStart",
-      content: "Working with Anand Digital PR transformed our brand's visibility in the market.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2940&auto=format&fit=crop",
+      role: "Founder, Bakers Choice",
+      content: "Anand Digital PR took my brand to the next level! Their bold ideas, fresh strategies, and unstoppable energy made a huge difference.",
+      image: https://scontent.fdel32-1.fna.fbcdn.net/v/t1.6435-9/62616702_336172387279356_5145491882851172352_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2a5ISYH3gQcQ7kNvwFpGDkc&_nc_oc=AdlCh8pWx0SsOrVhlc2_GwhMeYuaJqyp0iIzjw3f9Ku7xsRWnrzRbDD7DmrN13Ph1ko&_nc_zt=23&_nc_ht=scontent.fdel32-1.fna&_nc_gid=lrR3hS-K3Je_IE3kvFRt3g&oh=00_AfN498HJulnVP8b_5gW9ztuiMaSUfL8O7PQ6_-GBlw1z5A&oe=6869395F",
       ClientImage1: ClientReviews1,
     },
     {
