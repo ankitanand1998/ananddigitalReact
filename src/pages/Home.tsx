@@ -455,7 +455,7 @@ const Home = () => {
                      <img
                     src={testimonial.ClientImage1}
                     alt={testimonial.name}
-                    className="w-40 h-30  mx-auto mb-6 object-cover"
+                    className="w-70 h-50  mx-auto mb-6 object-cover"
                   />
                     <h4 className="font-semibold">{testimonial.name}</h4>
                     <p className="text-gray-500">{testimonial.role}</p>
