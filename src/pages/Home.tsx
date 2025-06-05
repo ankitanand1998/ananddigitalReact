@@ -41,7 +41,7 @@ const Home = () => {
   const heroSlides = [
 
     {
-      title: 'Best Digital Marketing and PR Agency in Delhi',
+      title: 'Best Digital Marketing and PR Agency in Delhi NCR & Noida',
       description: 'Anand Digital PR is Delhi’s leading agency where cutting-edge digital marketing meets powerful public relations',
 
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
@@ -184,8 +184,8 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Best Digital Marketing and PR Agency in India (Noida) | Anand Digital PR</title>
-        <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
+        <title>Top Digital Marketing & PR Agency India | Anand Digital PR</title>
+        <meta name="description" content="Boost your brand with Anand Digital PR – India's(Noida) top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Agency in Delhi, India, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.ananddigitalpr.com" />
