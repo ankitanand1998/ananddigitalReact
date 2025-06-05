@@ -165,6 +165,7 @@ const Home = () => {
       role: "CEO, TechStart",
       content: "Working with Anand Digital PR transformed our brand's visibility in the market.",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2940&auto=format&fit=crop",
+      ClientImage1: ClientReviews1,
     },
     {
       name: "Michael Chen",
@@ -448,10 +449,16 @@ const Home = () => {
                     alt={testimonial.name}
                     className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
                   />
+                   
                   <p className="text-gray-600 mb-6">{testimonial.content}</p>
                   <div className="text-center">
                     <h4 className="font-semibold">{testimonial.name}</h4>
                     <p className="text-gray-500">{testimonial.role}</p>
+                     <img
+                    src={testimonial.ClientImage1}
+                    alt={testimonial.name}
+                    className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
+                  />
                   </div>
                 </motion.div>
               </SwiperSlide>
