@@ -452,13 +452,14 @@ const Home = () => {
                    
                   <p className="text-gray-600 mb-6">{testimonial.content}</p>
                   <div className="text-center">
-                    <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-gray-500">{testimonial.role}</p>
                      <img
                     src={testimonial.ClientImage1}
                     alt={testimonial.name}
-                    className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
+                    className="w-40 h-30  mx-auto mb-6 object-cover"
                   />
+                    <h4 className="font-semibold">{testimonial.name}</h4>
+                    <p className="text-gray-500">{testimonial.role}</p>
+                    
                   </div>
                 </motion.div>
               </SwiperSlide>
