@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import WhyChoose from "../components/WhyChoose";
 import  About from "./About"
 import  Contact from "./Contact"
-import ClientReviews1 from '../Image/your-image.jpg';
+import ClientReviews1 from '../Images/your-image.jpg';
 
 import {
   ArrowRight,
