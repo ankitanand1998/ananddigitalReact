@@ -168,7 +168,7 @@ const Home = () => {
       content: "Anand Digital PR took my brand to the next level! Their bold ideas, fresh strategies, and unstoppable energy made a huge difference. If you want marketing that truly stands out, Anand Digital PR is the name to trust! Their team goes beyond expectations",
       image: "https://scontent.fdel32-1.fna.fbcdn.net/v/t1.6435-9/62616702_336172387279356_5145491882851172352_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2a5ISYH3gQcQ7kNvwFpGDkc&_nc_oc=AdlCh8pWx0SsOrVhlc2_GwhMeYuaJqyp0iIzjw3f9Ku7xsRWnrzRbDD7DmrN13Ph1ko&_nc_zt=23&_nc_ht=scontent.fdel32-1.fna&_nc_gid=lrR3hS-K3Je_IE3kvFRt3g&oh=00_AfN498HJulnVP8b_5gW9ztuiMaSUfL8O7PQ6_-GBlw1z5A&oe=6869395F",
       ClientImage1: ClientReviews1,
-      alt="Happy SEO client from Ghana sharing success story, Best Digital PR Services",
+      alts: "Happy SEO client from Ghana sharing success story, Best Digital PR Services",
     },
     {
       name: "Nishant Kumar",
@@ -176,7 +176,7 @@ const Home = () => {
       content: "Anand Digital PR has been a trusted partner in growing my brand. Their strategic approach, creativity, and consistent results set them apart.",
       image: "https://scontent.fdel32-1.fna.fbcdn.net/v/t39.30808-6/468868835_427241780454303_1693747361653646564_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=QNGxE-8kLp8Q7kNvwFHxUzf&_nc_oc=AdnLfioF-vPjs9N_CsAKwYol-YG33fLPvjAKW_i1ita3aqiG6nFqt4juUy1YubjSM6c&_nc_zt=23&_nc_ht=scontent.fdel32-1.fna&_nc_gid=BSV-psxEZwfd-T71vbXweQ&oh=00_AfM1ItcE-8MAjm8qhh2_WZgQDNPOI3XP3x6iaHJiRHZ82w&oe=6847AB40",
       ClientImage1: ClientReviews2,
-      alt="Happy digital PR client from India sharing success story , Best Digital PR Agency In Noida",
+      alts: "Happy digital PR client from India sharing success story , Best Digital PR Agency In Noida",
     },
     {
       name: "Sk Saifuddin",
@@ -184,7 +184,7 @@ const Home = () => {
       content: "Had a great experience with Anand Digital PR! Super professional, creative, and really helped boost my brand. They handled everything from branding to social media and PR smoothly.",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQGiKceXw6nv0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1689503426516?e=1754524800&v=beta&t=jV4w_g0cC-uXOpTock62oyRb8LiW1Z1Rp7pdMvSVRdE",
       ClientImage1: ClientReviews3,
-      alt="Happy digital PR client from India sharing success story , Best Digital PR Services in India",
+      alts: "Happy digital PR client from India sharing success story , Best Digital PR Services in India",
     },
   ];
 
@@ -453,7 +453,7 @@ const Home = () => {
                 >
                   <img
                     src={testimonial.image}
-                    alt={testimonial.alt}
+                    alt={testimonial.alts}
                     className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
                   />
                    
@@ -461,7 +461,7 @@ const Home = () => {
                   <div className="text-center">
                      <img
                     src={testimonial.ClientImage1}
-                    alt={testimonial.alt}
+                    alt={testimonial.alts}
                     className="w-70 h-50  mx-auto mb-6 object-cover"
                   />
                     <h4 className="font-semibold">{testimonial.name}</h4>
