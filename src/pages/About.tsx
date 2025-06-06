@@ -45,7 +45,7 @@ const About = () => {
    <div className="pt-16">
     {/* Meta Tags */}
     <Helmet>
-        <title>Best Digital PR Agency in Noida | Anand Digital PR</title>
+        <title>Best Public Realtion Agency in Noida | Anand Digital PR</title>
         <meta name="description" content="Know the story behind Anand Digital PR, a leading digital marketing and PR agency in Noida,Delhi, India. We blend innovation, strategy, and storytelling to build powerful brands and lasting success." />
         <link rel="canonical" href="https://www.ananddigitalpr.com/about" />
         <meta name="robots" content="index, follow" />
