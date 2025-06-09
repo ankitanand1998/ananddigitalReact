@@ -134,45 +134,205 @@ const Services = () => {
             />
             <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
-      <script type="application/ld+json">{JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Digital Marketing and Digital PR Services",
-    "provider": {
-      "@type": "Organization",
-      "name": "Anand Digital PR",
-      "url": "https://www.ananddigitalpr.com",
-      "logo": "https://www.ananddigitalpr.com/logo.png"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Digital Marketing & PR Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "priceCurrency": "INR",
-          "price": 14999,
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Media Relations",
-            "description": "Premium PR coverage with top media connections. Monthly pricing for growing brands."
-          }
-        },
-        {
-          "@type": "Offer",
-          "priceCurrency": "INR",
-          "price": 15999,
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Crisis Management",
-            "description": "Expert handling of brand reputation crises. Fast response plans included."
-          }
-        },
-        // Add the rest of the offers as needed
-      ]
-    }
-  })}
+           <script type="application/ld+json">{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digital Marketing and Digital PR Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "Anand Digital PR",
+    "url": "https://www.ananddigitalpr.com",
+    "logo": "https://www.ananddigitalpr.com/logo.png"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Digital Marketing & PR Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 14999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Media Relations",
+          "description": "Premium PR coverage with top media connections. Monthly pricing for growing brands."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 15999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Crisis Management",
+          "description": "Expert handling of brand reputation crises. Fast response plans included."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 12999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Global Outreach",
+          "description": "Reach and connect with international audiences through multilingual, strategic communications."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 11999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Brand Protection",
+          "description": "Online brand monitoring and reputation safeguarding."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 12999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Social Media PR",
+          "description": "Monthly content creation, engagement, and influencer collaborations."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 14999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Campaign Planning",
+          "description": "Targeted multi-platform campaigns with monthly reports and strategy updates."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 13999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Digital Strategy",
+          "description": "Holistic digital growth strategies tailored to business goals."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 10999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "SEO Optimization",
+          "description": "Monthly on-page and off-page SEO for organic traffic improvement."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 11999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Email Marketing",
+          "description": "Design and execution of high-converting email campaigns with analytics."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 12999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Analytics & Reporting",
+          "description": "In-depth performance dashboards and monthly insight reports."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 14999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Responsive Web Design",
+          "description": "Mobile-first design with branding elements and SEO structure."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 12999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Frontend Development",
+          "description": "High-performance, interactive web interfaces aligned with your brand."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 10999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Security & Hosting",
+          "description": "Fast, secure, and scalable monthly website hosting plans."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 13999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "UI/UX Design",
+          "description": "User-centric UI/UX design tailored for conversion and usability."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 11999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Website Maintenance",
+          "description": "Monthly updates, backups, security scans, and performance checks."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 12999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Content Marketing",
+          "description": "Monthly content planning, creation, and distribution strategies."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 14999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "PPC Advertising",
+          "description": "Campaign setup and optimization across Google, Meta, and LinkedIn Ads."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": 13999,
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Influencer Marketing",
+          "description": "Monthly influencer sourcing, briefing, collaboration and content tracking."
+        }
+      }
+    ]
+  }
+})}
 </script>
+
 </Helmet>
 
 {/* Hero Section */}
