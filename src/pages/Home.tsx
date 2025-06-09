@@ -192,7 +192,7 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Anand Digital PR:Best Digital Marketing and PR Agency in Noida, India</title>
+        <title>Anand Digital PR: Best Digital Marketing and PR Agency in India, Noida</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Agency in Delhi, India, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
         <meta name="robots" content="index, follow" />
@@ -240,14 +240,14 @@ const Home = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Digital Marketing and PR Services",
-            "description": "India's Best Comprehensive digital PR Services including SEO, PPC, media outreach, online reputation management, and content strategy.",
+            "description": "India's Best Comprehensive digital PR Services in India including SEO, PPC, media outreach, online reputation management, and content strategy.",
             "provider": {
               "@type": "Organization",
               "name": "Anand Digital PR"
             }
           }
         },
-        "keywords": "Digital Marketing Agency in Delhi, India, PR Agency in Noida, India"
+        "keywords": "Digital Marketing Agency in Delhi, India, Digital PR Agency in Noida, India"
       }
     `}
   </script>
