@@ -212,46 +212,108 @@ const Home = () => {
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
-         <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Anand Digital PR",
-        "url": "https://www.ananddigitalpr.com/",
-        "logo": "https://www.ananddigitalpr.com/logo.png",
-        "description": "Boost your brand with Anand Digital PR –India's top digital marketing and Digital PR agency for SEO, content, media coverage, and online growth.",
-        "sameAs": [
-          "https://www.facebook.com/ananddigitalpr",
-          "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
-          "https://www.instagram.com/ananddigitalpr"
-        ],
-        "contactPoint": [{
-          "@type": "ContactPoint",
-          "telephone": "+91-8340426515",
-          "contactType": "Customer Service",
-          "email": "sales.ananddigitalpr@gmail.com",
-          "url": "https://www.ananddigitalpr.com/contact"
-        }],
+     <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Anand Digital PR",
+      "url": "https://www.ananddigitalpr.com/",
+      "logo": "https://www.ananddigitalpr.com/logo.png",
+      "description": "Boost your brand with Anand Digital PR – India's top digital marketing and Digital PR agency for SEO, content, media coverage, and online growth.",
+      "sameAs": [
+        "https://www.facebook.com/ananddigitalpr",
+        "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
+        "https://www.instagram.com/ananddigitalpr"
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+91-8340426515",
+        "contactType": "Customer Service",
+        "email": "sales.ananddigitalpr@gmail.com",
+        "url": "https://www.ananddigitalpr.com/contact",
         "areaServed": "IN",
-        "availableLanguage": "English",
-        "makesOffer": {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Digital Marketing and PR Services",
-            "description": "India's Best Comprehensive digital PR Services in India including SEO, PPC, media outreach, online reputation management, and content strategy.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Anand Digital PR"
-            }
+        "availableLanguage": "English"
+      }],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sector 62",
+        "addressLocality": "Noida",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201301",
+        "addressCountry": "IN"
+      },
+      "areaServed": "IN",
+      "availableLanguage": "English",
+      "foundingDate": "2020",
+      "founders": [{
+        "@type": "Person",
+        "name": "Ankit Anand"
+      }],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "250"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Erica Koomson"
+          },
+          "datePublished": "2024-12-10",
+          "reviewBody": "Anand Digital PR took my brand to the next level! Their bold ideas, fresh strategies, and unstoppable energy made a huge difference. If you want marketing that truly stands out, Anand Digital PR is the name to trust!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
           }
         },
-        "keywords": "Digital Marketing Agency in Delhi, India, Digital PR Agency in Noida, India"
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Nishant Kumar"
+          },
+          "datePublished": "2025-02-03",
+          "reviewBody": "Anand Digital PR has been a trusted partner in growing my brand. Their strategic approach, creativity, and consistent results set them apart. If you’re serious about building a strong digital presence, they’re the agency you can rely on.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4.8",
+            "bestRating": "5"
+          }
+        }
+      ],
+      "keywords": "Digital Marketing Agency in Delhi, India, Digital PR Agency in Noida, India"
+    },
+    {
+      "@type": "WebSite",
+      "url": "https://www.ananddigitalpr.com",
+      "name": "Anand Digital PR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.ananddigitalpr.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
-    `}
-  </script>
-
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ananddigitalpr.com"
+        }
+      ]
+    }
+  ]
+}
+`}
+</script>
 
      </Helmet>
 
