@@ -134,8 +134,8 @@ const Services = () => {
             />
             <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
-            <script type="application/ld+json">
-          {`
+          <script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "Service",
   "serviceType": "Digital Marketing and Digital PR Services",
@@ -152,7 +152,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "14999",
+        "price": 14999,
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
           "priceCurrency": "INR",
@@ -169,7 +169,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "15999",
+        "price": 15999,
         "itemOffered": {
           "@type": "Service",
           "name": "Crisis Management",
@@ -179,7 +179,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "12999",
+        "price": 12999,
         "itemOffered": {
           "@type": "Service",
           "name": "Global Outreach",
@@ -189,7 +189,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "11999",
+        "price": 11999,
         "itemOffered": {
           "@type": "Service",
           "name": "Brand Protection",
@@ -199,7 +199,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "12999",
+        "price": 12999,
         "itemOffered": {
           "@type": "Service",
           "name": "Social Media PR",
@@ -209,7 +209,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "14999",
+        "price": 14999,
         "itemOffered": {
           "@type": "Service",
           "name": "Campaign Planning",
@@ -219,7 +219,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "13999",
+        "price": 13999,
         "itemOffered": {
           "@type": "Service",
           "name": "Digital Strategy",
@@ -229,7 +229,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "10999",
+        "price": 10999,
         "itemOffered": {
           "@type": "Service",
           "name": "SEO Optimization",
@@ -239,7 +239,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "11999",
+        "price": 11999,
         "itemOffered": {
           "@type": "Service",
           "name": "Email Marketing",
@@ -249,7 +249,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "12999",
+        "price": 12999,
         "itemOffered": {
           "@type": "Service",
           "name": "Analytics & Reporting",
@@ -259,7 +259,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "14999",
+        "price": 14999,
         "itemOffered": {
           "@type": "Service",
           "name": "Responsive Web Design",
@@ -269,7 +269,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "12999",
+        "price": 12999,
         "itemOffered": {
           "@type": "Service",
           "name": "Frontend Development",
@@ -279,7 +279,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "10999",
+        "price": 10999,
         "itemOffered": {
           "@type": "Service",
           "name": "Security & Hosting",
@@ -289,7 +289,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "13999",
+        "price": 13999,
         "itemOffered": {
           "@type": "Service",
           "name": "UI/UX Design",
@@ -299,7 +299,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "11999",
+        "price": 11999,
         "itemOffered": {
           "@type": "Service",
           "name": "Website Maintenance",
@@ -309,7 +309,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "12999",
+        "price": 12999,
         "itemOffered": {
           "@type": "Service",
           "name": "Content Marketing",
@@ -319,7 +319,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "14999",
+        "price": 14999,
         "itemOffered": {
           "@type": "Service",
           "name": "PPC Advertising",
@@ -329,7 +329,7 @@ const Services = () => {
       {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "price": "13999",
+        "price": 13999,
         "itemOffered": {
           "@type": "Service",
           "name": "Influencer Marketing",
@@ -338,8 +338,9 @@ const Services = () => {
       }
     ]
   }
-`}
-  </script>
+}
+</script>
+
 </Helmet>
 
 {/* Hero Section */}
