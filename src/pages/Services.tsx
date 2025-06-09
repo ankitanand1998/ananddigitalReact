@@ -115,11 +115,11 @@ const Services = () => {
   return (
     <div className="pt-16">
      <Helmet>
-            <title>Top Digital PR Agency in Delhi, Noida | Best Digital PR Services</title>
+            <title>Best Digital Marketing & PR Services in India</title>
             <meta name="description" content="Looking for expert PR and digital marketing services in Delhi NCR & Noida,India ? Anand Digital PR offers SEO, brand strategy, content marketing, media coverage, and reputation management tailored for growth." />
             <link rel="canonical" href="https://www.ananddigitalpr.com/services" />
             <meta name="robots" content="index, follow" />
-            <meta property="og:title" content="Digital Marketing & PR Services in Delhi & Noida ,India | Anand Digital PR" />
+            <meta property="og:title" content="Digital Marketing & PR Services in Delhi & Noida, India | Anand Digital PR" />
             <meta
               property="og:description"
               content="Looking for expert PR and digital marketing services in Delhi NCR & Noida,India ? Anand Digital PR offers SEO, brand strategy, content marketing, media coverage, and reputation management tailored for growth"
@@ -136,169 +136,209 @@ const Services = () => {
 
             <script type="application/ld+json">
           {`
-
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Digital Marketing and PR Services",
-      "provider": {
-        "@type": "Organization",
-        "name": "Anand Digital PR",
-        "url": "https://www.ananddigitalpr.com",
-        "logo": "https://www.ananddigitalpr.com/logo.png"
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digital Marketing and Digital PR Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "Anand Digital PR",
+    "url": "https://www.ananddigitalpr.com",
+    "logo": "https://www.ananddigitalpr.com/logo.png"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Digital Marketing & PR Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "14999",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "priceCurrency": "INR",
+          "price": 14999,
+          "billingDuration": "P1M",
+          "description": "Monthly subscription with media coverage opportunities"
+        },
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Media Relations",
+          "description": "Premium PR coverage with top media connections. Monthly pricing for growing brands."
+        }
       },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Digital Marketing & PR Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Media Relations",
-              "description": "Build and maintain relationships with key media outlets and journalists."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Crisis Management",
-              "description": "Expert handling of sensitive situations and reputation management."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Global Outreach",
-              "description": "Connect with audiences worldwide through strategic communications."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Brand Protection",
-              "description": "Safeguard your brand reputation in the digital landscape."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Social Media PR",
-              "description": "Strategic social media management for brand enhancement."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Campaign Planning",
-              "description": "Targeted campaigns that deliver measurable results."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Digital Strategy",
-              "description": "Comprehensive digital strategies to enhance your online presence."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "SEO Optimization",
-              "description": "Improve your search rankings with smart SEO techniques."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Email Marketing",
-              "description": "Engage your audience with well-crafted email campaigns."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Analytics & Reporting",
-              "description": "Track and analyze data to optimize campaign performance."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Responsive Web Design",
-              "description": "Beautiful and functional websites for all devices."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Frontend Development",
-              "description": "Interactive, fast-loading, and SEO-friendly interfaces."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Security & Hosting",
-              "description": "Robust and secure hosting solutions for your website."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "UI/UX Design",
-              "description": "Create stunning, user-friendly designs tailored to your brand."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Website Maintenance",
-              "description": "Ongoing support and updates to keep your site running smoothly."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Content Marketing",
-              "description": "Develop high-quality, engaging content strategies to drive traffic and build brand authority."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "PPC Advertising",
-              "description": "Targeted ad campaigns on platforms like Google Ads and Meta Ads to drive instant leads and ROI."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Influencer Marketing",
-              "description": "Collaborate with industry influencers to amplify your brand’s reach and credibility."
-            }
-          }
-        ]
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "15999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Crisis Management",
+          "description": "Expert handling of brand reputation crises. Fast response plans included."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "12999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Global Outreach",
+          "description": "Reach and connect with international audiences through multilingual, strategic communications."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "11999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Brand Protection",
+          "description": "Online brand monitoring and reputation safeguarding."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "12999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Social Media PR",
+          "description": "Monthly content creation, engagement, and influencer collaborations."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "14999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Campaign Planning",
+          "description": "Targeted multi-platform campaigns with monthly reports and strategy updates."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "13999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Digital Strategy",
+          "description": "Holistic digital growth strategies tailored to business goals."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "10999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "SEO Optimization",
+          "description": "Monthly on-page and off-page SEO for organic traffic improvement."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "11999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Email Marketing",
+          "description": "Design and execution of high-converting email campaigns with analytics."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "12999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Analytics & Reporting",
+          "description": "In-depth performance dashboards and monthly insight reports."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "14999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Responsive Web Design",
+          "description": "Mobile-first design with branding elements and SEO structure."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "12999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Frontend Development",
+          "description": "High-performance, interactive web interfaces aligned with your brand."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "10999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Security & Hosting",
+          "description": "Fast, secure, and scalable monthly website hosting plans."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "13999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "UI/UX Design",
+          "description": "User-centric UI/UX design tailored for conversion and usability."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "11999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Website Maintenance",
+          "description": "Monthly updates, backups, security scans, and performance checks."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "12999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Content Marketing",
+          "description": "Monthly content planning, creation, and distribution strategies."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "14999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "PPC Advertising",
+          "description": "Campaign setup and optimization across Google, Meta, and LinkedIn Ads."
+        }
+      },
+      {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "13999",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Influencer Marketing",
+          "description": "Monthly influencer sourcing, briefing, collaboration and content tracking."
+        }
       }
-    }
-   `}
+    ]
+  }
+`}
   </script>
 </Helmet>
 
