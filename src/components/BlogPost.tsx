@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Calendar, User } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import type { Blog } from '../types/Blog';
+import Summary from './Summary';
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -118,6 +119,9 @@ const BlogPost = () => {
 
         <div className="prose prose-lg max-w-none">
           <div dangerouslySetInnerHTML={{ __html: formattedContent }} />
+        </div>
+        <div>
+          <Summary />
         </div>
       </motion.article>
     </>
