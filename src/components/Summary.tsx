@@ -8,9 +8,8 @@ const Summary = () => {
           Written by Anand Digital PR – India’s Leading Digital Marketing & PR Agency
         </h2>
         <p className="text-gray-600 mb-4">
-          This blog is brought to you by Anand Digital PR, one of the
-          <span><a href="https://www.ananddigitalpr.com/" className="text-blue-600 hover:underline"> best Digital Marketing and PR agencies in India.</a></span> With years of hands-on experience, our expert team specializes in crafting powerful Digital PR, SEO, and Digital Marketing strategies that elevate brand visibility, build trust, and generate high-authority backlinks. At Anand Digital PR, we stay ahead of digital trends and deliver proven solutions tailored to help businesses grow online. This blog is part of our commitment to share valuable insights and practical tips to help brands thrive in the digital world.
-        </p>
+         <b>This blog is brought to you by Anand Digital PR</b> one of India’s
+          <span><a href="https://www.ananddigitalpr.com/" className="text-blue-600 hover:underline">leading Digital Marketing and PR agencies</a>. With years of hands-on experience, our team is passionate about helping brands grow through smart, creative, and results-driven strategies. From boosting your online presence to building lasting customer trust, we know what it takes to succeed in the digital world. At Anand Digital PR, we don’t just follow trends — we help set them. This blog is part of our mission to share useful insights, real-world tips, and honest advice to help businesses like yours thrive online. </span></p>
       </div>
     </div>
   );
