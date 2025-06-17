@@ -562,7 +562,7 @@ Stories and strategies are created accompanied by best solutions. By prioritizin
       <p className="text-xl text-gray-600">Yes, if you involve a PR agency, you can try new ideas and target your marketing better and this could save money on older advertising forms. So PR agency finds the most affordable and up-to-date ways your business can advertise, build its brand and make sales which helps your business become more successful and profitable.</p>
         
         <h3 className="text-4xl font-bold mb-6  mt-3">What does it cost to work with a Public Relations Agency?</h3>
-        <p className="text-xl text-gray-600">The cost to hire a PR agency is not fixed. Since custom services are the main offering, the PR agency price scales can be very different. The final cost of the PR agency depends on the set of services you have agreed to receive.</p>
+        <p className="text-xl text-gray-600">The cost to <a href="https://www.ananddigitalpr.com/contact" className="text-blue-600 hover:underline"> hire a PR agency </a> is not fixed. Since custom services are the main offering, the PR agency price scales can be very different. The final cost of the PR agency depends on the set of services you have agreed to receive.</p>
 
         <h3 className="text-4xl font-bold mb-6 mt-3">What does a PR Agency do in digital marketing?</h3>
         <p className="text-xl text-gray-600">PR agencies also provide services in digital marketing, Called Digital PR Agency, for SEO, SMM, SMO, ORM, CMS, CRM and other areas, because digital marketing helps a company build and expand its customer base, create a strong brand reputation, improve placement in search results, produce leads and increase profits.</p>
