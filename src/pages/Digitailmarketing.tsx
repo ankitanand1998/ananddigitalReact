@@ -96,51 +96,212 @@ const heroSlides = [
   ];
 
   const facts = [
-    { icon: <Users className="w-12 h-12 text-indigo-600" />, title: "100+ Happy Clients", description: "Clients who choose us once stay with us for ongoing digital growth." },
-    { icon: <CheckSquare className="w-12 h-12 text-indigo-600" />, title: "200+ Projects Completed", description: "With unwavering dedication, we’ve successfully delivered over 200 digital projects." },
-    { icon: <Calendar className="w-12 h-12 text-indigo-600" />, title: "5+ Years In Business", description: "Serving diverse industries with custom solutions for more than five years." },
-    { icon: <Star className="w-12 h-12 text-indigo-600" />, title: "4.5 Average Rating", description: "Our clients consistently rate us high for quality, communication, and results." }
+    { icon: <Users className="w-12 h-12 text-indigo-600" />, title: "100+ Happy Clients", description: "Clients who choose us once stay with us, because we truly understand their needs and consistently deliver results that exceed expectations." },
+    { icon: <CheckSquare className="w-12 h-12 text-indigo-600" />, title: "200+ Projects Completed", description: "With unwavering dedication and hard work, we’ve proudly completed over 200 projects." },
+    { icon: <Calendar className="w-12 h-12 text-indigo-600" />, title: "5+ Years In Business", description: "In the last 5+ years, we have been diligently working toward our goal of providing hassle-free digital solutions for every business" },
+    { icon: <Star className="w-12 h-12 text-indigo-600" />, title: "4.5 Average Rating", description: "With a 4.85 satisfaction rating from both clients and team members, we’re proud to be one of India’s most trusted and preferred digital agencies." }
   ];
 
   const brandtrust = [
-    { icon: <HeartPulse className="w-12 h-12 text-indigo-600" />, title: "Healthcare", description: "Helping doctors, clinics, and hospitals grow their digital presence with ethical promotion." },
-    { icon: <BookOpen className="w-12 h-12 text-indigo-600" />, title: "EdTech", description: "We help edtech startups and institutions boost leads and enrollments with strategic digital outreach." },
-    { icon: <ShoppingBag className="w-12 h-12 text-indigo-600" />, title: "Ecommerce", description: "We optimize product visibility and drive targeted traffic to ecommerce websites for higher conversions." },
-    { icon: <Network className="w-12 h-12 text-indigo-600" />, title: "B2B", description: "Our tailored campaigns help B2B businesses attract qualified leads and nurture partnerships online." }
+    { icon: <HeartPulse className="w-12 h-12 text-indigo-600" />, title: "Healthcare", description: "We stand out in the competitive healthcare industry by building trust and enhancing visibility among the right audience." },
+    { icon: <BookOpen className="w-12 h-12 text-indigo-600" />, title: "EdTech", description: "Helping educational institutions to increase student enrollments and stand out in today’s competitive Indian market is what we do best." },
+    { icon: <ShoppingBag className="w-12 h-12 text-indigo-600" />, title: "Ecommerce", description: "Maximizing sales and conversions with our data-driven strategies are always a hit among ecommerce brands." },
+    { icon: <Network className="w-12 h-12 text-indigo-600" />, title: "B2B", description: "We focus on generating high-quality leads, strengthening your brand authority, and driving sustainable growth in your niche industry." }
   ];
 
   return (
     <div className="overflow-hidden">
       <Helmet>
-        <title>Digital Marketing Company in Noida - Guaranteed Results | Anand Digital PR</title>
-        <meta name="description" content="Looking for a result-driven digital marketing agency in Noida? Anand Digital PR offers SEO, performance marketing & PR strategies that drive business growth." />
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Anand Digital PR",
-            "url": "https://www.ananddigitalpr.com",
-            "logo": "https://www.ananddigitalpr.com/logo.png",
-            "sameAs": [
-              "https://www.facebook.com/ananddigitalpr",
-              "https://twitter.com/ananddigitalpr",
-              "https://www.linkedin.com/company/ananddigitalpr"
-            ],
-            "description": "A top digital marketing and PR agency in Noida offering SEO, performance marketing, and digital branding solutions.",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Noida",
-              "addressRegion": "UP",
-              "addressCountry": "IN"
-            }
-          }`}</script>
-      </Helmet>
+        {/* Title and Description */}
+        <title>Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR</title>
+        <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
+        <meta name="keywords" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
 
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <meta property="og:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR" />
+        <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
+        <meta property="og:image" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-indiaog-image.jpg" /> {/* Replace with actual image URL */}
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <meta name="twitter:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR" />
+        <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing agency for SEO, content, media coverage, and online growth." />
+        <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
+
+     <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Anand Digital PR",
+      "url": "https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india",
+      "logo": "https://www.ananddigitalpr.com/logo.png",
+      "description": "Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth.",
+      "sameAs": [
+        "https://www.facebook.com/ananddigitalpr",
+        "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
+        "https://www.instagram.com/ananddigitalpr"
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+91-8340426515",
+        "contactType": "Customer Service",
+        "email": "sales.ananddigitalpr@gmail.com",
+        "url": "https://www.ananddigitalpr.com/contact",
+        "areaServed": "IN",
+        "availableLanguage": "English"
+      }],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sector 62",
+        "addressLocality": "Noida",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201301",
+        "addressCountry": "IN"
+      },
+      "areaServed": "IN",
+      "availableLanguage": "English",
+      "foundingDate": "2020",
+      "founders": [{
+        "@type": "Person",
+        "name": "Ankit Anand"
+      }],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "250"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Erica Koomson"
+          },
+          "datePublished": "2024-12-10",
+          "reviewBody": "Anand Digital PR took my brand to the next level! Their bold ideas, fresh strategies, and unstoppable energy made a huge difference. If you want marketing that truly stands out, Anand Digital PR is the name to trust!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Nishant Kumar"
+          },
+          "datePublished": "2025-02-03",
+          "reviewBody": "Anand Digital PR has been a trusted partner in growing my brand. Their strategic approach, creativity, and consistent results set them apart. If you’re serious about building a strong digital presence, they’re the agency you can rely on.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4.8",
+            "bestRating": "5"
+          }
+        }
+      ],
+      "keywords": "Digital Marketing Agency in Delhi, India, Digital PR Agency in Noida, India"
+    },
+    {
+      "@type": "WebSite",
+      "url": "https://www.ananddigitalpr.com",
+      "name": "Anand Digital PR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.ananddigitalpr.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ananddigitalpr.com"
+        }
+      ]
+    }
+  ]
+}
+`}
+</script>
+
+     </Helmet>
+      {/* Hero Section */}
+      <section className="relative h-screen">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 5000 }}
+          loop
+          className="h-full"
+        >
+          {heroSlides.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <div className="relative h-full">
+                <div className="absolute inset-0">
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/50" />
+                </div>
+                <div className="relative h-full flex items-center justify-center text-center text-white px-4">
+                  <div className="max-w-4xl">
+                  <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+        className="text-5xl md:text-6xl font-bold mb-6"
+      >
+        {slide.title}
+      </motion.div>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className="text-xl md:text-2xl mb-8"
+      >
+        {slide.description}
+      </motion.p>
+
+      <motion.button
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.6 }}
+  className="bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors"
+>
+  <a href="/contact" className="flex items-center gap-2">
+    Get Started <ArrowRight size={20} />
+  </a>
+</motion.button>
+
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+      
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Our Best Services For Digital Marketing</h2>
-            <p className="text-xl text-gray-600">Comprehensive PR & Digital solutions for your success</p>
+            <p className="text-xl text-gray-600">Comprehensive Digital solutions for your success</p>
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((s, i) => (
