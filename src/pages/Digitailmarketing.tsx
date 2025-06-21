@@ -99,10 +99,12 @@ const Digitailmarketing = () => {
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((s, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
-                <div className="bg-white p-8 rounded-xl shadow-lg">
-                  <div className="mb-6">{s.icon}</div>
-                  <h3 className="text-2xl font-semibold mb-4">{s.title}</h3>
-                  <p className="text-gray-600">{s.description}</p>
+                <div className="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col justify-between">
+                  <div>
+                    <div className="mb-6">{s.icon}</div>
+                    <h3 className="text-2xl font-semibold mb-4">{s.title}</h3>
+                    <p className="text-gray-600">{s.description}</p>
+                  </div>
                 </div>
               </motion.div>
             ))}
@@ -119,10 +121,12 @@ const Digitailmarketing = () => {
           <div className="grid sm:grid-cols-1 md:grid-cols-4 gap-8">
             {facts.map((f, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
-                <div className="bg-gray-50 p-8 rounded-xl shadow-lg">
-                  <div className="mb-6">{f.icon}</div>
-                  <h3 className="text-2xl font-semibold mb-4">{f.title}</h3>
-                  <p className="text-gray-600">{f.description}</p>
+                <div className="bg-gray-50 p-8 rounded-xl shadow-lg h-full flex flex-col justify-between">
+                  <div>
+                    <div className="mb-6">{f.icon}</div>
+                    <h3 className="text-2xl font-semibold mb-4">{f.title}</h3>
+                    <p className="text-gray-600">{f.description}</p>
+                  </div>
                 </div>
               </motion.div>
             ))}
@@ -139,10 +143,12 @@ const Digitailmarketing = () => {
           <div className="grid sm:grid-cols-1 md:grid-cols-4 gap-8">
             {brandtrust.map((b, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
-                <div className="bg-white p-8 rounded-xl shadow-lg">
-                  <div className="mb-6">{b.icon}</div>
-                  <h3 className="text-2xl font-semibold mb-4">{b.title}</h3>
-                  <p className="text-gray-600">{b.description}</p>
+                <div className="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col justify-between">
+                  <div>
+                    <div className="mb-6">{b.icon}</div>
+                    <h3 className="text-2xl font-semibold mb-4">{b.title}</h3>
+                    <p className="text-gray-600">{b.description}</p>
+                  </div>
                 </div>
               </motion.div>
             ))}
