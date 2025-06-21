@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Digitailmarketing from './pages/Digitailmarketing';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
@@ -21,6 +22,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<BlogList />} />
+            <Route path="/india/delhi-ncr/digital-marketing-company-noida" element={<Digitailmarketing/>} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
         </div>
