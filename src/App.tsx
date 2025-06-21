@@ -22,7 +22,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<BlogList />} />
-            <Route path="/india/delhi-ncr/digital-marketing-company-noida" element={<Digitailmarketing/>} />
+            <Route path="/noida/delhi-ncr/digital-marketing-company-india" element={<Digitailmarketing/>} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
         </div>
