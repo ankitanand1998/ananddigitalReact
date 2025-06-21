@@ -237,7 +237,48 @@ const heroSlides = [
 </script>
 
      </Helmet>
-     
+
+
+      {/* About Section */}
+      <section ref={ref} className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+             <h1 className="text-4xl font-bold mb-6">Digital Marketing Agency & Company in India,Noida that Offers Guaranteed Results</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          Anand Digital PR is a globally recognized digital marketing agency based in India,Noida known for redefining quality standards in the digital marketing landscape.
+We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in India, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
+            </p>
+          <a href="/about">
+  <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
+    Know More <ArrowRight size={20} />
+  </button>
+</a>
+</motion.div>
+        </div>
+      </section>
+      {/* About Section */}
+      <section ref={ref} className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+             <h2 className="text-4xl font-bold mb-6">Work with the Leading Digital Marketing Company in Noida, India Where Great Results Come Fast</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We help you achieve holistic growth with clear vision and deliver a value-driven experience for your customers all while maintaining the highest quality standards.<br/>
+Anand Digital PR is one of the best digital marketing agencies in India, Noida offering a comprehensive 360-degree digital service portfolio. We've carved out our niche as a trusted name in the industry, growing steadily through experience, expertise, and a commitment to excellence building success brick by brick.<br/>
+With a focused and strategic approach, we identify the right digital opportunities that allow us to help our clients overcome complex business challenges and drive meaningful results.
+</p>
+          </motion.div>
+        </div>
+      </section>
       
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
