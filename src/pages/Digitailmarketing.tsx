@@ -26,15 +26,73 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Digitailmarketing = () => {
-  const [refAbout, inViewAbout] = useInView({ triggerOnce: true, threshold: 0.1 });
+ const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
 
+const heroSlides = [
+
+    {
+      title: 'Best Digital Marketing and PR Agency in Delhi NCR & Noida',
+      description: 'Anand Digital PR is Delhi’s leading agency where cutting-edge digital marketing meets powerful public relations',
+
+      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+    },
+    {
+      title: 'Get found. Get featured. Get results',
+      description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
+
+      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+    },
+
+
+
+    {
+      title: "Strategic Digital PR Solutions",
+      description: "Elevate your brand's presence with our innovative PR strategies",
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+    },
+
+    {
+      title: 'All-in-one growth: SEO, Social Media, PPC, Content & PR',
+      description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+    },
+
+
+    {
+      title: "Data-Driven Campaigns",
+      description: "Maximize your impact with our analytics-backed approach",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2940&auto=format&fit=crop",
+    },
+    {
+      title: "Global Media Relations",
+      description: "Connect with influential media partners worldwide",
+      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2940&auto=format&fit=crop",
+    },
+
+    {
+      title: 'We don’t just market—We build reputations, boost engagement, and deliver results.',
+      description: "Elevate your brand's presence with our innovative PR strategies",
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+    }
+  ];
+
+
+
+  
   const services = [
-    { icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "SEO Services", description: "Rank higher on Google with ethical SEO practices that deliver long-term results." },
+    { icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "SEO Services",   description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines."},
     { icon: <BarChart2 className="w-12 h-12 text-indigo-600" />, title: "Performance Marketing", description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies." },
-    { icon: <Globe className="w-12 h-12 text-indigo-600" />, title: "Digital PR", description: "Build authority & backlinks through strategic online PR campaigns." },
-    { icon: <Code className="w-12 h-12 text-indigo-600" />, title: "Website Development", description: "Design & develop high-performing, SEO-friendly websites." },
-    { icon: <Shield className="w-12 h-12 text-indigo-600" />, title: "Online Reputation Management", description: "Protect and enhance your brand’s reputation with smart digital tactics." },
-    { icon: <FileText className="w-12 h-12 text-indigo-600" />, title: "Content Marketing", description: "Craft compelling content that informs, engages, and converts." }
+    { icon: <BarChart2 className="w-12 h-12 text-indigo-600" />, title: "Social Media Marketing", description: "Our social media marketing team helps your business grow and connect with the right audience on platforms like Facebook, Instagram, and more." },
+    { icon: <BarChart2 className="w-12 h-12 text-indigo-600" />, title: "Google Ads", description: "Our team helps your business grow and drive traffic by advertising it on Google. It will also benefit the sale of your products or services." },
+    { icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "Lead Generation", description: "Our digital marketing services are designed to drive quality leads, grow your business, and help you reach top rankings online." },
+   
+    { icon: <Globe className="w-12 h-12 text-indigo-600" />, title: "Digital PR", description: "Engage your target audience, build a trusted brand, and maximize your online visibility and reputation with our dynamic Digital PR services." },
+    { icon: <Code className="w-12 h-12 text-indigo-600" />, title: "Website Development", description: "We go the extra mile to ensure our clients are fully satisfied. Our team supports every aspect of your development from design and visuals to content and overall experience." },
+    { icon: <Shield className="w-12 h-12 text-indigo-600" />, title: "Branding", description: "We specialize in creating compelling brand identities that connect with your audience, communicate your unique value, and drive meaningful business growth." },
+    { icon: <FileText className="w-12 h-12 text-indigo-600" />, title: "Content Marketing", description: "Our content marketing services help your business engage with your target audience while building trust, authority, and brand leadership." }
   ];
 
   const facts = [
