@@ -5,11 +5,13 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Helmet } from 'react-helmet';
 import Footer from "../components/Footer";
 import {
-  TrendingUp,
+   TrendingUp,
   BarChart2,
+  BarChart,
   Globe,
   Code,
   Shield,
+  ShieldCheck,
   FileText,
   Users,
   CheckSquare,
@@ -18,7 +20,16 @@ import {
   HeartPulse,
   BookOpen,
   ShoppingBag,
-  Network
+  Network,
+  ArrowRight,
+  CheckCircle2,
+  Rocket,
+  Trophy,
+  Monitor,
+  Mail,
+  PenTool,
+  ClipboardList,
+  Megaphone
 } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import 'swiper/css';
