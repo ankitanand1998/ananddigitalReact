@@ -40,7 +40,7 @@ const Digitailmarketing = () => {
     },
   ];
 
-  const services = [
+ const services = [
     {
       icon: <BarChart className="w-12 h-12 text-indigo-600" />, title: "SEO Services", description: "Rank higher on Google with ethical SEO practices that deliver long-term results."
     },
@@ -49,6 +49,15 @@ const Digitailmarketing = () => {
     },
     {
       icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "Digital PR", description: "Build authority & backlinks through strategic online PR campaigns."
+    },
+    {
+      icon: <Monitor className="w-12 h-12 text-indigo-600" />, title: "Website Development", description: "Design & develop high-performing, SEO-friendly websites."
+    },
+    {
+      icon: <Shield className="w-12 h-12 text-indigo-600" />, title: "Online Reputation Management", description: "Protect and enhance your brand’s reputation with smart digital tactics."
+    },
+    {
+      icon: <PenTool className="w-12 h-12 text-indigo-600" />, title: "Content Marketing", description: "Craft compelling content that informs, engages, and converts."
     }
   ];
 
