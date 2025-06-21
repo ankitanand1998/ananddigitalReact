@@ -6,18 +6,20 @@ import { Helmet } from 'react-helmet';
 import Footer from "../components/Footer";
 import {
   ArrowRight,
-  CheckCircle2,
-  Users,
-  Trophy,
-  Rocket,
-  TrendingUp,
-  Mail,
-  BarChart,
-  Network,
-  Megaphone,
-  Monitor,
-  Shield,
-  PenTool
+  Briefcase,
+  Activity,
+  Newspaper,
+  LayoutDashboard,
+  ShieldCheck,
+  FileText,
+  Smile,
+  ClipboardCheck,
+  CalendarCheck2,
+  Star,
+  Stethoscope,
+  GraduationCap,
+  ShoppingCart,
+  Handshake
 } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import 'swiper/css';
@@ -41,27 +43,26 @@ const Digitailmarketing = () => {
   ];
 
   const services = [
-    { icon: <BarChart className="w-12 h-12 text-indigo-600" />, title: "SEO Services", description: "Rank higher on Google with ethical SEO practices that deliver long-term results." },
-    { icon: <Rocket className="w-12 h-12 text-indigo-600" />, title: "Performance Marketing", description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies." },
-    { icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "Digital PR", description: "Build authority & backlinks through strategic online PR campaigns." },
-    { icon: <Monitor className="w-12 h-12 text-indigo-600" />, title: "Website Development", description: "Design & develop high-performing, SEO-friendly websites." },
-    { icon: <Shield className="w-12 h-12 text-indigo-600" />, title: "Online Reputation Management", description: "Protect and enhance your brand’s reputation with smart digital tactics." },
-    { icon: <PenTool className="w-12 h-12 text-indigo-600" />, title: "Content Marketing", description: "Craft compelling content that informs, engages, and converts." }
+    { icon: <Activity className="w-12 h-12 text-indigo-600" />, title: "SEO Services", description: "Rank higher on Google with ethical SEO practices that deliver long-term results." },
+    { icon: <Briefcase className="w-12 h-12 text-indigo-600" />, title: "Performance Marketing", description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies." },
+    { icon: <Newspaper className="w-12 h-12 text-indigo-600" />, title: "Digital PR", description: "Build authority & backlinks through strategic online PR campaigns." },
+    { icon: <LayoutDashboard className="w-12 h-12 text-indigo-600" />, title: "Website Development", description: "Design & develop high-performing, SEO-friendly websites." },
+    { icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />, title: "Online Reputation Management", description: "Protect and enhance your brand’s reputation with smart digital tactics." },
+    { icon: <FileText className="w-12 h-12 text-indigo-600" />, title: "Content Marketing", description: "Craft compelling content that informs, engages, and converts." }
   ];
 
   const facts = [
-    { icon: <Users className="w-12 h-12 text-indigo-600" />, title: "100+ Happy Clients", description: "Clients who choose us once stay with us for ongoing digital growth." },
-    { icon: <Trophy className="w-12 h-12 text-indigo-600" />, title: "200+ Projects Completed", description: "With unwavering dedication, we’ve successfully delivered over 200 digital projects." },
-    { icon: <Megaphone className="w-12 h-12 text-indigo-600" />, title: "5+ Years In Business", description: "Serving diverse industries with custom solutions for more than five years." },
-    { icon: <Network className="w-12 h-12 text-indigo-600" />, title: "4.5 Average Rating", description: "Our clients consistently rate us high for quality, communication, and results." }
+    { icon: <Smile className="w-12 h-12 text-indigo-600" />, title: "100+ Happy Clients", description: "Clients who choose us once stay with us for ongoing digital growth." },
+    { icon: <ClipboardCheck className="w-12 h-12 text-indigo-600" />, title: "200+ Projects Completed", description: "With unwavering dedication, we’ve successfully delivered over 200 digital projects." },
+    { icon: <CalendarCheck2 className="w-12 h-12 text-indigo-600" />, title: "5+ Years In Business", description: "Serving diverse industries with custom solutions for more than five years." },
+    { icon: <Star className="w-12 h-12 text-indigo-600" />, title: "4.5 Average Rating", description: "Our clients consistently rate us high for quality, communication, and results." }
   ];
 
   const brandtrust = [
-    { icon: <Users className="w-12 h-12 text-indigo-600" />, title: "Healthcare", description: "Helping doctors, clinics, and hospitals grow their digital presence with ethical promotion." },
-    { icon: <Trophy className="w-12 h-12 text-indigo-600" />, title: "EdTech", description: "We help edtech startups and institutions boost leads and enrollments with strategic digital outreach." },
-    { icon: <Megaphone className="w-12 h-12 text-indigo-600" />, title: "Ecommerce", description: "We optimize product visibility and drive targeted traffic to ecommerce websites for higher conversions." },
-    { icon: <Network className="w-12 h-12 text-indigo-600" />, title: "B2B", description: "Our tailored campaigns help B2B businesses attract qualified leads and nurture partnerships online." }
-  ];
+    { icon: <Stethoscope className="w-12 h-12 text-indigo-600" />, title: "Healthcare", description: "Helping doctors, clinics, and hospitals grow their digital presence with ethical promotion." },
+    { icon: <GraduationCap className="w-12 h-12 text-indigo-600" />, title: "EdTech", description: "We help edtech startups and institutions boost leads and enrollments with strategic digital outreach." },
+    { icon: <ShoppingCart className="w-12 h-12 text-indigo-600" />, title: "Ecommerce", description: "We optimize product visibility and drive targeted traffic to ecommerce websites for higher conversions." },
+    { icon: <Handshake className="w-12 h-12 text-indigo-600" />, title: "B2B", description: "Our tailored campaigns help B2B businesses attract qualified leads and nurture partnerships online." }
 
   return (
     <div className="overflow-hidden">
