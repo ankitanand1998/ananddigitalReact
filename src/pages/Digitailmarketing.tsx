@@ -93,74 +93,99 @@ const Digitailmarketing = () => {
     // Public Relations
     {
       icon: <Users className="w-12 h-12 text-indigo-600" />,
-      title: "Media Relations",
-      description: "Build strong relationships with key media outlets and journalists",
+      title: "SEO Service",
+      description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines.",
     },
     {
       icon: <Trophy className="w-12 h-12 text-indigo-600" />,
-      title: "Crisis Management",
-      description: "Expert handling of sensitive situations and reputation management",
+      title: "Social Media Marketing",
+      description: "Our social media marketing team helps your business grow and connect with the right audience on platforms like Facebook, Instagram, and more.",
     },
     {
       icon: <Megaphone className="w-12 h-12 text-indigo-600" />,
-      title: "Press Release Distribution",
-      description: "Get your story out with impactful and timely press releases",
+      title: "Google Ads",
+      description: "Our team helps your business grow and drive traffic by advertising it on Google. It will also benefit the sale of your products or services.",
     },
     {
       icon: <Network className="w-12 h-12 text-indigo-600" />,
-      title: "Influencer Outreach",
-      description: "Connect with influencers to expand your brand's reach",
+      title: "Custom Website Design",
+      description: "We go the extra mile to ensure our clients are fully satisfied. Our team supports every aspect of your development from design and visuals to content and overall experience.",
     },
 
     // Digital Marketing
     {
       icon: <Rocket className="w-12 h-12 text-indigo-600" />,
-      title: "Digital Strategy",
-      description: "Comprehensive digital strategies to enhance your online presence",
+      title: "Lead Generation",
+      description: "Our digital marketing services are designed to drive quality leads, grow your business, and help you reach top rankings online.",
     },
     {
       icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
-      title: "SEO Optimization",
-      description: "Improve your search rankings with smart SEO techniques",
+      title: "Content Marketing",
+      description: "Our content marketing services help your business engage with your target audience while building trust, authority, and brand leadership.",
     },
     {
       icon: <Mail className="w-12 h-12 text-indigo-600" />,
-      title: "Email Marketing",
-      description: "Engage your audience with well-crafted email campaigns",
+      title: "Digital PR",
+      description: "Engage your target audience, build a trusted brand, and maximize your online visibility and reputation with our dynamic Digital PR services.",
     },
     {
       icon: <BarChart className="w-12 h-12 text-indigo-600" />,
-      title: "Analytics & Reporting",
-      description: "Track and analyze data to optimize campaign performance",
+      title: "Branding",
+      description: "We specialize in creating compelling brand identities that connect with your audience, communicate your unique value, and drive meaningful business growth.",
     },
+];
 
-    // Website Development
+
+   const facts = [
+    // Public Relations
     {
-      icon: <Monitor className="w-12 h-12 text-indigo-600" />,
-      title: "Responsive Web Design",
-      description: "Beautiful and functional websites for all devices",
+      icon: <Users className="w-12 h-12 text-indigo-600" />,
+      title: "100+ Happy Clients",
+      description: "Clients who choose us once stay with us, because we truly understand their needs and consistently deliver results that exceed expectations.",
     },
     {
-      icon: <Code className="w-12 h-12 text-indigo-600" />,
-      title: "Frontend Development",
-      description: "Interactive, fast-loading, and SEO-friendly interfaces",
+      icon: <Trophy className="w-12 h-12 text-indigo-600" />,
+      title: "200+ Projects Completed",
+      description: "With unwavering dedication and hard work, we’ve proudly completed over 200 projects",
     },
     {
-      icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
-      title: "Security & Hosting",
-      description: "Robust and secure hosting solutions for your website",
+      icon: <Megaphone className="w-12 h-12 text-indigo-600" />,
+      title: "5+ Years In Business",
+      description: "In the last 5+ years, we have been diligently working toward our goal of providing hassle-free digital solutions for every business.",
     },
     {
-      icon: <PenTool className="w-12 h-12 text-indigo-600" />,
-      title: "UI/UX Design",
-      description: "Create stunning, user-friendly designs tailored to your brand",
+      icon: <Network className="w-12 h-12 text-indigo-600" />,
+      title: "4.5 Average Rating",
+      description: "With a 4.85 satisfaction rating from both clients and team members, we’re proud to be one of India’s most trusted and preferred digital agencies.",
+    }
+];
+
+
+  const brandtrust = [
+    // Public Relations
+    {
+      icon: <Users className="w-12 h-12 text-indigo-600" />,
+      title: "Healthcare",
+      description: "We stand out in the competitive healthcare industry by building trust and enhancing visibility among the right audience.",
     },
     {
-      icon: <ClipboardList className="w-12 h-12 text-indigo-600" />,
-      title: "Website Maintenance",
-      description: "Ongoing support and updates to keep your site running smoothly",
+      icon: <Trophy className="w-12 h-12 text-indigo-600" />,
+      title: "EdTech",
+      description: "Helping educational institutions to increase student enrollments and stand out in today’s competitive Indian market is what we do best.",
     },
-  ];
+    {
+      icon: <Megaphone className="w-12 h-12 text-indigo-600" />,
+      title: "Ecommerce",
+      description: "Maximizing sales and conversions with our data-driven strategies are always a hit among ecommerce brands.",
+    },
+    {
+      icon: <Network className="w-12 h-12 text-indigo-600" />,
+      title: "B2B",
+      description: "We focus on generating high-quality leads, strengthening your brand authority, and driving sustainable growth in your niche industry.",
+    }
+];
+
+  
 
   const testimonials = [
     {
@@ -193,23 +218,23 @@ const Digitailmarketing = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Anand Digital PR: Best Digital Marketing and PR Agency in India, Noida</title>
+        <title>Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
-        <meta name="keywords" content="Digital Marketing Agency in Delhi, India, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
+        <meta name="keywords" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ananddigitalpr.com" />
+        <link rel="canonical" href="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ananddigitalpr.com" />
-        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi, India" />
+        <meta property="og:url" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <meta property="og:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR" />
         <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
-        <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
+        <meta property="og:image" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-indiaog-image.jpg" /> {/* Replace with actual image URL */}
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://www.ananddigitalpr.com" />
-        <meta name="twitter:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi, India" />
+        <meta name="twitter:url" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <meta name="twitter:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR" />
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
@@ -221,7 +246,7 @@ const Digitailmarketing = () => {
     {
       "@type": "Organization",
       "name": "Anand Digital PR",
-      "url": "https://www.ananddigitalpr.com/",
+      "url": "https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india",
       "logo": "https://www.ananddigitalpr.com/logo.png",
       "description": "Boost your brand with Anand Digital PR – India's top digital marketing and Digital PR agency for SEO, content, media coverage, and online growth.",
       "sameAs": [
@@ -390,9 +415,10 @@ const Digitailmarketing = () => {
             className="text-center mb-16"
           >
             
-            <h1 className="text-4xl font-bold mb-6">Anand Digital PR - Best Digital Marketing and PR Agency in Noida, India</h1>
+            <h1 className="text-4xl font-bold mb-6">Digital Marketing Agency & Company in India,Noida that Offers Guaranteed Results</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Anand Digital PR stands out as a top Digital Marketing & PR firm in Noida, Delhi, India. We focus on SEO, digital marketing, website enhancement, and PR tactics that boost brands. <br/> As a complete <a href="https://www.ananddigitalpr.com/about" className="text-blue-600 hover:underline"> digital PR agency</a>, we combine data-backed campaigns with imaginative narratives to increase visibility and user interaction. <br/> Our know-how covers content, social platforms, and PPC, making sure each campaign yields quantifiable returns. We provide custom <a href="https://www.ananddigitalpr.com/services" className="text-blue-600 hover:underline"> digital Marketing and PR Services</a> that help create trust and clout across crucial media channels. By mixing advertising and PR, we transform clicks into devoted customers and bring about real business expansion.
+          Anand Digital PR is a globally recognized digital marketing agency based in India,Noida known for redefining quality standards in the digital marketing landscape.
+We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in India, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
             </p>
           <a href="/about">
   <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
@@ -403,13 +429,45 @@ const Digitailmarketing = () => {
           </motion.div>
         </div>
       </section>
+
+
+
+
+     {/* About Section */}
+      <section ref={ref} className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            
+            <h2 className="text-4xl font-bold mb-6">Work with the Leading Digital Marketing Company in Noida, India Where Great Results Come Fast</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We help you achieve holistic growth with clear vision and deliver a value-driven experience for your customers all while maintaining the highest quality standards.<br/>
+
+Anand Digital PR is one of the best digital marketing agencies in India, Noida offering a comprehensive 360-degree digital service portfolio. We've carved out our niche as a trusted name in the industry, growing steadily through experience, expertise, and a commitment to excellence building success brick by brick.<br/>
+
+
+With a focused and strategic approach, we identify the right digital opportunities that allow us to help our clients overcome complex business challenges and drive meaningful results.
+</p>
+         
+
+          </motion.div>
+        </div>
+      </section>
+
+
+
+      
        <WhyChoose />
 
       {/* Services Section */}
 <section className="py-24 bg-gray-50">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-6">Our Best Services For Digital Marketing and PR</h2>
+      <h2 className="text-4xl font-bold mb-6">Our Best Services For Digital Marketing</h2>
       <p className="text-xl text-gray-600">
         Comprehensive PR & Digital solutions for your success
       </p>
@@ -535,6 +593,30 @@ const Digitailmarketing = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+
+
+           {/* About Section */}
+      <section ref={ref} className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            
+         <h3 className="text-4xl font-bold mb-6">Rank Higher and Attract More Traffic to Your Website</h3>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Here’s how our SEO and digital marketing services are tailored to meet a variety of common goals and business needs: </p>
+             <ul>
+               <li>If Google can’t crawl your site, it won’t rank but that doesn’t mean you need to avoid using JavaScript.</li>
+               <li>For businesses that sell products online and want to improve their product visibility in search results.</li>
+               <li>If you sell products online, improving your product visibility in search results is key to driving sales.And if you're investing in a new website, it's crucial to make sure it's optimized to perform well in search engines from the start.</li>
+            
+             </ul>
+
+          </motion.div>
+        </div>
+      </section>
            
       {/* Footer */}
          <section className="mb-2 mt-5">
