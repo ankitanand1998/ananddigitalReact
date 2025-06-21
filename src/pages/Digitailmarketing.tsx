@@ -256,6 +256,67 @@ const heroSlides = [
      </Helmet>
 
 
+      <section className="relative h-screen">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 5000 }}
+          loop
+          className="h-full"
+        >
+          {heroSlides.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <div className="relative h-full">
+                <div className="absolute inset-0">
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/50" />
+                </div>
+                <div className="relative h-full flex items-center justify-center text-center text-white px-4">
+                  <div className="max-w-4xl">
+                  <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+        className="text-5xl md:text-6xl font-bold mb-6"
+      >
+        {slide.title}
+      </motion.div>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className="text-xl md:text-2xl mb-8"
+      >
+        {slide.description}
+      </motion.p>
+
+      <motion.button
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.6 }}
+  className="bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors"
+>
+  <a href="/contact" className="flex items-center gap-2">
+    Get Started <ArrowRight size={20} />
+  </a>
+</motion.button>
+
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+
+       
+
       {/* About Section */}
       <section ref={ref} className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
