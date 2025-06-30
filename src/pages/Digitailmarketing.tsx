@@ -117,7 +117,7 @@ const heroSlides = [
     <div className="overflow-hidden">
       <Helmet>
         {/* Title and Description */}
-        <title>Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR</title>
+        <title>Best Digital Marketing Agency Noida, India | Anand Digital PR</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida" />
         <meta name="robots" content="index, follow" />
