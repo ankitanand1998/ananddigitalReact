@@ -4,6 +4,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Digitailmarketing from './pages/Digitailmarketing';
+import Digitailmarketinganand from './pages/Digitailmarketinginanand';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
@@ -23,6 +24,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<BlogList />} />
             <Route path="/noida/delhi-ncr/digital-marketing-company-india" element={<Digitailmarketing/>} />
+            <Route path="/india/gujarat/digital-marketing-company-anand" element={<Digitailmarketinganand/>} />
+            
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
         </div>
