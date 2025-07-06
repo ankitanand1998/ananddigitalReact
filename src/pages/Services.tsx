@@ -29,87 +29,74 @@ const Services = () => {
 
   const services = [
       // Public Relations
-      {
-        icon: <Users className="w-12 h-12" />,
-        title: 'Media Relations',
-        description: 'Build and maintain relationships with key media outlets and journalists.',
-      },
-     
-      {
-        icon: <MessageSquare className="w-12 h-12" />,
-        title: 'Crisis Management',
-        description: 'Expert handling of sensitive situations and reputation management.',
-      },
-      {
-        icon: <Globe className="w-12 h-12" />,
-        title: 'Global Outreach',
-        description: 'Connect with audiences worldwide through strategic communications.',
-      },
-      {
-        icon: <Shield className="w-12 h-12" />,
-        title: 'Brand Protection',
-        description: 'Safeguard your brand reputation in the digital landscape.',
-      },
-     
-      {
-        icon: <Share2 className="w-12 h-12" />,
-        title: 'Social Media PR',
-        description: 'Strategic social media management for brand enhancement.',
-      },
-      {
-        icon: <Target className="w-12 h-12" />,
-        title: 'Campaign Planning',
-        description: 'Targeted campaigns that deliver measurable results.',
-      },
-  
-      // Digital Marketing
-      {
-        icon: <Rocket className="w-12 h-12 text-indigo-600" />,
-        title: "Digital Strategy",
-        description: "Comprehensive digital strategies to enhance your online presence",
-      },
-      {
-        icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
-        title: "SEO Optimization",
-        description: "Improve your search rankings with smart SEO techniques",
-      },
-      {
-        icon: <Mail className="w-12 h-12 text-indigo-600" />,
-        title: "Email Marketing",
-        description: "Engage your audience with well-crafted email campaigns",
-      },
-      {
-        icon: <BarChart className="w-12 h-12 text-indigo-600" />,
-        title: "Analytics & Reporting",
-        description: "Track and analyze data to optimize campaign performance",
-      },
-  
-      // Website Development
-      {
-        icon: <Monitor className="w-12 h-12 text-indigo-600" />,
-        title: "Responsive Web Design",
-        description: "Beautiful and functional websites for all devices",
-      },
-      {
-        icon: <Code className="w-12 h-12 text-indigo-600" />,
-        title: "Frontend Development",
-        description: "Interactive, fast-loading, and SEO-friendly interfaces",
-      },
-      {
-        icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
-        title: "Security & Hosting",
-        description: "Robust and secure hosting solutions for your website",
-      },
-      {
-        icon: <PenTool className="w-12 h-12 text-indigo-600" />,
-        title: "UI/UX Design",
-        description: "Create stunning, user-friendly designs tailored to your brand",
-      },
-      {
-        icon: <ClipboardList className="w-12 h-12 text-indigo-600" />,
-        title: "Website Maintenance",
-        description: "Ongoing support and updates to keep your site running smoothly",
-      },
+    {
+      icon: <Rocket className="w-12 h-12 text-indigo-600" />,
+      title: "Performance Marketing",
+      description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies.",
+    },
+    {
+      icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
+      title: "SEO Services",
+      description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines.",
+    },
+     {
+      icon: <Monitor className="w-12 h-12 text-indigo-600" />,
+      title: "Google Ads",
+      description: "Our team helps your business grow and drive traffic by advertising it on Google. It will also benefit the sale of your products or services.",
+    },
+    {
+      icon: <Code className="w-12 h-12 text-indigo-600" />,
+      title: "Social Media Marketing",
+      description: "Our social media marketing team helps your business grow and connect with the right audience on platforms like Facebook, Instagram, and more.",
+    },
+    {
+      icon: <Users className="w-12 h-12 text-indigo-600" />,
+      title: "Media Relations",
+      description: "Build strong relationships with key media outlets and journalists",
+    },
+    {
+      icon: <Trophy className="w-12 h-12 text-indigo-600" />,
+      title: "Crisis Management",
+      description: "Expert handling of sensitive situations and reputation management",
+    },
+    {
+      icon: <Megaphone className="w-12 h-12 text-indigo-600" />,
+      title: "Press Release Distribution",
+      description: "Get your story out with impactful and timely press releases",
+    },
+    {
+      icon: <Network className="w-12 h-12 text-indigo-600" />,
+      title: "Influencer Outreach",
+      description: "Connect with influencers to expand your brand's reach",
+    },
+   {
+      icon: <Mail className="w-12 h-12 text-indigo-600" />,
+      title: "Email Marketing",
+      description: "Engage your audience with well-crafted email campaigns",
+    },
+    {
+      icon: <BarChart className="w-12 h-12 text-indigo-600" />,
+      title: "Analytics & Reporting",
+      description: "Track and analyze data to optimize campaign performance",
+    },
+
+    // Website Development
+   
+    {
+      icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
+      title: "Security & Hosting",
+      description: "Robust and secure hosting solutions for your website",
+    },
+    {
+      icon: <PenTool className="w-12 h-12 text-indigo-600" />,
+      title: "UI/UX Design",
+      description: "Create stunning, user-friendly designs tailored to your brand",
+    },
+    {
+      icon: <ClipboardList className="w-12 h-12 text-indigo-600" />,
+      title: "Website Maintenance",
+      description: "Ongoing support and updates to keep your site running smoothly",
+    },
     ];
 
   return (
