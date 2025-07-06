@@ -117,7 +117,7 @@ const heroSlides = [
     <div className="overflow-hidden">
       <Helmet>
         {/* Title and Description */}
-        <title>Best Digital Marketing Agency In Anand, India | Anand Digital PR</title>
+        <title>Best Digital Marketing Agency in Anand, India</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – Anand's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Company in India, Best Digital Marketing Agency Anand" />
         <meta name="robots" content="index, follow" />
@@ -126,14 +126,14 @@ const heroSlides = [
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anand" />
-        <meta property="og:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Anand | Anand Digital PR" />
+        <meta property="og:title" content="Best Digital Marketing Agency in Anand | Anand Digital PR" />
         <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta property="og:image" content="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anandog-image.jpg" /> {/* Replace with actual image URL */}
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anand" />
-        <meta name="twitter:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Anand | Anand Digital PR" />
+        <meta name="twitter:title" content="Digital Marketing Company in India, Best Digital Marketing Agency in Anand | Anand Digital PR" />
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Anand's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
