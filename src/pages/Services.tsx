@@ -4,11 +4,11 @@ import { useInView } from 'react-intersection-observer';
 import { Helmet } from 'react-helmet';
 import Footer from "../components/Footer";
 import {
-  MessageSquare,
-  Globe,
+ ArrowRight,
+  CheckCircle2,
   Users,
   Rocket,
-  Shield,
+  Trophy,
   Monitor,
   TrendingUp,
   Mail,
@@ -16,8 +16,9 @@ import {
   ShieldCheck,
   PenTool,
   BarChart,
-  Share2,
+  Network,
   ClipboardList,
+  Megaphone,
   Target,
 } from 'lucide-react';
 
