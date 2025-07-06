@@ -114,13 +114,13 @@ const Home = () => {
     // Digital Marketing
     {
       icon: <Rocket className="w-12 h-12 text-indigo-600" />,
-      title: "Digital Strategy",
-      description: "Comprehensive digital strategies to enhance your online presence",
+      title: "Performance Marketing",
+      description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies.",
     },
     {
       icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
-      title: "SEO Optimization",
-      description: "Improve your search rankings with smart SEO techniques",
+      title: "SEO Services",
+      description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines.",
     },
     {
       icon: <Mail className="w-12 h-12 text-indigo-600" />,
@@ -136,13 +136,13 @@ const Home = () => {
     // Website Development
     {
       icon: <Monitor className="w-12 h-12 text-indigo-600" />,
-      title: "Responsive Web Design",
-      description: "Beautiful and functional websites for all devices",
+      title: "Google Ads",
+      description: "Our team helps your business grow and drive traffic by advertising it on Google. It will also benefit the sale of your products or services.",
     },
     {
       icon: <Code className="w-12 h-12 text-indigo-600" />,
-      title: "Frontend Development",
-      description: "Interactive, fast-loading, and SEO-friendly interfaces",
+      title: "Social Media Marketing",
+      description: "Our social media marketing team helps your business grow and connect with the right audience on platforms like Facebook, Instagram, and more.",
     },
     {
       icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
