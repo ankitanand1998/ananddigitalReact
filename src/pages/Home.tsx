@@ -100,6 +100,16 @@ const Home = () => {
       title: "SEO Services",
       description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines.",
     },
+     {
+      icon: <Monitor className="w-12 h-12 text-indigo-600" />,
+      title: "Google Ads",
+      description: "Our team helps your business grow and drive traffic by advertising it on Google. It will also benefit the sale of your products or services.",
+    },
+     {
+      icon: <Code className="w-12 h-12 text-indigo-600" />,
+      title: "Social Media Marketing",
+      description: "Our social media marketing team helps your business grow and connect with the right audience on platforms like Facebook, Instagram, and more.",
+    },
     {
       icon: <Users className="w-12 h-12 text-indigo-600" />,
       title: "Media Relations",
@@ -133,18 +143,7 @@ const Home = () => {
       description: "Track and analyze data to optimize campaign performance",
     },
 
-    // Website Development
-    {
-      icon: <Monitor className="w-12 h-12 text-indigo-600" />,
-      title: "Google Ads",
-      description: "Our team helps your business grow and drive traffic by advertising it on Google. It will also benefit the sale of your products or services.",
-    },
-    {
-      icon: <Code className="w-12 h-12 text-indigo-600" />,
-      title: "Social Media Marketing",
-      description: "Our social media marketing team helps your business grow and connect with the right audience on platforms like Facebook, Instagram, and more.",
-    },
-    {
+  {
       icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
       title: "Security & Hosting",
       description: "Robust and secure hosting solutions for your website",
