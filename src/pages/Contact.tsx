@@ -38,7 +38,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Address',
-      details: 'Noida Setctor 62 , Noida , India',
+      details: 'Noida Sector 62 , Noida , India',
     },
     {
       icon: <Clock className="w-6 h-6" />,
