@@ -91,6 +91,16 @@ const Home = () => {
   const services = [
     // Public Relations
     {
+      icon: <Rocket className="w-12 h-12 text-indigo-600" />,
+      title: "Performance Marketing",
+      description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies.",
+    },
+    {
+      icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
+      title: "SEO Services",
+      description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines.",
+    },
+    {
       icon: <Users className="w-12 h-12 text-indigo-600" />,
       title: "Media Relations",
       description: "Build strong relationships with key media outlets and journalists",
@@ -111,18 +121,8 @@ const Home = () => {
       description: "Connect with influencers to expand your brand's reach",
     },
 
-    // Digital Marketing
-    {
-      icon: <Rocket className="w-12 h-12 text-indigo-600" />,
-      title: "Performance Marketing",
-      description: "Maximize ROI with PPC ads, social media marketing, and conversion-optimized strategies.",
-    },
-    {
-      icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
-      title: "SEO Services",
-      description: "We carefully analyze your website and work to organically boost high-quality traffic, helping your pages rank better on search engines.",
-    },
-    {
+
+   {
       icon: <Mail className="w-12 h-12 text-indigo-600" />,
       title: "Email Marketing",
       description: "Engage your audience with well-crafted email campaigns",
