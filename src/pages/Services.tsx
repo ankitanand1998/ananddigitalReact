@@ -28,7 +28,7 @@ const Services = () => {
   });
 
   const services = [
-      // Public Relations
+     
     {
       icon: <Rocket className="w-12 h-12 text-indigo-600" />,
       title: "Performance Marketing",
@@ -79,8 +79,6 @@ const Services = () => {
       title: "Analytics & Reporting",
       description: "Track and analyze data to optimize campaign performance",
     },
-
-    // Website Development
    
     {
       icon: <ShieldCheck className="w-12 h-12 text-indigo-600" />,
@@ -96,7 +94,7 @@ const Services = () => {
       icon: <ClipboardList className="w-12 h-12 text-indigo-600" />,
       title: "Website Maintenance",
       description: "Ongoing support and updates to keep your site running smoothly",
-    },
+    }
     ];
 
   return (
