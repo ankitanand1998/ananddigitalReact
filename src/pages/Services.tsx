@@ -338,7 +338,7 @@ const Services = () => {
           className="relative h-full flex items-center justify-center text-white text-center px-4"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Services</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Best Digital Marketing & Digital PR Services in India – Trusted by Brands</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
               Comprehensive digital PR solutions tailored to your success
             </p>
