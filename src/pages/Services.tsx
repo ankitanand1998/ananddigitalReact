@@ -349,7 +349,7 @@ const Services = () => {
       {/* Services Grid */}
       <section ref={ref} className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-         <h2 className="text-5xl md:text-6xl font-bold mb-6">We provide everything you need to grow your business online – all in one place</h2>
+         <h2 className="text-4xl md:text-6xl font-bold mb-5">We provide everything you need to grow your business online – all in one place</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <motion.div
