@@ -314,7 +314,7 @@ const heroSlides = [
           Anand Digital PR is a globally recognized <a href="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" className="text-blue-600 hover:underline">digital marketing agency</a> in Anand, Gujarat known for redefining quality standards in the digital marketing landscape.
 We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in India, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
             </p>
-          <a href="/about">
+          <a href="/">
   <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
     Know More <ArrowRight size={20} />
   </button>
