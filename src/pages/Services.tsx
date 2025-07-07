@@ -101,11 +101,11 @@ const Services = () => {
   return (
     <div className="pt-16">
      <Helmet>
-            <title>Best Digital Marketing & PR Services in India</title>
-            <meta name="description" content="Looking for expert PR and digital marketing services in Delhi NCR & Noida,India ? Anand Digital PR offers SEO, brand strategy, content marketing, media coverage, and reputation management tailored for growth." />
+            <title>India’s Best Digital Marketing & PR Services</title>
+            <meta name="description" content="Looking for expert PR and digital marketing services in India ? Anand Digital PR offers SEO, brand strategy, content marketing, media coverage, and reputation management tailored for growth." />
             <link rel="canonical" href="https://www.ananddigitalpr.com/services" />
             <meta name="robots" content="index, follow" />
-            <meta property="og:title" content="Digital Marketing & PR Services in Delhi & Noida, India | Anand Digital PR" />
+            <meta property="og:title" content="Digital Marketing & PR Services in India | Anand Digital PR" />
             <meta
               property="og:description"
               content="Looking for expert PR and digital marketing services in Delhi NCR & Noida,India ? Anand Digital PR offers SEO, brand strategy, content marketing, media coverage, and reputation management tailored for growth"
