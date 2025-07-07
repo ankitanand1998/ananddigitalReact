@@ -309,7 +309,7 @@ const heroSlides = [
           <motion.div
            className="text-center mb-16"
           >
-             <h1 className="text-4xl font-bold mb-6">Digital Marketing Agency & Company in Anand that Offers Guaranteed Results</h1>
+             <h1 className="text-4xl font-bold mb-6">Best Digital Marketing Agency & Company in Anand, Gujarat that Offers Guaranteed Results</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Anand Digital PR is a globally recognized <a href="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" className="text-blue-600 hover:underline">digital marketing agency</a> in Anand, Gujarat known for redefining quality standards in the digital marketing landscape.
 We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in India, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
@@ -331,10 +331,10 @@ We continuously push the boundaries to meet and exceed client expectations in th
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-             <h2 className="text-4xl font-bold mb-6">Work with the Leading Digital Marketing Company in Anand, India Where Great Results Come Fast</h2>
+             <h2 className="text-4xl font-bold mb-6">Work with the Leading Digital Marketing Company in Anand, Gujarat Where Great Results Come Fast</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We help you achieve holistic growth with clear vision and deliver a value-driven experience for your customers all while maintaining the highest quality standards.<br/>
-Anand Digital PR is one of the best digital marketing agencies in Anand, India offering a comprehensive 360-degree digital service portfolio. We've carved out our niche as a trusted name in the industry, growing steadily through experience, expertise, and a commitment to excellence building success brick by brick.<br/>
+Anand Digital PR is one of the best digital marketing agencies in Anand Gujarat, India offering a comprehensive 360-degree digital service portfolio. We've carved out our niche as a trusted name in the industry, growing steadily through experience, expertise, and a commitment to excellence building success brick by brick.<br/>
 With a focused and strategic approach, we identify the right digital opportunities that allow us to help our clients overcome complex business challenges and drive meaningful results.
 </p>
           </motion.div>
@@ -344,8 +344,8 @@ With a focused and strategic approach, we identify the right digital opportuniti
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Best Services For Digital Marketing in Anand</h2>
-            <p className="text-xl text-gray-600">Comprehensive Digital solutions for your success</p>
+            <h2 className="text-4xl font-bold mb-6">Our Best Services For Digital Marketing in Anand, Gujarat</h2>
+            <p className="text-xl text-gray-600">Comprehensive Digital solutions for your success in Anand, Gujarat</p>
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((s, i) => (
@@ -367,7 +367,7 @@ With a focused and strategic approach, we identify the right digital opportuniti
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Company Facts - Anand Digital PR</h2>
-            <p className="text-xl text-gray-600">Here are proven track records that make us a trusted digital partner.</p>
+            <p className="text-xl text-gray-600">Here are proven track records that make us a trusted digital partner in Anand, Gujarat.</p>
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-4 gap-8">
             {facts.map((f, i) => (
