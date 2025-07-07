@@ -340,7 +340,7 @@ const Services = () => {
           <div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Best Digital Marketing & Digital PR Services in India – Trusted by Brands</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Comprehensive digital PR solutions tailored to your success
+           We provide the best digital marketing and PR services in India to help your business grow online. From getting more customers to building your brand, we’re here to support your success
             </p>
           </div>
         </motion.div>
@@ -349,6 +349,7 @@ const Services = () => {
       {/* Services Grid */}
       <section ref={ref} className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <h2>We provide everything you need to grow your business online – all in one place</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <motion.div
