@@ -2,6 +2,8 @@
   "rewrites": [
      { "source": "/robots.txt", "destination": "/api/robots" },
     { "source": "/sitemap.xml", "destination": "/api/sitemap" },
+     { "source": "/noida/delhi-ncr/digital-marketing-company-india", "destination": "/india/digital-marketing-agency-noida" },
+    
     { "source": "/static/(.*)", "destination": "/static/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
