@@ -121,18 +121,18 @@ const heroSlides = [
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <link rel="canonical" href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <meta property="og:url" content="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" />
         <meta property="og:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR" />
         <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
-        <meta property="og:image" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-indiaog-image.jpg" /> {/* Replace with actual image URL */}
+        <meta property="og:image" content="https://www.ananddigitalpr.com/india/digital-marketing-agency-noidaog-image.jpg" /> {/* Replace with actual image URL */}
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india" />
+        <meta name="twitter:url" content="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" />
         <meta name="twitter:title" content="Digital Marketing Company in India, Best Digital Marketing Agency Noida | Anand Digital PR" />
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Delhi's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
@@ -145,7 +145,7 @@ const heroSlides = [
     {
       "@type": "Organization",
       "name": "Anand Digital PR",
-      "url": "https://www.ananddigitalpr.com/noida/delhi-ncr/digital-marketing-company-india",
+      "url": "https://www.ananddigitalpr.com/india/digital-marketing-agency-noida",
       "logo": "https://www.ananddigitalpr.com/logo.png",
       "description": "Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth.",
       "sameAs": [
