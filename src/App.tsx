@@ -20,10 +20,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
+            <Route path="/services/digital-marketing/public-relations" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<BlogList />} />
-            <Route path="/noida/delhi-ncr/digital-marketing-company-india" element={<Digitailmarketing/>} />
+            <Route path="/india/digital-marketing-agency-noida" element={<Digitailmarketing/>} />
             <Route path="/india/gujarat/digital-marketing-company-anand" element={<Digitailmarketinganand/>} />
             
             <Route path="/blog/:slug" element={<BlogPost />} />
