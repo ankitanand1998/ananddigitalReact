@@ -51,7 +51,7 @@ const Digitailmarketing = () => {
 const heroSlides = [
 
     {
-      title: 'Digital Marketing Agency in India, Noida',
+      title: 'Digital Marketing Agency in Noida, India',
       description: 'Anand Digital PR is one of the top digital marketing agencies in Noida. We have a data-driven approach when it comes to crafting digital campaigns and delivering maximum sales, conversions, and ROI.',
 
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
