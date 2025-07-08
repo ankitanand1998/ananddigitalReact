@@ -3,7 +3,8 @@ export default function handler(req, res) {
   const urls = [
     { path: "/", priority: 1.0 },
     { path: "/about", priority: 0.8 },
-    { path: "/services", priority: 0.8 },
+    { path: "/services/digital-marketing/public-relations", priority: 0.8 },
+    { path: "/services/digital-marketing/public-relations" },
     { path: "/blogs", priority: 0.8 },
     { path: "/contact", priority: 0.8 },
 { path: "/blog/oppo-find-x8-series-design-and-features", priority: 0.8 },
