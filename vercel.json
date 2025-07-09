@@ -1,12 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/noida/delhi-ncr/digital-marketing-company-india",
-      "destination": "/india/digital-marketing-agency-noida",
-      "permanent": true
-    }
-  ],
-  "rewrites": [
+ "rewrites": [
     { "source": "/robots.txt", "destination": "/api/robots" },
     { "source": "/sitemap.xml", "destination": "/api/sitemap" },
     { "source": "/static/(.*)", "destination": "/static/$1" },
