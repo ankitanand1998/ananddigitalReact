@@ -4,7 +4,7 @@ export default function handler(req, res) {
     { path: "/", priority: 1.0 },
     { path: "/about", priority: 0.8 },
     { path: "/services/digital-marketing/public-relations", priority: 0.8 },
-    { path: "india/digital-marketing-agency-noida", priority: 0.8 },
+    { path: "/india/digital-marketing-agency-noida", priority: 0.8 },
    
     { path: "/blogs", priority: 0.8 },
     { path: "/contact", priority: 0.8 },
