@@ -9,11 +9,12 @@ const Summary = () => {
         </h2>
         <p className="text-gray-600 mb-4">
          <b>This blog is brought to you by Anand Digital PR</b> one of India’s 
-          <span><a href="https://www.ananddigitalpr.com/" className="text-blue-600 hover:underline"> leading Digital Marketing and PR agencies</a>. With years of hands-on experience, our team is passionate about helping brands grow through smart, creative, and results-driven strategies. From boosting your online presence to building lasting customer trust, we know what it takes to succeed in the digital world. At Anand Digital PR, we don’t just follow trends — we help set them. This blog is part of our mission to share useful insights, real-world tips, and honest advice to help businesses like yours thrive online. </span></p>
+          <span><a href="https://www.ananddigitalpr.com/" className="text-blue-600 hover:underline"> leading Digital Marketing and PR agencies</a>. With years of hands-on experience, our team is passionate about helping brands grow through smart, creative, and results-driven strategies. From boosting your online presence to building lasting customer trust, we know what it takes to succeed in the digital world. At Anand Digital PR, we don’t just follow trends — we help set them. This blog is part of our mission to share useful insights, real-world tips, and honest advice to help businesses like yours thrive online. </span></p><br/><br/>
+             <h3 className="text-lg font-semibold">Join Our Community on Reddit</h3>
+            <a href="https://www.reddit.com/r/DigitalandPR/s/a7U8nJpiKY" rel="ugc" className="hover:text-white transition">Reddit</a>
       </div>
-      <br/>
-        <h3 className="text-lg font-semibold">Join Our Community</h3>
-       <li><a href="https://www.reddit.com/r/DigitalandPR/s/a7U8nJpiKY" rel="ugc" className="hover:text-white transition">Reddit</a></li>
+
+      
     </div>
   );
 };
