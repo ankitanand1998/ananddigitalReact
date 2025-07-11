@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6">Anand Digital PR</h3>
             <p className="text-gray-400">
-              Your trusted partner for innovative digital PR solutions.
+              Your trusted partner for innovative digital marketing & PR solutions.
             </p>
           </div>
 
@@ -16,22 +16,22 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="https://www.ananddigitalpr.com/services" className="hover:text-white transition">
+                <a href="https://www.ananddigitalpr.com/services/digital-marketing/public-relations" className="hover:text-white transition">
                   Public Relations
                 </a>
               </li>
               <li>
-                <a href="https://www.ananddigitalpr.com/services" className="hover:text-white transition">
+                <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="hover:text-white transition">
                   Digital Marketing
                 </a>
               </li>
               <li>
-                <a href="https://www.ananddigitalpr.com/services" className="hover:text-white transition">
+                <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="hover:text-white transition">
                   SEO & Analytics
                 </a>
               </li>
               <li>
-                <a href="https://www.ananddigitalpr.com/services" className="hover:text-white transition">
+                <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="hover:text-white transition">
                   Website Design & Development
                 </a>
               </li>
@@ -65,10 +65,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Twitter</a></li>
-              <li><a href="#" className="hover:text-white transition">LinkedIn</a></li>
-              <li><a href="#" className="hover:text-white transition">Facebook</a></li>
-              <li><a href="#" className="hover:text-white transition">Instagram</a></li>
+              <li><a href="https://www.reddit.com/u/AcanthisittaOne4340/s/0yxrsn7zfg" className="hover:text-white transition">Reddit</a></li>
+              <li><a href="https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-agency-96078a33b/" className="hover:text-white transition">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/ananddigitalpr/" className="hover:text-white transition">Facebook</a></li>
+              <li><a href="https://www.instagram.com/ananddigitalpr/" className="hover:text-white transition">Instagram</a></li>
             </ul>
           </div>
         </div>
