@@ -191,7 +191,7 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Best Digital Marketing and PR Agency in india</title>
+        <title>Anand Digital PR : Best Digital Marketing and PR Agency in india, Noida</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Agency in Delhi, India, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
         <meta name="robots" content="index, follow" />
@@ -200,7 +200,7 @@ const Home = () => {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ananddigitalpr.com" />
-        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Delhi, India" />
+        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Noida, India" />
         <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
 
