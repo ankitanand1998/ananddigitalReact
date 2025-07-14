@@ -191,7 +191,7 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Anand Digital PR : Top Digital PR Agency in india</title>
+        <title>Anand Digital PR : Top Digital PR Agency</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top Digital PR agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Agency in Delhi, India, PR Agency in Delhi, Digital Marketing Agency in Noida, PR Agency in Noida" />
         <meta name="robots" content="index, follow" />
