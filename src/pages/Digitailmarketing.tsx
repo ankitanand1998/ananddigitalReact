@@ -207,7 +207,7 @@ const heroSlides = [
           <motion.div
            className="text-center mb-16"
           >
-             <h1 className="text-4xl font-bold mb-6">Digital Marketing Agency & Company in India,Noida that Offers Guaranteed Results</h1>
+             <h1 className="text-4xl font-bold mb-6">Digital Marketing Agency & Company in Noida</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Anand Digital PR is a globally recognized <a href="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anand" className="text-blue-600 hover:underline"> digital marketing agency </a> based in India,Noida known for redefining quality standards in the digital marketing landscape.
 We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in India, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
