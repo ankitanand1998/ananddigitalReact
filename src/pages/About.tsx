@@ -140,7 +140,7 @@ const About = () => {
           className="absolute inset-0 flex items-center justify-center text-white text-center px-4"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Digital PR Agency</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Digital Marketing & PR Agency</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
              Since 2020, we have been transforming brands with innovative digital marketing and PR strategies. By combining cutting-edge technology with authentic storytelling, we build strong brand reputations and drive measurable growth.
             </p>
@@ -168,7 +168,7 @@ const About = () => {
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h2 className="text-4xl font-bold mb-6">Our Mission</h2>
+              <h2 className="text-4xl font-bold mb-6">Our Mission Is to Transform Brands with Digital Marketing & Public Relations</h2>
               <p className="text-xl text-gray-600 mb-8">
              At Anand Digital PR - A Top <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="text-blue-600 hover:underline"> Digital Marketing</a> & PR Agency in India, Our mission is rooted in the power of strategic communication to transform businesses. We believe that by uniting digital marketing and public relations, we can help brands tell their stories effectively and forge meaningful connections with their audiences. In an era where digital presence and reputation go hand in hand, we step in to ensure your product’s value shines through. Our unique approach bridges the gap between reach and resonance, setting the foundation for lasting brand success. <br/> <br/>
               We stand out in the market by blending two powerhouse disciplines: <a href="https://www.ananddigitalpr.com/services/digital-marketing/public-relations" className="text-blue-600 hover:underline">digital marketing and PR</a>. While others may focus on one or the other, we see their combined potential as the key to impactful results. Digital marketing opens doors to vast audiences through tools like social media, SEO, and online ads, while PR builds trust and credibility with strategic storytelling and media relations. This integrated method fills an industry gap, delivering campaigns that don’t just get seen but leave a lasting impression. <br/> <br/>
