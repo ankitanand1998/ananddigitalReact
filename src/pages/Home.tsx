@@ -409,7 +409,7 @@ As a full-service <a href="https://www.ananddigitalpr.com/about" className="text
 <section className="py-24 bg-gray-50">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-6">Our Best Services For Digital Marketing & Public Relations</h2>
+      <h2 className="text-4xl font-bold mb-6">Our Best Services For Online Brand Building</h2>
       <p className="text-xl text-gray-600">
         Comprehensive PR & Digital solutions for your success
       </p>
@@ -437,7 +437,7 @@ As a full-service <a href="https://www.ananddigitalpr.com/about" className="text
       <section className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-6">Our Best Approach For Digital PR</h2>
+      <h2 className="text-4xl font-bold mb-6">Our Best Approach For Online Brand Growth & Visibility</h2>
       <p className="text-xl text-gray-600">How we deliver exceptional results</p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
