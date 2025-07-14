@@ -140,7 +140,7 @@ const About = () => {
           className="absolute inset-0 flex items-center justify-center text-white text-center px-4"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">About Anand Digital PR</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">We’re Working to Grow Your Brand</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
              Since 2020, we have been transforming brands with innovative digital marketing and PR strategies. By combining cutting-edge technology with authentic storytelling, we build strong brand reputations and drive measurable growth.
             </p>
