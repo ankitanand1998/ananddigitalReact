@@ -200,7 +200,7 @@ const Home = () => {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ananddigitalpr.com" />
-        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency in Noida, India" />
+        <meta property="og:title" content="Anand Digital PR: Best Digital Marketing and PR Agency" />
         <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta property="og:image" content="https://www.ananddigitalpr.com/og-image.jpg" /> {/* Replace with actual image URL */}
 
@@ -240,7 +240,7 @@ const Home = () => {
         "@type": "PostalAddress",
         "streetAddress": "Sector 62",
         "addressLocality": "Noida",
-        "addressRegion": "Uttar Pradesh",
+        "addressRegion": "Uttar Pradesh,India",
         "postalCode": "201301",
         "addressCountry": "IN"
       },
