@@ -33,7 +33,7 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      details: '+91 8340426515',
+      details: '+91 95081 54829',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
