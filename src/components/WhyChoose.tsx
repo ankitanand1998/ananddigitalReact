@@ -5,12 +5,12 @@ const reasons = [
   {
     emoji: "🔥",
     title: "We Blend PR Power with Digital Speed",
-    description: "We don’t just market — we make you matter. Our secret? A perfect fusion of smart digital strategies and hard-hitting PR that skyrockets your brand authority."
+    description: "We believe good marketing makes people notice you — great marketing makes them trust you. At Anand Digital PR, we bring both. That’s what makes us the best digital PR agency in India."
   },
   {
     emoji: "🎯",
-    title: "More Than Clicks — We Build Trust",
-    description: "Anyone can run ads. We craft narratives that build trust, credibility, and influence — and turn your audience into loyal fans."
+    title: "We go beyond clicks to build trust",
+    description: "Anyone can run ads. We craft narratives that build trust, credibility, and influence that turn your audience into loyal fans."
   },
   {
     emoji: "📈",
@@ -19,8 +19,8 @@ const reasons = [
   },
   {
     emoji: "🚀",
-    title: "Modern Marketing, Reinvented",
-    description: "Forget old-school methods. We combine the art of storytelling with the science of digital performance — because today’s market demands both."
+    title: "We follow a new way of doing marketing",
+    description: "We don’t use old marketing tricks. We tell your story in a way people care about and use smart digital tools to help your brand grow. Because today, you need both to truly stand out."
   },
   {
     emoji: "🤝",
@@ -32,7 +32,7 @@ const reasons = [
 const WhyChoose = () => {
   return (
     <section className="why-choose-section">
-      <h2><b>Why You Should Choose Anand Digital PR ?</b></h2>
+      <h2><b>How Anand Digital PR Helps Your Brand Grow ?</b></h2>
       <div className="reasons">
         {reasons.map((reason, index) => (
           <div className="reason-card" key={index}>
