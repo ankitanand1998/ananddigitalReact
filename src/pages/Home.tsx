@@ -43,13 +43,13 @@ const Home = () => {
   const heroSlides = [
 
     {
-      title: 'Best Digital Marketing and PR Agency in Delhi NCR & Noida',
-      description: 'Anand Digital PR is Delhi’s leading agency where cutting-edge digital marketing meets powerful public relations',
+      title: 'Best Digital Marketing and Digital PR Agency in Delhi NCR & Noida',
+      description: 'Anand Digital PR is Delhi’s leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
 
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
     },
     {
-      title: 'Get found. Get featured. Get results',
+      title: 'Be visible. Be valued. Grow faster.',
       description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
 
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
@@ -64,19 +64,19 @@ const Home = () => {
     },
 
     {
-      title: 'All-in-one growth: SEO, Social Media, PPC, Content & PR',
+      title: 'All-in-one growth: SEO, Social Media, PPC, Content & Digital PR',
       description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
     },
 
 
     {
-      title: "Data-Driven Campaigns",
+      title: "Our Campaigns built on real data, not guesses.",
       description: "Maximize your impact with our analytics-backed approach",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2940&auto=format&fit=crop",
     },
     {
-      title: "Global Media Relations",
+      title: "Conntent With Global Media Relations",
       description: "Connect with influential media partners worldwide",
       image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2940&auto=format&fit=crop",
     },
