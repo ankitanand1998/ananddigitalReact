@@ -390,7 +390,7 @@ const Home = () => {
             
             <h1 className="text-4xl font-bold mb-7">Anand Digital PR - Best Digital Marketing and PR Agency in Noida, India</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Anand Digital PR stands out as a  <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="text-blue-600 hover:underline"> top Digital Marketing Agency</a> & Digital PR firm in India, Noida. We focus on SEO, digital marketing, website enhancement, and PR tactics that boost brands. <br/> 
+              Anand Digital PR stands out as a  <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="text-blue-600 hover:underline"> top Digital Marketing Agency in Noida</a>. We focus on SEO, digital marketing, website enhancement, and PR tactics that boost brands. <br/> 
 As a full-service <a href="https://www.ananddigitalpr.com/about" className="text-blue-600 hover:underline"> digital PR agency</a>, we mix data-driven campaigns with creative stories to boost visibility and user engagement.<br/>Our expertise spans SEO, Content Marketing, Social Media Marketing, and PPC ensuring each campaign delivers measurable results.<br/>We offer tailored digital Marketing and <a href="https://www.ananddigitalpr.com/services/digital-marketing/public-relations" className="text-blue-600 hover:underline"> digital PR Services </a> to build credibility and influence across key media channels. By blending advertising and PR, we turn clicks into loyal customers and drive real business growth.
 
           </p>
