@@ -391,7 +391,7 @@ const Home = () => {
             <h1 className="text-4xl font-bold mb-7">Anand Digital PR - Best Digital Marketing and PR Agency in Noida, India</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Anand Digital PR stands out as a  <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="text-blue-600 hover:underline"> top Digital Marketing Agency in Noida</a>. We focus on SEO, digital marketing, website enhancement, and PR tactics that boost brands. <br/> 
-As a full-service <a href="https://www.ananddigitalpr.com/about" className="text-blue-600 hover:underline"> digital PR agency</a>, we mix data-driven campaigns with creative stories to boost visibility and user engagement.<br/>Our expertise spans SEO, Content Marketing, Social Media Marketing, and PPC ensuring each campaign delivers measurable results.<br/>We offer tailored digital Marketing and <a href="https://www.ananddigitalpr.com/services/digital-marketing/public-relations" className="text-blue-600 hover:underline"> digital PR Services </a> to build credibility and influence across key media channels. By blending advertising and PR, we turn clicks into loyal customers and drive real business growth.
+As a full-service <a href="https://www.ananddigitalpr.com/about" className="text-blue-600 hover:underline"> digital Marketing & PR agency</a>, we mix data-driven campaigns with creative stories to boost visibility and user engagement.<br/>Our expertise spans SEO, Content Marketing, Social Media Marketing, and PPC ensuring each campaign delivers measurable results.<br/>We offer tailored digital Marketing and <a href="https://www.ananddigitalpr.com/services/digital-marketing/public-relations" className="text-blue-600 hover:underline"> Online Marketing Services </a> to build credibility and influence across key media channels. By blending advertising and PR, we turn clicks into loyal customers and drive real business growth.
 
           </p>
           <a href="/about">
@@ -437,7 +437,7 @@ As a full-service <a href="https://www.ananddigitalpr.com/about" className="text
       <section className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-6">Our Best Approach For Digital Marketing & PR Services in india</h2>
+      <h2 className="text-4xl font-bold mb-6">Our Best Approach For Digital advertising & PR Services in india</h2>
       <p className="text-xl text-gray-600">How we deliver exceptional results</p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -492,7 +492,7 @@ As a full-service <a href="https://www.ananddigitalpr.com/about" className="text
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Client Testimonials</h2>
-            <p className="text-xl text-gray-600">What our clients say about our digital marketing services</p>
+            <p className="text-xl text-gray-600">What our clients say about our Integrated marketing services</p>
           </div>
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
