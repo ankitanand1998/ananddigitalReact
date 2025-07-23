@@ -439,7 +439,7 @@ const Home = () => {
       <section className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-6">Our Best Approach For Digital advertising & PR Services in india</h2>
+      <h2 className="text-4xl font-bold mb-6">Our Best Approach For Online advertising & PR Services in india</h2>
       <p className="text-xl text-gray-600">How we deliver exceptional results</p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
