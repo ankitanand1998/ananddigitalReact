@@ -49,7 +49,7 @@ const About = () => {
         <meta name="description" content="Know the story behind Anand Digital PR, a leading digital marketing and PR agency in India. We blend innovation, strategy, and storytelling to build powerful brands and lasting success." />
         <link rel="canonical" href="https://www.ananddigitalpr.com/about" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Anand Digital PR | Digital PR Agency in India | Best Public Relations Services in Delhi, India" />
+        <meta property="og:title" content="Anand Digital PR | Digital PR Agency in India | Best Public Relations Services in India" />
         <meta
           property="og:description"
           content="Know more about Anand Digital PR's mission, story, and the passionate team driving innovative digital marketing and PR strategies."
@@ -71,7 +71,7 @@ const About = () => {
       "@type": "AboutPage",
       "name": "About Anand Digital PR",
       "url": "https://www.ananddigitalpr.com/about",
-      "description": "Know the story behind Anand Digital PR, a leading digital marketing and PR agency in Noida and Delhi, India. We blend innovation, strategy, and storytelling to build powerful brands and lasting success.",
+      "description": "Know the story behind Anand Digital PR, a leading digital marketing and PR agency in India. We blend innovation, strategy, and storytelling to build powerful brands and lasting success.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -98,7 +98,7 @@ const About = () => {
           "name": "Anand Digital PR",
           "url": "https://www.ananddigitalpr.com/",
           "logo": "https://www.ananddigitalpr.com/logo.png",
-          "description": "Anand Digital PR is a top-tier digital marketing and PR agency in Noida India, known for its innovative strategies in SEO, media outreach, and brand storytelling.",
+          "description": "Anand Digital PR is a top-tier digital marketing and PR agency in India, known for its innovative strategies in SEO, media outreach, and brand storytelling.",
           "sameAs": [
             "https://www.facebook.com/ananddigitalpr",
             "https://www.linkedin.com/in/anand-digital-pr-a-digital-marketing-and-pr-agency-96078a33b/",
@@ -115,8 +115,8 @@ const About = () => {
           ],
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Delhi",
-            "addressRegion": "Delhi",
+            "addressLocality": "India",
+            "addressRegion": "India",
             "addressCountry": "IN"
           },
           "areaServed": {
