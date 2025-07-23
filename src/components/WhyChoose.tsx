@@ -32,7 +32,7 @@ const reasons = [
 const WhyChoose = () => {
   return (
     <section className="why-choose-section">
-      <h2><b>How Anand Digital PR Helps Your Brand Grow ?</b></h2>
+      <h2><b>How Does Anand Digital PR Helps Your Brand Grow ?</b></h2>
       <div className="reasons">
         {reasons.map((reason, index) => (
           <div className="reason-card" key={index}>
