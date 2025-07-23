@@ -57,8 +57,8 @@ const heroSlides = [
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
     },
     {
-      title: 'Ranked in the Top 10 Best Integrated Search (SEO & PPC) Companies in India',
-      description: 'Ranked among the Top 10 Best Integrated Search (SEO & PPC) Companies in India, we deliver data-driven strategies that maximize visibility and ROI. Our unified approach ensures seamless synergy between organic and paid search campaign',
+      title: 'Ranked in the Top 10 Best Integrated Search (SEO & PPC) Companies',
+      description: 'Ranked among the Top 10 Best Integrated Search (SEO & PPC) Companies, we deliver data-driven strategies that maximize visibility and ROI. Our unified approach ensures seamless synergy between organic and paid search campaign',
 
       image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
     },
@@ -103,12 +103,12 @@ const heroSlides = [
     { icon: <Users className="w-12 h-12 text-indigo-600" />, title: "100+ Happy Clients", description: "Clients who choose us once stay with us, because we truly understand their needs and consistently deliver results that exceed expectations." },
     { icon: <CheckSquare className="w-12 h-12 text-indigo-600" />, title: "200+ Projects Completed", description: "With unwavering dedication and hard work, we’ve proudly completed over 200 projects." },
     { icon: <Calendar className="w-12 h-12 text-indigo-600" />, title: "5+ Years In Business", description: "In the last 5+ years, we have been diligently working toward our goal of providing hassle-free digital solutions for every business" },
-    { icon: <Star className="w-12 h-12 text-indigo-600" />, title: "4.5 Average Rating", description: "With a 4.85 satisfaction rating from both clients and team members, we’re proud to be one of India’s most trusted and preferred digital agencies." }
+    { icon: <Star className="w-12 h-12 text-indigo-600" />, title: "4.5 Average Rating", description: "With a 4.85 satisfaction rating from both clients and team members, we’re proud to be one of anand’s most trusted and preferred digital agencies." }
   ];
 
   const brandtrust = [
     { icon: <HeartPulse className="w-12 h-12 text-indigo-600" />, title: "Healthcare", description: "We stand out in the competitive healthcare industry by building trust and enhancing visibility among the right audience." },
-    { icon: <BookOpen className="w-12 h-12 text-indigo-600" />, title: "EdTech", description: "Helping educational institutions to increase student enrollments and stand out in today’s competitive Indian market is what we do best." },
+    { icon: <BookOpen className="w-12 h-12 text-indigo-600" />, title: "EdTech", description: "Helping educational institutions to increase student enrollments and stand out in today’s competitive market is what we do best." },
     { icon: <ShoppingBag className="w-12 h-12 text-indigo-600" />, title: "Ecommerce", description: "Maximizing sales and conversions with our data-driven strategies are always a hit among ecommerce brands." },
     { icon: <Network className="w-12 h-12 text-indigo-600" />, title: "B2B", description: "We focus on generating high-quality leads, strengthening your brand authority, and driving sustainable growth in your niche industry." }
   ];
@@ -119,7 +119,7 @@ const heroSlides = [
         {/* Title and Description */}
         <title>Best Digital Marketing Agency in Anand</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – Anand's top digital marketing agency for SEO, content, media coverage, and online growth." />
-        <meta name="keywords" content="Digital Marketing Company in India, Best Digital Marketing Agency Anand" />
+        <meta name="keywords" content="Digital Marketing Company in Anand, Best Digital Marketing Agency Anand" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anand" />
 
@@ -127,13 +127,13 @@ const heroSlides = [
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anand" />
         <meta property="og:title" content="Best Digital Marketing Agency in Anand | Anand Digital PR" />
-        <meta property="og:description" content="Boost your brand with Anand Digital PR – India's top digital marketing agency for SEO, content, media coverage, and online growth." />
+        <meta property="og:description" content="Boost your brand with Anand Digital PR – Anand's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta property="og:image" content="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anandog-image.jpg" /> {/* Replace with actual image URL */}
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.ananddigitalpr.com/india/gujarat/digital-marketing-company-anand" />
-        <meta name="twitter:title" content="Digital Marketing Company in India, Best Digital Marketing Agency in Anand | Anand Digital PR" />
+        <meta name="twitter:title" content="Digital Marketing Company, Best Digital Marketing Agency in Anand | Anand Digital PR" />
         <meta name="twitter:description" content="Boost your brand with Anand Digital PR – Anand's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="twitter:image" content="https://www.ananddigitalpr.com/og-image.jpg" />
 
@@ -211,7 +211,7 @@ const heroSlides = [
           }
         }
       ],
-      "keywords": "Digital Marketing Agency in Gujarat, India, Digital Marketing Agency in Anand, India"
+      "keywords": "Digital Marketing Agency in Gujarat, Digital Marketing Agency in Anand"
     },
     {
       "@type": "WebSite",
@@ -312,7 +312,7 @@ const heroSlides = [
              <h1 className="text-4xl font-bold mb-6">Best Digital Marketing Agency & Company in Anand that Offers Guaranteed Results</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Anand Digital PR is a globally recognized <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="text-blue-600 hover:underline">digital marketing agency</a> in Anand, Gujarat known for redefining quality standards in the digital marketing landscape.
-We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in India, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
+We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in Anand, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
             </p>
           <a href="/">
   <button className="mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full flex items-center gap-2 mx-auto hover:bg-indigo-700 transition-colors">
@@ -334,7 +334,7 @@ We continuously push the boundaries to meet and exceed client expectations in th
              <h2 className="text-4xl font-bold mb-6">Work with the Leading Digital Marketing Company in Anand, Gujarat Where Great Results Come Fast</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We help you achieve holistic growth with clear vision and deliver a value-driven experience for your customers all while maintaining the highest quality standards.<br/>
-Anand Digital PR is one of the best digital marketing agencies in Anand Gujarat, India offering a comprehensive 360-degree digital service portfolio. We've carved out our niche as a trusted name in the industry, growing steadily through experience, expertise, and a commitment to excellence building success brick by brick.<br/>
+Anand Digital PR is one of the best digital marketing agencies in Anand, Gujarat offering a comprehensive 360-degree digital service portfolio. We've carved out our niche as a trusted name in the industry, growing steadily through experience, expertise, and a commitment to excellence building success brick by brick.<br/>
 With a focused and strategic approach, we identify the right digital opportunities that allow us to help our clients overcome complex business challenges and drive meaningful results.
 </p>
           </motion.div>
