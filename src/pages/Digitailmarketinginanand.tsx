@@ -117,7 +117,7 @@ const heroSlides = [
     <div className="overflow-hidden">
       <Helmet>
         {/* Title and Description */}
-        <title>Best Digital Marketing Agency in Anand</title>
+        <title>Top Digital Marketing Agency in Anand</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – Anand's top digital marketing agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Company in Anand, Best Digital Marketing Agency Anand" />
         <meta name="robots" content="index, follow" />
@@ -309,7 +309,7 @@ const heroSlides = [
           <motion.div
            className="text-center mb-16"
           >
-             <h1 className="text-4xl font-bold mb-6">Best Digital Marketing Agency & Company in Anand that Offers Guaranteed Results</h1>
+             <h1 className="text-4xl font-bold mb-6">Best Digital Marketing Agency in Anand that Offers Guaranteed Results</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Anand Digital PR is a globally recognized <a href="https://www.ananddigitalpr.com" className="text-blue-600 hover:underline">digital marketing agency</a> in Anand, Gujarat known for redefining quality standards in the digital marketing landscape.
 We continuously push the boundaries to meet and exceed client expectations in the ever-evolving world of marketing and advertising. As one of the most innovative and client-focused digital marketing companies in Anand, we take pride in delivering impactful, results-driven solutions tailored to each brand’s unique needs.
