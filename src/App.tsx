@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Digitailmarketing from './pages/Digitailmarketing';
 import Digitailmarketinganand from './pages/Digitailmarketinginanand';
+
+import DigitalMarketingSurat from './pages/DigitalMarketingSurat';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
@@ -25,6 +27,9 @@ function App() {
             <Route path="/blog" element={<BlogList />} />
             <Route path="/india/digital-marketing-agency-noida" element={<Digitailmarketing/>} />
             <Route path="/india/gujarat/digital-marketing-company-anand" element={<Digitailmarketinganand/>} />
+            <Route path="/india/gujarat/digital-marketing-company-surat" element={<Digitailmarketinganand/>} />
+
+            DigitalMarketingSurat
             
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
