@@ -27,7 +27,7 @@ function App() {
             <Route path="/blog" element={<BlogList />} />
             <Route path="/india/digital-marketing-agency-noida" element={<Digitailmarketing/>} />
             <Route path="/india/gujarat/digital-marketing-company-anand" element={<Digitailmarketinganand/>} />
-            <Route path="/india/gujarat/digital-marketing-company-surat" element={<Digitailmarketinganand/>} />
+            <Route path="/india/gujarat/digital-marketing-company-surat" element={<DigitalMarketingSurat/>} />
 
             DigitalMarketingSurat
             
