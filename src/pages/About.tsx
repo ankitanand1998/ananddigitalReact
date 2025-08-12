@@ -45,7 +45,7 @@ const About = () => {
    <div className="pt-16">
     {/* Meta Tags */}
     <Helmet>
-        <title>Anand Digital PR - Top PR and Digital Marketing Agency in india</title>
+        <title>Anand Digital PR - Top Digital PR and Marketing Agency in Noida</title>
         <meta name="description" content="Know the story behind Anand Digital PR, a leading digital marketing and PR agency in India. We blend innovation, strategy, and storytelling to build powerful brands and lasting success." />
         <link rel="canonical" href="https://www.ananddigitalpr.com/about" />
         <meta name="robots" content="index, follow" />
@@ -140,7 +140,7 @@ const About = () => {
           className="absolute inset-0 flex items-center justify-center text-white text-center px-4"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">We’re Working to Grow Your Brand</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Grow Your Brand with Expert Digital Marketing & PR Services</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
              Since 2020, we have been transforming brands with innovative digital marketing and PR strategies. By combining cutting-edge technology with authentic storytelling, we build strong brand reputations and drive measurable growth.
             </p>
