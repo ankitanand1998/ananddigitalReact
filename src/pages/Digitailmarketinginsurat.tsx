@@ -107,7 +107,11 @@ const DigitalMarketingSurat = () => {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-6">Top Digital Marketing Agency in Surat with Proven Results</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Anand Digital PR is a trusted <a href="https://www.ananddigitalpr.com" className="text-blue-600 hover:underline">digital marketing company in Surat</a> that delivers measurable business growth. From SEO to social media, our strategies are tailored to Surat’s competitive market, ensuring maximum ROI.
+          Anand Digital PR is a trusted <a href="https://www.ananddigitalpr.com" className="text-blue-600 hover:underline">digital marketing company </a> in Surat that delivers measurable business growth. From SEO to social media, our strategies are tailored to Surat’s competitive market, ensuring maximum ROI. <br />
+We understand that every business in Surat has its own story, audience, and unique challenges. That’s why we don’t believe in “one-size-fits-all” marketing. Instead, we take the time to understand your goals, analyze your market, and create strategies that truly connect with your target customers. <br />
+Whether you’re looking to dominate local search results, create a buzz on social media, or run highly targeted ad campaigns, our team is here to make it happen. We combine data-driven insights with creative thinking to ensure your brand not only gets noticed but also wins trust and loyalty. <br />
+From small startups to established brands, we’ve helped businesses across Surat increase leads, improve brand visibility, and achieve sustainable growth. Every click, like, and share is backed by a clear strategy aimed at delivering real results. <br />
+At Anand Digital PR, your success is our priority — and we’re ready to help you turn your digital presence into a powerful growth engine for your business.
           </p>
         </div>
       </section>
@@ -116,7 +120,7 @@ const DigitalMarketingSurat = () => {
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Digital Marketing Services in Surat</h2>
+            <h2 className="text-4xl font-bold mb-6">Best Digital Marketing Services in Surat</h2>
             <p className="text-xl text-gray-600">Comprehensive solutions to grow your Surat business online</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -137,7 +141,7 @@ const DigitalMarketingSurat = () => {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Success in Surat</h2>
+            <h2 className="text-4xl font-bold mb-6">Our Success Story</h2>
             <p className="text-xl text-gray-600">A proven record of delivering business growth in Surat.</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
@@ -158,7 +162,7 @@ const DigitalMarketingSurat = () => {
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Industries We Serve in Surat</h2>
+            <h2 className="text-4xl font-bold mb-6">Industries We Served</h2>
             <p className="text-xl text-gray-600">Helping Surat’s top industries thrive online</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
