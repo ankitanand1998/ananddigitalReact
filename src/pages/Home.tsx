@@ -191,7 +191,7 @@ const Home = () => {
     <div className="overflow-hidden">
      <Helmet>
         {/* Title and Description */}
-        <title>Anand Digital PR - Best Digital Marketing & PR Agency in India</title>
+        <title>Anand Digital PR - Best Digital Marketing & PR Agency in Noida</title>
         <meta name="description" content="Boost your brand with Anand Digital PR – India's top digital marketing and PR agency for SEO, content, media coverage, and online growth." />
         <meta name="keywords" content="Digital Marketing Agency in India, PR Agency, Digital Marketing Agency in India, Digital PR Agency" />
         <meta name="robots" content="index, follow" />
@@ -391,7 +391,7 @@ const Home = () => {
             <h1 className="text-4xl font-bold mb-7">Anand Digital PR - Best Digital Marketing and PR Agency in Noida, India</h1>
            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
   Anand Digital PR stands out as a <a href="https://www.ananddigitalpr.com/india/digital-marketing-agency-noida" className="text-blue-600 hover:underline">leading digital marketing agency in Noida</a>, specializing in SEO, performance campaigns, website enhancement, and public relations that boost brand impact. <br/>
-  As a full-service <a href="https://www.ananddigitalpr.com/about" className="text-blue-600 hover:underline">marketing and PR agency</a>, we combine data insights with compelling storytelling to drive visibility and engagement. <br/>
+  As a full-service <a href="https://www.ananddigitalpr.com/about" className="text-blue-600 hover:underline">digital marketing and PR agency</a>, we combine data insights with compelling storytelling to drive visibility and engagement. <br/>
   Our services include SEO, content strategy, social media growth, and PPC — each tailored for measurable results.<br/>
   With personalized marketing and <a href="https://www.ananddigitalpr.com/services/digital-marketing/public-relations" className="text-blue-600 hover:underline">online visibility solutions</a>, we help brands build trust and reach. By merging smart advertising with strategic PR, we convert clicks into lasting customer relationships and real business growth.
 </p>
