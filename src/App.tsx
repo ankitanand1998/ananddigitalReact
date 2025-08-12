@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Digitailmarketing from './pages/Digitailmarketing';
 import Digitailmarketinganand from './pages/Digitailmarketinginanand';
-import DigitalMarketingSurat from './pages/DigitalMarketingSurat';
+import DigitalMarketingSurat from './pages/Digitailmarketinginsurat';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
