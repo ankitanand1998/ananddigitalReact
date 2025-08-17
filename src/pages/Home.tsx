@@ -5,8 +5,8 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Helmet } from 'react-helmet';
 import Footer from "../components/Footer";
 import WhyChoose from "../components/WhyChoose";
-import  About from "./About"
-import  Contact from "./Contact"
+import  About from "./About";
+import  Contact from "./Contact";
 import ClientReviews1 from '../Images/Client-Reviews-Erica-Koomsom.png';
 import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
 import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
