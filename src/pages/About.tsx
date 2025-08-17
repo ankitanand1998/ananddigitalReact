@@ -23,7 +23,7 @@ const About = () => {
 
   const team = [
     {
-      name: 'Aniket Kumar',
+      name: 'Ankit Kumar',
       role: 'Co-Founder',
       image: '',
       bio: 'Experienced digital marketer and PR professional with a strong background in driving brand growth and visibility.',
