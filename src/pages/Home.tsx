@@ -58,7 +58,6 @@ const Home = () => {
     {
       title: 'Be visible. Be valued. Grow faster.',
       description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
-
       image: Ananddigitalpr2,
     },
 
