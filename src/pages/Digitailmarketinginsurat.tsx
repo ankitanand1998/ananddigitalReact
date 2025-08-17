@@ -13,6 +13,10 @@ import {
   HeartPulse, BookOpen, ShoppingBag, Network, ArrowRight
 } from 'lucide-react';
 
+import Ananddigitalpr1 from '../Images/best-digital-marketing-agency.jpg';
+import Ananddigitalpr2 from '../Images/digital-marketing-agency-in-surat.jpg';
+import Ananddigitalpr3 from '../Images/india-best-digital-marketing-agency.jpg';
+
 const DigitalMarketingSurat = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
@@ -20,28 +24,19 @@ const DigitalMarketingSurat = () => {
     {
       title: 'Digital Marketing Agency in Surat, Gujarat',
       description: 'Anand Digital PR is a leading digital marketing agency in Surat. Our data-driven campaigns are designed to boost visibility, generate leads, and deliver measurable ROI.',
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+      image: Ananddigitalpr1,
     },
     {
       title: 'Ranked in the Top Digital Marketing Companies in Surat',
       description: 'Recognized as one of Surat’s top-rated digital marketing companies, we combine SEO, PPC, social media, and PR strategies for maximum impact.',
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+      image: Ananddigitalpr2,
     },
     {
       title: 'Complete Growth Solutions: SEO, Social Media, PPC & PR',
       description: 'From building brand authority to generating high-quality leads, we provide all-in-one digital marketing solutions for Surat businesses.',
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+      image: Ananddigitalpr3,
     },
-    {
-      title: "Data-Driven Campaigns in Surat",
-      description: "We create campaigns backed by analytics, ensuring every strategy maximizes your returns.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2940&auto=format&fit=crop",
-    },
-    {
-      title: 'We Build Brands & Deliver Measurable Results in Surat',
-      description: "Our creative PR and marketing strategies help Surat businesses stand out and succeed.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
-    }
+  
   ];
 
   const services = [
