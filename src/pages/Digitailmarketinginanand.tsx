@@ -56,20 +56,18 @@ const heroSlides = [
     {
       title: 'Digital Marketing Agency in Anand, Gujarat',
       description: 'Anand Digital PR is one of the top digital marketing agencies in Anand. We have a data-driven approach when it comes to crafting digital campaigns and delivering maximum sales, conversions, and ROI.',
-
       image: Ananddigitalpr1,
     },
     {
       title: 'Ranked in the Top 10 Best Integrated Search (SEO & PPC) Companies',
       description: 'Ranked among the Top 10 Best Integrated Search (SEO & PPC) Companies, we deliver data-driven strategies that maximize visibility and ROI. Our unified approach ensures seamless synergy between organic and paid search campaign',
-
       image: Ananddigitalpr2,
     },
 
   {
-      title: 'All-in-one growth: SEO, Social Media, PPC, Content & PR',
-      description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
-     image: Ananddigitalpr3,
+   title: 'All-in-one growth: SEO, Social Media, PPC, Content & PR',
+   description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
+   image: Ananddigitalpr3,
     },
 
 
