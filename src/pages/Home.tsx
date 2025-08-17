@@ -55,6 +55,22 @@ const Home = () => {
       description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
       image: Ananddigitalpr1,
     },
+      {
+      title: 'Best Digital Marketing and Digital PR Agency in India',
+      description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
+      image: Ananddigitalpr1,
+    },
+      {
+      title: 'Best Digital Marketing and Digital PR Agency in India',
+      description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
+      image: Ananddigitalpr1,
+    },
+      {
+      title: 'Best Digital Marketing and Digital PR Agency in India',
+      description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
+      image: Ananddigitalpr1,
+    },
+     
   ];
 
   const services = [
