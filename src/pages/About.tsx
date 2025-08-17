@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { Award, Users, Globe, TrendingUp } from 'lucide-react';
 import { Helmet } from 'react-helmet';
 import Footer from "../components/Footer";
+import Ananddigitalpr from '../Images/anand-digital-pr-a-digital-marketing-agency.jpg';
 
 
 
@@ -36,7 +37,7 @@ const About = () => {
     {
       name: 'Shivam Kumar',
       role: 'Business Development Head',
-      image: 'https://media.licdn.com/dms/image/v2/D4D03AQHHLxkXI_sk9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700560384436?e=1753315200&v=beta&t=nrl6REMUaYhHxFC1juHJpTyuPiDCe2bNlTK_e0Qe-1c',
+      image: '',
       bio: 'Strategic and results-driven Business Development Professional with a strong focus on driving growth, building partnerships, and identifying new market opportunities to scale operations and revenue. Brings additional expertise in SEO and digital marketing to create integrated strategies that enhance brand visibility and business impact.',
     },
   ];
@@ -158,8 +159,8 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop"
-                alt="Our Mission"
+                src={Ananddigitalpr}
+                alt="best digital marketing agency in noida,India"
                 className="rounded-xl shadow-2xl"
               />
             </motion.div>
