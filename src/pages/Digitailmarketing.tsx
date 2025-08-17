@@ -13,7 +13,7 @@ import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
 
 import Ananddigitalpr1 from '../Images/best-digital-marketing-agency.jpg';
 import Ananddigitalpr2 from '../Images/digital-marketing-agency-in-noida.jpg';
-import Ananddigitalpr3 from '../Images/indias-best-digital-marketing-agency.jpg';
+import Ananddigitalpr3 from '../Images/india-best-digital-marketing-agency.jpg';
 
 
 
