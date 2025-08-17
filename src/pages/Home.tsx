@@ -12,12 +12,9 @@ import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
 import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
 
 import Ananddigitalpr1 from '../Images/india-best-digital-marketing-agency.jpg';
-import Ananddigitalpr2 from '../Images/india-best-digital-marketing-agency.jpg';
-import Ananddigitalpr3 from '../Images/india-best-digital-marketing-agency.jpg';
-import Ananddigitalpr4 from '../Images/india-best-digital-marketing-agency.jpg';
-import Ananddigitalpr5 from '../Images/india-best-digital-marketing-agency.jpg';
-import Ananddigitalpr6 from '../Images/india-best-digital-marketing-agency.jpg';
-import Ananddigitalpr7 from '../Images/india-best-digital-marketing-agency.jpg';
+import Ananddigitalpr2 from '../Images/digital-marketing-and-pr-agency.jpg';
+import Ananddigitalpr3 from '../Images/digital-marketing-agency-in-noida.jpg';
+
 
 import {
   ArrowRight,
@@ -56,20 +53,16 @@ const Home = () => {
       image: Ananddigitalpr1,
     },
       {
-      title: 'Best Digital Marketing and Digital PR Agency in India',
-      description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
+      title: 'Best Digital Marketing Agency in Noida',
+      description: 'As the best digital marketing agency in Noida, we focus on strategies that actually work for your brand',
       image: Ananddigitalpr1,
     },
       {
-      title: 'Best Digital Marketing and Digital PR Agency in India',
-      description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
+      title: 'Best Digital Marketing Agency in India',
+      description: 'From startups to enterprises, we’re the best digital marketing agency in India that turns online potential into real success',
       image: Ananddigitalpr1,
     },
-      {
-      title: 'Best Digital Marketing and Digital PR Agency in India',
-      description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
-      image: Ananddigitalpr1,
-    },
+    
      
   ];
 
