@@ -10,6 +10,9 @@ import  Contact from "./Contact"
 import ClientReviews1 from '../Images/Client-Reviews-Erica-Koomsom.png';
 import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
 import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
+import Ananddigitalpr1 from '../Images/best-digital-marketing-agency.jpg';
+import Ananddigitalpr2 from '../Images/digital-marketing-agency-in-noida.jpg';
+import Ananddigitalpr3 from '../Images/india-best-digital-marketing-agency.jpg';
 import {
    TrendingUp,
   BarChart2,
@@ -54,33 +57,23 @@ const heroSlides = [
       title: 'Digital Marketing Agency in Anand, Gujarat',
       description: 'Anand Digital PR is one of the top digital marketing agencies in Anand. We have a data-driven approach when it comes to crafting digital campaigns and delivering maximum sales, conversions, and ROI.',
 
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+      image: Ananddigitalpr1,
     },
     {
       title: 'Ranked in the Top 10 Best Integrated Search (SEO & PPC) Companies',
       description: 'Ranked among the Top 10 Best Integrated Search (SEO & PPC) Companies, we deliver data-driven strategies that maximize visibility and ROI. Our unified approach ensures seamless synergy between organic and paid search campaign',
 
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+      image: Ananddigitalpr2,
     },
 
   {
       title: 'All-in-one growth: SEO, Social Media, PPC, Content & PR',
       description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+     image: Ananddigitalpr3,
     },
 
 
-    {
-      title: "Data-Driven Campaigns",
-      description: "Maximize your impact with our analytics-backed approach",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2940&auto=format&fit=crop",
-    },
    
-    {
-      title: 'We don’t just market—We build reputations, boost engagement, and deliver results.',
-      description: "Elevate your brand's presence with our innovative PR strategies",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
-    }
   ];
 
 
