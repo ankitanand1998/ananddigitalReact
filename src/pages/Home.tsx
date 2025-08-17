@@ -17,7 +17,7 @@ import ananddigitalpr3 from '../Images/best-digital-marketing-agency.jpg';
 import ananddigitalpr4 from '../Images/best-digital-pr-agency-in-india.jpg';
 import ananddigitalpr5 from '../Images/digital-marketing-agency-in-Noida.jpg';
 import ananddigitalpr6 from '../Images/digital-marketing-and-pr-agency.jpg';
-import ananddigitalpr7 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr7 from '../Images/india-best-digital-marketing-agency.jpg';
 
 import {
   ArrowRight,
