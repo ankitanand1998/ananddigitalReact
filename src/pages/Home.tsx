@@ -11,6 +11,14 @@ import ClientReviews1 from '../Images/Client-Reviews-Erica-Koomsom.png';
 import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
 import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
 
+import ananddigitalpr1 from '../Images/anand-digital-pr-a-digital-marketing-agency.jpg';
+import ananddigitalpr2 from '../Images/best-digital-pr-agency.jpg';
+import ananddigitalpr3 from '../Images/best-digital-marketing-agency.jpg';
+import ananddigitalpr4 from '../Images/best-digital-pr-agency-in-india.jpg';
+import ananddigitalpr5 from '../Images/digital-marketing-agency-in-Noida.jpg';
+import ananddigitalpr6 from '../Images/digital-marketing-and-pr-agency.jpg';
+import ananddigitalpr7 from '../Images/india's-best-digital-marketing-agency.jpg';
+
 import {
   ArrowRight,
   CheckCircle2,
@@ -45,14 +53,13 @@ const Home = () => {
     {
       title: 'Best Digital Marketing and Digital PR Agency in India',
       description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
-
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+      image: ananddigitalpr1,
     },
     {
       title: 'Be visible. Be valued. Grow faster.',
       description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
 
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920",
+      image: ananddigitalpr2,
     },
 
 
@@ -60,31 +67,31 @@ const Home = () => {
     {
       title: "Strategic Digital PR Solutions",
       description: "Elevate your brand's presence with our innovative PR strategies",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+      image: ananddigitalpr3,
     },
 
     {
       title: 'All-in-one growth: SEO, Social Media, PPC, Content & Digital PR',
       description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+      image:ananddigitalpr4,
     },
 
 
     {
       title: "Our Campaigns built on real data, not guesses.",
       description: "Maximize your impact with our analytics-backed approach",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2940&auto=format&fit=crop",
+      image: ananddigitalpr5,
     },
     {
       title: "Conntent With Global Media Relations",
       description: "Connect with influential media partners worldwide",
-      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2940&auto=format&fit=crop",
+      image: ananddigitalpr6,
     },
 
     {
       title: 'We don’t just market—We build reputations, boost engagement, and deliver results.',
       description: "Elevate your brand's presence with our innovative PR strategies",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop",
+      image: ananddigitalpr7,
     }
   ];
 
