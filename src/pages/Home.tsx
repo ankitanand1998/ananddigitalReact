@@ -55,12 +55,12 @@ const Home = () => {
       {
       title: 'Best Digital Marketing Agency in Noida',
       description: 'As the best digital marketing agency in Noida, we focus on strategies that actually work for your brand',
-      image: Ananddigitalpr1,
+      image: Ananddigitalpr2,
     },
       {
       title: 'Best Digital Marketing Agency in India',
       description: 'From startups to enterprises, we’re the best digital marketing agency in India that turns online potential into real success',
-      image: Ananddigitalpr1,
+      image: Ananddigitalpr3,
     },
     
      
