@@ -55,43 +55,6 @@ const Home = () => {
       description: 'Anand Digital PR is leading Digital PR agency where cutting-edge digital marketing meets powerful public relations',
       image: Ananddigitalpr1,
     },
-    {
-      title: 'Be visible. Be valued. Grow faster.',
-      description: 'From first impression to final conversion, we power every step of your brand journey.Be seen, be trusted, and be remembered—with Anand Digital PR',
-      image: Ananddigitalpr2,
-    },
-
-
-
-    {
-      title: "Strategic Digital PR Solutions",
-      description: "Elevate your brand's presence with our innovative PR strategies",
-      image: Ananddigitalpr3,
-    },
-
-    {
-      title: 'All-in-one growth: SEO, Social Media, PPC, Content & Digital PR',
-      description: 'From driving traffic to shaping public perception—we cover every angle of your digital journey. All your marketing and PR needs, handled under one expert roof',
-      image:Ananddigitalpr4,
-    },
-
-
-    {
-      title: "Our Campaigns built on real data, not guesses.",
-      description: "Maximize your impact with our analytics-backed approach",
-      image: Ananddigitalpr5,
-    },
-    {
-      title: "Conntent With Global Media Relations",
-      description: "Connect with influential media partners worldwide",
-      image: Ananddigitalpr6,
-    },
-
-    {
-      title: 'We don’t just market—We build reputations, boost engagement, and deliver results.',
-      description: "Elevate your brand's presence with our innovative PR strategies",
-      image: Ananddigitalpr7,
-    }
   ];
 
   const services = [
