@@ -11,7 +11,7 @@ import ClientReviews1 from '../Images/Client-Reviews-Erica-Koomsom.png';
 import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
 import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
 
-import ananddigitalpr1 from '../Images/india's-best-digital-marketing-agency.jpg';
+import Ananddigitalpr1 from '../Images/india's-best-digital-marketing-agency.jpg';
 import ananddigitalpr2 from '../Images/india's-best-digital-marketing-agency.jpg';
 import ananddigitalpr3 from '../Images/india's-best-digital-marketing-agency.jpg';
 import ananddigitalpr4 from '../Images/india's-best-digital-marketing-agency.jpg';
