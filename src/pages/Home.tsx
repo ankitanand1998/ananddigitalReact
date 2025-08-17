@@ -11,13 +11,13 @@ import ClientReviews1 from '../Images/Client-Reviews-Erica-Koomsom.png';
 import ClientReviews2 from '../Images/Client-Reviews-Nishant-Kumar.png';
 import ClientReviews3 from '../Images/Client-Reviews-sk-saifuddin.png';
 
-import ananddigitalpr1 from '../Images/anand-digital-pr-a-digital-marketing-agency.jpg';
-import ananddigitalpr2 from '../Images/best-digital-pr-agency.jpg';
-import ananddigitalpr3 from '../Images/best-digital-marketing-agency.jpg';
-import ananddigitalpr4 from '../Images/best-digital-pr-agency-in-india.jpg';
-import ananddigitalpr5 from '../Images/best-digital-pr-agency-in-india';
-import ananddigitalpr6 from '../Images/digital-marketing-and-pr-agency.jpg';
-import ananddigitalpr7 from '../Images/digital-marketing-and-pr-agency.jpg';
+import ananddigitalpr1 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr2 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr3 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr4 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr5 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr6 from '../Images/india's-best-digital-marketing-agency.jpg';
+import ananddigitalpr7 from '../Images/india's-best-digital-marketing-agency.jpg';
 
 import {
   ArrowRight,
