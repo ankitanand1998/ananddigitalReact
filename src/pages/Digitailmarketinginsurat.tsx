@@ -108,8 +108,8 @@ Whether you’re looking to dominate local search results, create a buzz on soci
 From small startups to established brands, we’ve helped businesses across Surat increase leads, improve brand visibility, and achieve sustainable growth. Every click, like, and share is backed by a clear strategy aimed at delivering real results. <br />
 At Anand Digital PR, your success is our priority — and we’re ready to help you turn your digital presence into a powerful growth engine for your business.
           </p>
-<div>
-        <h2 className="text-3xl font-semibold mb-4">Why Choose a Digital Marketing Agency in Surat?</h2>
+
+           <h2 className="text-3xl font-semibold mb-4">Why Choose a Digital Marketing Agency in Surat?</h2>
         <p className="text-gray-600">
           Surat has transformed into a fast-paced commercial hub, making it essential for businesses to
           stand out online. Choosing a digital marketing agency in Surat means working with experts who
@@ -159,17 +159,10 @@ At Anand Digital PR, your success is our priority — and we’re ready to help 
           your brand as an industry leader.
         </p>
       </div>
+<div>
+  </div>
 
-
-
-
-
-
-          
-        </div>
-
-       
-      </section>
+  </section>
 
       {/* Services */}
       <section className="py-24 bg-gray-50">
