@@ -225,101 +225,172 @@ const DigitalMarketingSurat = () => {
         </Swiper>
       </section>
 
-      {/* About Section */}
-      <section ref={ref} className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-6">
-            Top Digital Marketing Agency in Surat with Proven Results
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Anand Digital PR is a trusted{" "}
-            <a
-              href="https://www.ananddigitalpr.com"
-              className="text-blue-600 hover:underline"
-            >
-              digital marketing company
-            </a>{" "}
-            in Surat that delivers measurable business growth. From SEO to social media,
-            our strategies are tailored to Surat’s competitive market, ensuring maximum ROI.
-            <br />
-            We understand that every business in Surat has its own story, audience, and unique
-            challenges. That’s why we don’t believe in “one-size-fits-all” marketing. Instead, we
-            take the time to understand your goals, analyze your market, and create strategies that
-            truly connect with your target customers.
-            <br />
-            Whether you’re looking to dominate local search results, create a buzz on social media,
-            or run highly targeted ad campaigns, our team is here to make it happen. We combine
-            data-driven insights with creative thinking to ensure your brand not only gets noticed
-            but also wins trust and loyalty.
-            <br />
-            From small startups to established brands, we’ve helped businesses across Surat increase
-            leads, improve brand visibility, and achieve sustainable growth. Every click, like, and
-            share is backed by a clear strategy aimed at delivering real results.
-            <br />
-            At Anand Digital PR, your success is our priority — and we’re ready to help you turn
-            your digital presence into a powerful growth engine for your business.
-          </p>
 
-          <h2 className="text-3xl font-semibold mb-4">
-            Why Choose a Digital Marketing Agency in Surat?
-          </h2>
-          <p className="text-gray-600">
-            Surat has transformed into a fast-paced commercial hub, making it essential for
-            businesses to stand out online. Choosing a digital marketing agency in Surat means
-            working with experts who understand local consumer behavior, industry trends, and
-            competition. Unlike generic agencies outside the region, Surat-based specialists can
-            design strategies tailored to industries such as textiles, diamonds, education,
-            healthcare, and e-commerce. A local agency also provides faster communication, cultural
-            understanding, and a focus on results that matter to Surat audiences. At Anand Digital
-            PR, we combine SEO, PPC, PR, and social media campaigns with data-driven insights to
-            ensure maximum ROI. Businesses in Surat gain visibility not just in Gujarat, but also on
-            national and global platforms. Partnering with the right agency means your marketing
-            budget is invested wisely in channels that generate leads, brand recognition, and sales.
-          </p>
-        </div>
+   {/* About Section */}
+<section ref={ref} className="py-24 bg-white">
+  <div className="max-w-7xl mx-auto px-4 text-center">
+    <h1 className="text-4xl font-bold mb-6">
+      Top Digital Marketing Agency in Surat with Proven Results
+    </h1>
+    <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+      Anand Digital PR is a trusted{" "}
+      <a
+        href="https://www.ananddigitalpr.com"
+        className="text-blue-600 hover:underline"
+      >
+        digital marketing company
+      </a>{" "}
+      in Surat that delivers measurable business growth. From SEO to social
+      media, our strategies are tailored to Surat’s competitive market,
+      ensuring maximum ROI.
+      <br />
+      We understand that every business in Surat has its own story, audience,
+      and unique challenges. That’s why we don’t believe in “one-size-fits-all”
+      marketing. Instead, we take the time to understand your goals, analyze
+      your market, and create strategies that truly connect with your target
+      customers.
+      <br />
+      Whether you’re looking to dominate local search results, create a buzz on
+      social media, or run highly targeted ad campaigns, our team is here to
+      make it happen. We combine data-driven insights with creative thinking to
+      ensure your brand not only gets noticed but also wins trust and loyalty.
+      <br />
+      From small startups to established brands, we’ve helped businesses across
+      Surat increase leads, improve brand visibility, and achieve sustainable
+      growth. Every click, like, and share is backed by a clear strategy aimed
+      at delivering real results.
+      <br />
+      At Anand Digital PR, your success is our priority — and we’re ready to
+      help you turn your digital presence into a powerful growth engine for your
+      business.
+    </p>
 
-        {/* 2. The Importance of SEO Services in Surat */}
-        <div className="max-w-7xl mx-auto px-4 text-center mt-16">
-          <h2 className="text-3xl font-semibold mb-4">
-            The Importance of SEO Services in Surat
-          </h2>
-          <p className="text-gray-600">
-            Search Engine Optimization (SEO) is one of the most powerful digital marketing tools for
-            businesses in Surat. With thousands of users searching daily on Google, ranking higher
-            on search results can be the difference between getting ignored or chosen. SEO is not
-            only about visibility; it’s about attracting quality traffic that is more likely to
-            convert. For Surat’s competitive industries such as textiles, jewelry exports, and local
-            retail, SEO ensures your business stays ahead of the curve. Our SEO strategies include
-            keyword research, on-page and technical optimization, link building, and content
-            development. Unlike agencies that focus only on rankings, we concentrate on long-term
-            sustainable growth. We analyze your competitors, study local search patterns, and ensure
-            your website is optimized for both mobile users and search engine crawlers. SEO in Surat
-            is also about trust—when people see your brand on the first page, it builds authority
-            and credibility, ensuring customers choose you over others.
-          </p>
-        </div>
+    {/* 1. Why Choose */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Why Choose a Digital Marketing Agency in Surat?
+    </h2>
+    <p className="text-gray-600">
+      Surat has transformed into a fast-paced commercial hub, making it
+      essential for businesses to stand out online. Choosing a digital marketing
+      agency in Surat means working with experts who understand local consumer
+      behavior, industry trends, and competition.
+    </p>
 
-        {/* 3. Social Media Marketing for Surat Businesses */}
-        <div className="max-w-7xl mx-auto px-4 text-center mt-16">
-          <h2 className="text-3xl font-semibold mb-4">
-            Social Media Marketing for Surat Businesses
-          </h2>
-          <p className="text-gray-600">
-            Surat is a city with a young, tech-savvy population that spends significant time on
-            platforms like Instagram, Facebook, LinkedIn, and YouTube. Social media marketing is no
-            longer optional; it’s a necessity for brands looking to build awareness, loyalty, and
-            sales. For fashion and lifestyle businesses, Instagram reels and influencer
-            collaborations drive massive engagement. For B2B companies and educational institutes,
-            LinkedIn campaigns generate credibility and leads. At Anand Digital PR, we help Surat
-            businesses create platform-specific content that resonates with their audience. From
-            storytelling and graphics to paid ads and community building, our campaigns are designed
-            to increase engagement and conversions. We also monitor analytics closely, ensuring every
-            rupee spent delivers measurable results. Social media in Surat isn’t just about likes;
-            it’s about building lasting connections with your audience while positioning your brand
-            as an industry leader.
-          </p>
-        </div>
-      </section>
+    {/* 2. SEO Services */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      The Importance of SEO Services in Surat
+    </h2>
+    <p className="text-gray-600">
+      SEO helps Surat businesses rank higher on Google and attract quality
+      traffic. From keyword research to technical optimization, we ensure your
+      brand is visible to customers searching for your products or services.
+    </p>
+
+    {/* 3. Social Media */}
+
+  <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Social Media Marketing for Surat Businesses
+    </h2>
+    <p className="text-gray-600">
+      Surat’s young and tech-savvy population spends hours on Instagram,
+      Facebook, LinkedIn, and YouTube. Social media marketing builds awareness,
+      credibility, and conversions.
+    </p>
+
+    {/* NEW SECTIONS ADDED BELOW */}
+
+    {/* 4. Local SEO */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Local SEO for Surat Businesses
+    </h2>
+    <p className="text-gray-600">
+      With Google My Business optimization, location-based keywords, and
+      customer reviews, we help Surat businesses dominate local search results
+      and attract nearby customers.
+    </p>
+
+    {/* 5. Content Marketing */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Content Marketing Strategy in Surat
+    </h2>
+    <p className="text-gray-600">
+      Quality content builds authority. From blogs and case studies to videos
+      and infographics, we craft content strategies that position Surat brands
+      as industry leaders.
+    </p>
+
+    {/* 6. Pay-Per-Click Ads */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Google Ads & PPC Campaigns in Surat
+    </h2>
+    <p className="text-gray-600">
+      Get instant leads and traffic with our ROI-driven PPC campaigns. We manage
+      keyword bidding, ad creatives, and conversion tracking for Surat
+      businesses.
+    </p>
+
+    {/* 7. E-commerce Growth */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      E-commerce Digital Marketing in Surat
+    </h2>
+    <p className="text-gray-600">
+      Surat’s growing e-commerce sector demands specialized strategies. From
+      product SEO to retargeting ads, we help online stores increase sales and
+      retain loyal customers.
+    </p>
+
+    {/* 8. Branding */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Building Strong Brands in Surat
+    </h2>
+    <p className="text-gray-600">
+      We create unique brand identities for Surat businesses with logos,
+      messaging, and campaigns that make them unforgettable in competitive
+      markets.
+    </p>
+
+    {/* 9. Analytics */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Data-Driven Digital Marketing
+    </h2>
+    <p className="text-gray-600">
+      Every campaign we run in Surat is backed by analytics. We measure traffic,
+      leads, and conversions to ensure your marketing budget delivers maximum
+      ROI.
+    </p>
+
+    {/* 10. PR & Reputation */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Digital PR & Online Reputation Management
+    </h2>
+    <p className="text-gray-600">
+      For Surat businesses, reputation is everything. Our PR campaigns and ORM
+      services ensure your brand is trusted, respected, and always positively
+      visible online.
+    </p>
+
+    {/* 11. Mobile Marketing */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      Mobile Marketing for the Mobile-First Audience
+    </h2>
+    <p className="text-gray-600">
+      With over 70% of Surat’s population accessing the web on mobile devices,
+      we design mobile-first strategies that engage audiences effectively.
+    </p>
+
+    {/* 12. Future Trends */}
+    <h2 className="text-3xl font-semibold mb-4 mt-16">
+      The Future of Digital Marketing in Surat
+    </h2>
+    <p className="text-gray-600">
+      From AI-driven ads to voice search optimization, we prepare Surat brands
+      for the next wave of digital transformation, ensuring long-term success.
+    </p>
+  </div>
+</section>
+
+
+      
 
       {/* Services */}
       <section className="py-24 bg-gray-50">
