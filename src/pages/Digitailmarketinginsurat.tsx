@@ -109,48 +109,7 @@ From small startups to established brands, we’ve helped businesses across Sura
 At Anand Digital PR, your success is our priority — and we’re ready to help you turn your digital presence into a powerful growth engine for your business.
           </p>
 
-           <h2 className="text-2xl font-semibold mt-6">Why Choose a Digital Marketing Agency in Surat?</h2>
-            Surat is one of India’s fastest-growing business hubs. With industries
-            ranging from textiles to IT, competition is fierce. A specialized
-            digital marketing agency in Surat ensures your business stands out by
-            leveraging local insights, SEO strategies, and creative campaigns. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Tailored Strategies for Surat Businesses</h2>
-            We understand that every business in Surat has its own story,
-            audience, and challenges. That’s why we don’t believe in
-            one-size-fits-all marketing. Instead, we analyze your goals, study
-            your competition, and create strategies designed to connect with your
-            target audience. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Local SEO Focus</h2>
-            Whether you want to dominate “near me” searches or appear in Surat’s
-            local directories, our local SEO strategies ensure your brand is
-            visible where it matters most. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Data-Driven Marketing</h2>
-            Every campaign we design for Surat businesses is based on analytics
-            and measurable KPIs, ensuring your marketing budget drives real
-            results. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Creative Social Media Presence</h2>
-            Our Surat social media marketing experts build engagement-driven
-            strategies to grow your followers and boost brand loyalty. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Trusted by Surat Startups and Enterprises</h2>
-            From local startups to leading enterprises in Surat, Anand Digital PR
-            has helped businesses increase leads, improve visibility, and achieve
-            sustainable growth. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Affordable Digital Marketing Services</h2>
-            We believe in delivering premium results without overpricing. Our
-            packages are designed to be cost-effective for Surat businesses of
-            all sizes. <br /><br />
-
-            <h2 className="text-2xl font-semibold mt-6">Industries We Serve in Surat</h2>
-            From real estate, healthcare, and e-commerce to education and local
-            services, we have experience in driving success across multiple
-            industries in Surat. <br /><br />
-          </p>
+           
         </div>
 
        
