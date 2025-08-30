@@ -36,33 +36,85 @@ const DigitalMarketingSurat = () => {
       description: 'From building brand authority to generating high-quality leads, we provide all-in-one digital marketing solutions for Surat businesses.',
       image: Ananddigitalpr3,
     },
-  
   ];
 
   const services = [
-    { icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "SEO Services in Surat", description: "Optimize your site to rank higher on Google and attract quality leads with our expert SEO strategies tailored for Surat businesses." },
-    { icon: <BarChart2 className="w-12 h-12 text-indigo-600" />, title: "Performance Marketing", description: "Drive maximum ROI with targeted PPC ads, social media campaigns, and data-backed strategies." },
-    { icon: <BarChart2 className="w-12 h-12 text-indigo-600" />, title: "Social Media Marketing Surat", description: "Build a loyal audience and boost brand engagement across Facebook, Instagram, LinkedIn, and more." },
-    { icon: <BarChart2 className="w-12 h-12 text-indigo-600" />, title: "Google Ads Campaigns", description: "Get instant traffic and conversions with our expertly managed Google Ads campaigns for Surat businesses." },
-    { icon: <TrendingUp className="w-12 h-12 text-indigo-600" />, title: "Lead Generation", description: "We generate high-quality, sales-ready leads to help Surat businesses grow faster." },
-    { icon: <Globe className="w-12 h-12 text-indigo-600" />, title: "Digital PR", description: "Enhance your brand reputation and reach with our powerful online PR services in Surat." },
-    { icon: <Code className="w-12 h-12 text-indigo-600" />, title: "Website Development", description: "Modern, responsive, and conversion-focused websites built for Surat’s competitive market." },
-    { icon: <Shield className="w-12 h-12 text-indigo-600" />, title: "Branding", description: "We help Surat brands create unique identities that leave a lasting impression." },
-    { icon: <FileText className="w-12 h-12 text-indigo-600" />, title: "Content Marketing", description: "Engage your audience with high-quality content that builds authority and trust." }
+    {
+      icon: <TrendingUp className="w-12 h-12 text-indigo-600" />,
+      title: "Search Engine Optimization (SEO)",
+      description: "We help Surat businesses dominate Google rankings through keyword research, on-page SEO, technical fixes, and quality backlinks. Our strategies drive long-term visibility and qualified traffic."
+    },
+    {
+      icon: <BarChart2 className="w-12 h-12 text-indigo-600" />,
+      title: "Social Media Marketing (SMM)",
+      description: "From Instagram reels to LinkedIn ads, we design campaigns that build awareness, trust, and engagement. Perfect for Surat’s vibrant and social-savvy audience."
+    },
+    {
+      icon: <Globe className="w-12 h-12 text-indigo-600" />,
+      title: "Pay-Per-Click Advertising (PPC)",
+      description: "Our Google Ads and Meta Ads campaigns generate instant, measurable results. With laser-focused targeting, we maximize ROI and reduce wasted ad spend."
+    },
+    {
+      icon: <FileText className="w-12 h-12 text-indigo-600" />,
+      title: "Content Marketing",
+      description: "We create blogs, landing pages, and videos that tell your brand’s story while boosting SEO. Content that attracts, engages, and converts your audience in Surat."
+    },
+    {
+      icon: <Shield className="w-12 h-12 text-indigo-600" />,
+      title: "Online Reputation Management (ORM)",
+      description: "We monitor reviews, manage brand mentions, and build a trustworthy reputation across platforms—helping Surat businesses win long-term customer confidence."
+    },
+    {
+      icon: <Code className="w-12 h-12 text-indigo-600" />,
+      title: "Website Development",
+      description: "Fast, mobile-first, SEO-optimized websites that convert visitors into paying customers. Designed for Surat’s competitive market with growth in mind."
+    }
   ];
 
   const facts = [
-    { icon: <Users className="w-12 h-12 text-indigo-600" />, title: "150+ Happy Surat Clients", description: "We work with businesses across Surat, delivering measurable results and lasting partnerships." },
-    { icon: <CheckSquare className="w-12 h-12 text-indigo-600" />, title: "300+ Projects Completed", description: "Our track record in Surat speaks for itself with hundreds of successful campaigns." },
-    { icon: <Calendar className="w-12 h-12 text-indigo-600" />, title: "5+ Years Experience", description: "Trusted by Surat businesses for over half a decade, delivering growth-focused strategies." },
-    { icon: <Star className="w-12 h-12 text-indigo-600" />, title: "4.9/5 Client Rating", description: "We’re proud to maintain one of the highest client satisfaction scores in Surat." }
+    {
+      icon: <Users className="w-12 h-12 text-indigo-600" />,
+      title: "150+ Successful Projects",
+      description: "From healthcare to real estate, we’ve delivered growth-focused campaigns for a variety of Surat-based businesses."
+    },
+    {
+      icon: <CheckSquare className="w-12 h-12 text-indigo-600" />,
+      title: "90% Client Retention",
+      description: "Our clients trust us because we focus on ROI, not vanity metrics. Long-term relationships are our biggest achievement."
+    },
+    {
+      icon: <Calendar className="w-12 h-12 text-indigo-600" />,
+      title: "10+ Years of Experience",
+      description: "A decade of expertise in SEO, PPC, and digital strategy allows us to solve the toughest marketing challenges in Surat."
+    },
+    {
+      icon: <Star className="w-12 h-12 text-indigo-600" />,
+      title: "4.9/5 Client Rating",
+      description: "Our transparency and performance have earned us one of the highest satisfaction ratings among Surat businesses."
+    }
   ];
 
   const brandtrust = [
-    { icon: <HeartPulse className="w-12 h-12 text-indigo-600" />, title: "Healthcare", description: "Helping Surat healthcare brands increase patient trust and online visibility." },
-    { icon: <BookOpen className="w-12 h-12 text-indigo-600" />, title: "Education", description: "Driving enrollments for Surat’s leading educational institutions." },
-    { icon: <ShoppingBag className="w-12 h-12 text-indigo-600" />, title: "E-commerce", description: "Boosting sales and ROI for Surat-based online stores." },
-    { icon: <Network className="w-12 h-12 text-indigo-600" />, title: "B2B", description: "Helping Surat B2B companies generate leads and establish authority." }
+    {
+      icon: <HeartPulse className="w-12 h-12 text-indigo-600" />,
+      title: "Healthcare",
+      description: "Helping hospitals and clinics in Surat attract patients with SEO and targeted campaigns."
+    },
+    {
+      icon: <BookOpen className="w-12 h-12 text-indigo-600" />,
+      title: "Education",
+      description: "Supporting coaching centers and institutes with digital campaigns that increase student enrollments."
+    },
+    {
+      icon: <ShoppingBag className="w-12 h-12 text-indigo-600" />,
+      title: "Retail & E-commerce",
+      description: "Driving sales for Surat-based online and offline retailers through e-commerce SEO and paid ads."
+    },
+    {
+      icon: <Network className="w-12 h-12 text-indigo-600" />,
+      title: "Real Estate & B2B",
+      description: "Generating quality leads for Surat’s real estate developers and B2B companies with precision targeting."
+    }
   ];
 
   return (
@@ -102,11 +154,11 @@ const DigitalMarketingSurat = () => {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-6">Top Digital Marketing Agency in Surat with Proven Results</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Anand Digital PR is a trusted <a href="https://www.ananddigitalpr.com" className="text-blue-600 hover:underline">digital marketing company </a> in Surat that delivers measurable business growth. From SEO to social media, our strategies are tailored to Surat’s competitive market, ensuring maximum ROI. <br />
-We understand that every business in Surat has its own story, audience, and unique challenges. That’s why we don’t believe in “one-size-fits-all” marketing. Instead, we take the time to understand your goals, analyze your market, and create strategies that truly connect with your target customers. <br />
-Whether you’re looking to dominate local search results, create a buzz on social media, or run highly targeted ad campaigns, our team is here to make it happen. We combine data-driven insights with creative thinking to ensure your brand not only gets noticed but also wins trust and loyalty. <br />
-From small startups to established brands, we’ve helped businesses across Surat increase leads, improve brand visibility, and achieve sustainable growth. Every click, like, and share is backed by a clear strategy aimed at delivering real results. <br />
-At Anand Digital PR, your success is our priority — and we’re ready to help you turn your digital presence into a powerful growth engine for your business.
+            Anand Digital PR is a trusted <a href="https://www.ananddigitalpr.com" className="text-blue-600 hover:underline">digital marketing company</a> in Surat that delivers measurable growth. From SEO to social media, our strategies are tailored to Surat’s competitive market. <br /><br />
+            We understand that every business has its own story, audience, and challenges. That’s why we don’t believe in “one-size-fits-all.” Instead, we analyze your goals, market, and competition before designing campaigns that connect with your customers. <br /><br />
+            Whether you want to dominate Google search, build engagement on Instagram, or generate leads through PPC, our team combines data insights with creativity to ensure your brand gets noticed, trusted, and remembered. <br /><br />
+            Over the years, we’ve helped startups and established brands in Surat boost leads, visibility, and conversions. Every campaign is built with one goal—delivering real ROI. <br /><br />
+            At Anand Digital PR, your success is our mission. Let us turn your digital presence into Surat’s next big success story.
           </p>
         </div>
       </section>
@@ -137,7 +189,7 @@ At Anand Digital PR, your success is our priority — and we’re ready to help 
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Our Success Story</h2>
-            <p className="text-xl text-gray-600">A proven record of delivering business growth in Surat.</p>
+            <p className="text-xl text-gray-600">A proven record of delivering business growth in Surat</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
             {facts.map((f, i) => (
@@ -172,6 +224,25 @@ At Anand Digital PR, your success is our priority — and we’re ready to help 
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Why Choose */}
+      <section className="py-24 bg-white text-center px-4">
+        <h2 className="text-4xl font-bold mb-6">Why Choose Anand Digital PR?</h2>
+        <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+          With a proven record of results, local expertise in Surat, and a team of certified digital marketers, we deliver more than traffic—we deliver business growth. Our focus is on transparency, ROI, and building long-term trust with our clients.
+        </p>
+      </section>
+
+      {/* CTA */}
+      <section className="py-24 bg-indigo-600 text-center text-white">
+        <h2 className="text-4xl font-bold mb-6">Ready to Grow Your Business in Surat?</h2>
+        <p className="text-xl max-w-3xl mx-auto mb-8">
+          At Anand Digital PR, we combine experience, expertise, and trust to make your digital journey a success. Whether it’s SEO, PPC, or social media, our strategies are built for growth.
+        </p>
+        <a href="/contact" className="bg-white text-indigo-600 px-8 py-3 rounded-full inline-flex items-center gap-2 hover:bg-gray-100">
+          Get Your Free Consultation <ArrowRight size={20} />
+        </a>
       </section>
 
       <Footer />
