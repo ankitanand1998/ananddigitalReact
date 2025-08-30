@@ -125,7 +125,7 @@ At Anand Digital PR, your success is our priority — and we’re ready to help 
       </div>
 
       {/* 2. The Importance of SEO Services in Surat */}
-      <div>
+      <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-semibold mb-4">The Importance of SEO Services in Surat</h2>
         <p className="text-gray-600">
           Search Engine Optimization (SEO) is one of the most powerful digital marketing tools for
@@ -143,7 +143,7 @@ At Anand Digital PR, your success is our priority — and we’re ready to help 
       </div>
 
       {/* 3. Social Media Marketing for Surat Businesses */}
-      <div>
+      <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-semibold mb-4">Social Media Marketing for Surat Businesses</h2>
         <p className="text-gray-600">
           Surat is a city with a young, tech-savvy population that spends significant time on platforms
