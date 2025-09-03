@@ -271,8 +271,8 @@ const DigitalMarketingSurat = () => {
     </h2>
     <p className="text-gray-600">
       Surat has transformed into a fast-paced commercial hub, making it
-      essential for businesses to stand out online. Choosing a digital marketing
-      agency in Surat means working with experts who understand local consumer
+      essential for businesses to stand out online. Choosing a <a href="https://www.ananddigitalpr.com/">digital marketing
+      agency</a> in Surat means working with experts who understand local consumer
       behavior, industry trends, and competition.
     </p>
 
